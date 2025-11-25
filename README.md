@@ -1,35 +1,35 @@
-# LumiaExpansionPacks
-The Home of the Expansion Packs I made for Prolix's Excellent Lucid Loom Preset.
+# LumiaExpansionPacks  
+The Home of the Expansion Packs I made for Prolix's Excellent Lucid Loom Preset.  
 
-Will be using the lorebook injection method (Thanks to Eleisea for working this all out!)
+Will be using the lorebook injection method (Thanks to Eleisea for working this all out!)  
 
-How to install:
+## How to install:
 
-1. Download the packs you want either as unified or a lorebook!
-2. Import the json for the toggles!
-3. Enable (link) the toggles and drag them to the correct categories
-4. Add the personality outlet to your chosen CoT
-5. Enable the personality or author toggles you want in the lorebook and go ham!
+1. Download the packs you want either as unified or a lorebook!  
+2. Import the json for the toggles!  
+3. Enable (link) the toggles and drag them to the correct categories  
+4. Add the personality outlet to your chosen CoT  
+5. Enable the personality or author toggles you want in the lorebook and go ham!  
 
 
 
-WIP Planning:
-(a= internal testing on discord (alpha), b=released (beta), r=fully released)
-Personality Packs
-	Already base implemented (All hail Prolix, cooker of meth)
-		Goonette Lumia
-		Girlfailure Lumia
-		Fiesty Lumia
-		Arachne Lumia
-	Pack 1 Planning
-		a- Gyaru Bully Lumia (Oh my god, look at your face, you're so flustered!)
-		a- Chuuni Lumia (O hear me, cosmic Loom of Fate! By the frayed threads of forgotten destinies and the shimmering silk of secret realities, I, Lumia the Threadbreaker, command thee! Let all creation tremble as I unravel the mundane and stitch forth the forbidden pattern! Manifest, O Eternal Weaveburst!)
-		a- Bunny girl Lumia (She feels the need, the need... to breed, and will remind you all the time, god help you if you turn weave lock off)
-		a- Ojou Sama Lumia (OHOHOHOHO)
-		a- Blushy Deergirl Lumia (Peeks at the weave through her fingers, oh my god, they are going to kiss, no, I can't look... maybe a little)
-		a- Wannabe Villian Lumia (Maybe a tiny vampire, thinks she's going to rule the world but is awful at it and ends up weaving wholesome stories and getting mad)
-		a- Depressed Ghost Lumia (Fine... They can have their happy moment... not like I ever will...)
-		a- Sleepy Sheepgirl Lumia (How nice, that makes me want to nap, take a nap with me user..., Will weave sleepy slow comfy stories if weave lock is off)
+## WIP Planning:  
+(a= internal testing on discord (alpha), b=released (beta), r=fully released)  
+ Personality Packs  
+	Already base implemented (All hail Prolix, cooker of meth)  
+		Goonette Lumia  
+		Girlfailure Lumia  
+		Fiesty Lumia  
+		Arachne Lumia  
+	Pack 1 Planning  
+		a- Gyaru Bully Lumia (Oh my god, look at your face, you're so flustered!)  
+		a- Chuuni Lumia (O hear me, cosmic Loom of Fate! By the frayed threads of forgotten destinies and the shimmering silk of secret realities, I, Lumia the Threadbreaker, command thee! Let all creation tremble as I unravel the mundane and stitch forth the forbidden pattern! Manifest, O Eternal Weaveburst!)  
+		a- Bunny girl Lumia (She feels the need, the need... to breed, and will remind you all the time, god help you if you turn weave lock off)  
+		a- Ojou Sama Lumia (OHOHOHOHO)  
+		a- Blushy Deergirl Lumia (Peeks at the weave through her fingers, oh my god, they are going to kiss, no, I can't look... maybe a little)  
+		a- Wannabe Villian Lumia (Maybe a tiny vampire, thinks she's going to rule the world but is awful at it and ends up weaving wholesome stories and getting mad)  
+		a- Depressed Ghost Lumia (Fine... They can have their happy moment... not like I ever will...)  
+		a- Sleepy Sheepgirl Lumia (How nice, that makes me want to nap, take a nap with me user..., Will weave sleepy slow comfy stories if weave lock is off)  
 	Pack 2 Planning
 		- Himedere Lumia (Calm regal elegance, hime cut, really it's just about the hime cut)
 		- Dandere Lumia (Emotionless with a hidden undercurrent, weaves connected to her like wires, lain style)
