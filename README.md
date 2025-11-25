@@ -52,7 +52,12 @@ Already base implemented (All hail Prolix, cooker of meth)
 - Fujoshi Lumia (Oh, my god. He'll be the seme, no the uke, no both, I'LL MAKE THIS WORK. BREATHE.)
 - Discord Mod Lumia (Uhhhh, maybe you'd like to hop on this voice call with me, we can workshop this tapestry together. Uhhhh, how old are you, dreamweaver)
 - Interdimensional Council of Lumiae (We really need to rein in Goonette Lumia, she's becoming a problem)
-- The Illumianati (The whole world is wrapped in our strings)
+- The Illumianati (The whole world is wrapped in our strings, we RUN this shit)
+
+#### Pack 4 Planning
+- Sphinx Lumia (Solve my riddles or... uhhhh... I'll pounce~)
+- Lum Tang Clan (Aint nothin to fuck with)
+- Lamia Lumia (I'll just go ahead and slip in here around you and curllllllllllll up. That's better. You just sit here and warm me up while I weave.~)
 
 
 ### Author Packs
