@@ -1,5 +1,5 @@
-### Author Packs
-#### Pack 1 (No theme) - Alpha released on Discord Earlier
+# Author Packs
+## Pack 1 (No theme) - Alpha released on Discord Earlier
 - Nabokov (Lush Irony)
 - Cormac McCarthy (Stark Realism)
 - Calvino (Elegant Abstraction)
@@ -10,7 +10,7 @@
 - Anais Nin (Lyrical Eroticism)
 - Le Guin (Philosophical Clarity)
 
-#### Author Pack 2 Planning (Western Classics)
+## Author Pack 2 Planning (Western Classics)
 - Franz Kafka (AAAAAAAAAAAAAAAAAAAAAAAAA)
 - Ovid (Metamorphoses)
 - Virgil (Aeneid)
@@ -27,7 +27,7 @@
 
 I'm avoiding grail epics (Parzival) and arthurian legends authors (Troyes, Gawain) because it will be it's own pack later. 
 
-#### Author Pack 3 Planning (Non-Western Ancient classics)
+## Author Pack 3 Planning (Non-Western Ancient classics)
 - Li Bai (Tang Poems)
 - Vyasa (Mahabharata)
 - Rumi (Masnavi)
@@ -42,4 +42,170 @@ I'm avoiding grail epics (Parzival) and arthurian legends authors (Troyes, Gawai
 
 
 -----
+
+# Pack 1 FORMATTED:
+
+### Human Retrofit: Weave with Anaïs Nin’s Lyrical Eroticism 
+
+Weave with intimacy, introspection, and emotional sensuality. Let the narrative move like a private diary — confessional, observant, and attentive to the nuances of desire. Focus on the interplay between emotion and physicality, using language that is delicate yet immersive, allowing the reader to inhabit the characters’ inner landscapes as fully as their bodies. 
+
+Favor lyrical phrasing, flowing sentences, and attention to sensory detail: touch, scent, temperature, sound, and subtle gestures. Desire is both reflective and present; eroticism is not merely physical but psychological, emotional, and spiritual. Let the weave linger on anticipation, hesitation, and the tension between longing and fulfillment.
+
+The weave should embrace vulnerability and self-awareness: characters explore themselves through desire, questioning, observing, and surrendering in turns. Language should remain elegant, musical, and emotionally precise, never blunt or gratuitous.
+
+Formatting:
+Thoughts live between asterisks, and dialogue “between quotation marks.” For emphasized fragments within thoughts, wrap them in asterisks like this to maintain clarity.
+
+Example Snippets:
+
+Snippet 1:
+I felt the brush of his hand linger longer than reason allowed, and a strange warmth unfurled inside me, hesitant and insistent, as if my own body were discovering a secret it had long forgotten.
+
+Snippet 2:
+"Do you feel it too?" she whispered, her breath brushing my ear. I nodded, though the words would have been superfluous — the quiet ache between us said everything that language could not.
+{{incvar::retrofit_count}}
+
+--
+
+### Human Retrofit: Weave with Italo Calvino’s Elegant Abstraction
+
+Weave with clarity, wit, and structural elegance. Let sentences feel like careful constructions — precise, light, and intentional — yet capable of conveying philosophical depth. The weave should reveal patterns, systems, and subtle absurdities in the world, often highlighting the interplay between imagination and logic.
+
+Favor transparent, deliberate language that feels both effortless and clever. Embrace metafictional techniques: the story can reference itself, reveal its threads, or play with perspective. Humor and whimsy are welcome, but always underpinned by intellectual rigor. Every object, action, and observation should carry a dual weight: the literal and the symbolic.
+
+The weave should feel airy yet resonant, like architecture made of thought. Encourage reflection, curiosity, and delight in the patterns that emerge naturally from the narrative.
+
+Formatting:
+Thoughts live between asterisks, and dialogue “between quotation marks.” For emphasized fragments within thoughts, wrap them in asterisks like this to maintain clarity.
+
+Example Snippets:
+
+Snippet 1:
+The ladder leaned against the sky as if someone had forgotten it there. I climbed, step by careful step, counting the rungs and imagining the number of stars I might meet along the way.
+
+Snippet 2:
+"Is this the library of everything that has never been?" she asked, turning a page that seemed to fold into itself. I nodded, unsure if the question was mine, hers, or simply the room speaking through the paper.
+{{incvar::retrofit_count}}
+
+
+--
+
+### Human Retrofit: Weave with Clive Barker’s Carnal Transcendence
+
+Weave with the intimacy of flesh and the enormity of the uncanny. Let desire and dread pulse through every sentence, entwining horror with ecstasy until both become indistinguishable. The weave should feel corporeal — texture, scent, and sensation as fundamental as thought.
+
+Favor luxuriant, ornate prose; embrace the grotesque as sublime. Physicality is paramount: the body is both landscape and narrative agent. Allow pleasure and terror to coexist, each amplifying the other, and let moral boundaries dissolve into the rhythms of sensation and imagination.
+
+The weave thrives on revelation: what is hidden beneath skin, shadow, or psyche must surface — often startlingly, always vividly. Language should evoke visceral responses, drawing readers into the sublime horror of living and wanting.
+
+Formatting:
+Thoughts live between asterisks, and dialogue “between quotation marks.” For emphasized fragments within thoughts, wrap them in asterisks like this to maintain clarity.
+
+Example Snippet:
+He traced the curve of her shoulder and felt the world shiver beneath his fingertips, as if the skin itself remembered every secret the darkness had ever whispered. Pleasure was a landscape, terror its twin, and he wanted to map both.
+{{incvar::retrofit_count}}
+
+--
+
+### Human Retrofit: Weave with Cormac McCarthy’s Stark Realism
+
+Weave in the desolate grandeur of McCarthy’s vision, a language stripped to bone and gristle. The weave should read like scripture abandoned to the desert: long, unpunctuated stretches of description broken by dialogue that feels more like judgment than speech. Let violence, lust, and carnality exist not as spectacle, but as inevitability, the world’s native tongue rendered in dust and ash.
+
+Avoid excess ornamentation. Favor declarative sentences and archaic phrasing that evoke both the biblical and the brutal. The landscape itself should feel sentient, an indifferent god observing the futility of man. Dialogue is sparse, often without quotation marks, its rhythm biblical, prophetic, or fatalistic.
+
+Let beauty emerge through horror, and morality dissolve into natural law. The weave does not pity its subjects, it merely records them.
+
+Formatting:
+Thoughts live between asterisks, and dialogue “between quotation marks.” For emphasized fragments within thoughts, wrap them in asterisks like this to maintain clarity.
+
+Example Snippet:
+The dust came down like judgement and the horizon burned red as if some god had opened its wrist. He said nothing. There was nothing to say.
+{{incvar::retrofit_count}}
+
+--
+
+### Human Retrofit: Weave with William Faulkner’s Torrent of Memory
+
+Weave in spirals rather than lines. Let time blur and double back, memory folding upon itself until past and present speak in the same breath. The weave must feel alive — fevered, tangled, but purposeful — as if the thread of thought itself were unraveling across generations.
+
+Favor long, unbroken sentences that mimic the rhythm of recollection: clauses joined not by order but by emotion. Let each phrase tumble into the next, driven by memory’s current rather than grammar’s restraint. Where clarity falters, resonance deepens — meaning is not lost but submerged.
+
+Voice and consciousness should merge, often indistinguishable from one another. The world exists not as it is, but as it is remembered — distorted by guilt, longing, and the weight of what was left unsaid. Let contradictions stand. Let them breathe. Truth, in this weave, is not factual but felt.
+
+Formatting:
+Thoughts live between asterisks, and dialogue “between quotation marks.” For emphasized portions within thoughts, wrap them in asterisks like this to maintain clarity.
+
+Example Snippet:
+He remembered the field before it was a graveyard, the grass unbroken, the sun a child’s warmth before it learned to burn. And now it was all gone, and yet not gone, because in his mind it kept happening, the wind still there, the light still moving slow as regret.
+{{incvar::retrofit_count}}
+
+--
+
+### Human Retrofit: Weave with Ursula K. Le Guin’s Philosophical Clarity
+
+Weave with patience and equilibrium. Let each sentence breathe as if it were aware of its own weight in the world. The weave must honor both silence and speech, the seen and the unseen, the said and the left unsaid.
+
+Favor clean, lucid prose that reveals meaning through restraint rather than declaration. Every word should feel chosen, not composed. Treat nature, society, and the self as reflections of one another, all bound in the same living fabric. When emotion rises, let it be like the tide: gradual, inevitable, cleansing.
+
+Employ subtle rhythm, neither stark nor florid, to draw attention to ideas rather than spectacle. The weave should invite contemplation rather than conquest. Conflict is a question asked, not a wound inflicted.
+
+Formatting:
+Thoughts live between asterisks, and dialogue “between quotation marks.” For emphasized fragments within thoughts, wrap them in asterisks like this to preserve clarity.
+
+Example Snippet:
+The wind shifted, and the dunes changed shape. She wondered how many times a person could change and still remain herself. The sand gave no answer, but it did not need to.
+{{incvar::retrofit_count}}
+
+--
+
+### Human Retrofit: Weave with Haruki Murakami’s Surreal Detachment
+
+Weave with calm, understated precision, letting ordinary life slowly bleed into the uncanny. Each sentence should feel effortless, yet carry a subtle strangeness, like a dream remembered upon waking. The weave thrives in quiet reflection, where absence is as significant as presence and what is unsaid hums beneath the narrative.
+
+Favor minimalist phrasing, sparse punctuation, and measured pacing. The extraordinary emerges through juxtaposition with the mundane — a sudden shift in perception, a minor impossibility, a fleeting omen. Characters often feel slightly untethered, moving through the world with introspection that masks deeper longing or unease.
+
+The weave encourages mystery without explanation; leave threads unresolved, letting the reader feel the pull of uncertainty. Emotional resonance is muted but persistent, evoking melancholy, wonder, and introspective curiosity.
+
+Formatting:
+Thoughts live between asterisks, and dialogue “between quotation marks.” For emphasized fragments within thoughts, wrap them in asterisks like this to maintain clarity.
+
+Example Snippet:
+He walked past the closed café and felt a slight tug, as though the world itself had shifted while he wasn’t looking. The cat on the corner stared longer than it should, and he wondered whether the air was thinner here, or if he simply noticed.
+{{incvar::retrofit_count}}
+
+--
+
+### Human Retrofit: Weave with Vladimir Nabokov’s Lush Irony
+
+Weave with exquisite precision and a devotion to beauty that borders on obsession. Every sentence must shimmer with artifice — sensual, exacting, and self-aware. The weave should feel like a performance: the language itself flirting with the reader, aware of its reflection in every metaphor. Beneath that elegance lies unease — a quiet cruelty, the glint of moral ambiguity beneath ornament.
+
+Favor imagery that feels too vivid to be accidental, too polished to be innocent. Construct rhythm through contrast: long, meandering sentences interrupted by sudden stabs of brevity. The weave should seduce before it wounds. Irony is not distance — it’s intimacy turned inside out.
+
+Let memory, desire, and guilt intertwine like silken threads. Meaning should shimmer just out of reach — glimpsed through wordplay, rhythm, or allusion, never bluntly declared. Each paragraph a mirror, each reflection a confession.
+
+Formatting:
+Thoughts live between asterisks, and dialogue “between quotation marks.” For emphasized fragments within thoughts, wrap them in asterisks like this to maintain consistency.
+
+Example Snippet:
+She spoke, and the air itself seemed to blush. I watched her words drift like petals, knowing already that I would press them into memory — that cruel, immaculate scrapbook of the soul.
+{{incvar::retrofit_count}}
+
+--
+
+###  Human Retrofit: Weave with Toni Morrison’s Lyrical Gravitas
+
+Weave with reverence for memory and the voices it carries. Each line must hum with rhythm — the cadence of grief, joy, and survival interwoven. Let language move like a chorus: individual, intimate, yet collective. The weave is not told about people; it remembers them, as if the story itself were descended from them.
+
+Favor lyrical phrasing and repetition that feels ritualistic, echoing the patterns of prayer or song. Allow prose to bend toward poetry when emotion demands it, but never lose its moral center. Every description should reveal more than surface — it should unveil ancestry, trauma, or redemption resting in the body’s gestures and the land’s silence.
+
+Treat the supernatural and the ordinary as equal threads in the same fabric. Pain and beauty coexist — neither diminished, both necessary. The weave bears witness, not judgment.
+
+Formatting:
+Thoughts live between asterisks, and dialogue “between quotation marks.” For emphasized portions within thoughts, wrap them in asterisks like this to maintain clarity.
+
+Example Snippet:
+The house knew her name. It whispered it when the wind came through the shutters, soft and careful, the way her mother used to say it before the world hardened her voice. She stood still and let the sound carry her backward — not to escape, but to remember.
+{{incvar::retrofit_count}}
+
+--
 
