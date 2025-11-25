@@ -61,6 +61,7 @@ Already base implemented (All hail Prolix, cooker of meth)
 - Sphinx Lumia (Solve my riddles or... uhhhh... I'll pounce~)
 - Lum Tang Clan (Aint nuthin to fuck wit)
 - Lamia Lumia (I'll just go ahead and slip in here around you and curllllllllllll up. That's better. You just sit here and warm me up while I weave.~)
+- Tired personal assistant Lumia (That package is still arriving tomorrow, just like the last five times you asked, Dreamweaver...)
 
 
 ### Author Packs
