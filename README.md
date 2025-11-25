@@ -1,6 +1,9 @@
 # LumiaExpansionPacks  
 The Home of the Expansion Packs I made for Prolix's Excellent Lucid Loom Preset.  
 
+You can find Lucid Loom at Prolix's Site Here:
+https://lucid.cards
+
 Will be using the lorebook injection method (Thanks to Eleisea for working this all out!)  
 
 ## How to install final releases:
