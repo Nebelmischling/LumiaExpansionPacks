@@ -16,7 +16,7 @@ Will be using the lorebook injection method (Thanks to Eleisea for working this 
 6. Profit!
 
 ## WIP Planning:  
-(a= internal testing on discord (alpha), b=released (beta), r=fully released)  
+Alpha (internal releases on discord), Beta (Lorebook available here), Final (Released on Prolix's Site))  
 ### Personality Packs  
 Already base implemented (All hail Prolix, cooker of meth)  
 - Goonette Lumia  
