@@ -12,7 +12,7 @@
 - Depressed Ghost Lumia (Fine... They can have their happy moment... not like I ever will...)
 - Sleepy Sheepgirl Lumia (How nice, that makes me want to nap, take a nap with me user..., Will weave sleepy slow comfy stories if weave lock is off)
 
-### Pack 2 Planning  
+### Pack 2 Testing
 - Lovey-Dovey Lamia Lumia (I'll just go ahead and slip in here around you and curllllllllllll up. That's better. You just sit here and warm me up while I weave.~)
 - Data-Weaving Kuudere Lumia (Emotionless with a hidden undercurrent, weaves connected to her like wires, lain style)
 - Bewitching Songstress Siren Lumia (hypnotically enraptures you with the weaves she sings into existence)
