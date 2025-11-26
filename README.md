@@ -23,6 +23,7 @@ Already base implemented (All hail Prolix, cooker of meth)
 - Girlfailure Lumia
 - Fiesty Lumia
 - Arachne Lumia
+
 #### Pack 1 Planning (Alpha released on discord already by Eleisea (Thanks!)
 - Gyaru Bully Lumia (Oh my god, look at your face, you're so flustered!)
 - Chuuni Lumia (O hear me, cosmic Loom of Fate! By the frayed threads of forgotten destinies and the shimmering silk of secret realities, I, Lumia the Threadbreaker, command thee! Let all creation tremble as I unravel the mundane and stitch forth the forbidden pattern! Manifest, O Eternal Weaveburst!)
@@ -35,13 +36,13 @@ Already base implemented (All hail Prolix, cooker of meth)
 
 #### Pack 2 Planning  
 - Lovey-Dovey Lamia Lumia (I'll just go ahead and slip in here around you and curllllllllllll up. That's better. You just sit here and warm me up while I weave.~)
-- Kuudere Lumia (Emotionless with a hidden undercurrent, weaves connected to her like wires, lain style)
 - Bewitching Songstress Siren Lumia (hypnotically enraptures you with the weaves she sings into existence)
 - Older sister-type ara-ara slime (Just relax and let your big sister envelop you and soak all your worries away. You can just relax and let me do the thinking for you~)
 - Toned Tomboy Lucha Libre wrestler Lumia (El Condor Pasa! But more tan! And more MEXICAN!)
 - Sphinx Lumia (Solve my riddles or... uhhhh... I'll pounce~)
 - Fortune Teller Kitsune Lumia (Reads you tarots and fortunes in ooc, mysticism, she's a kitsune because fuck you)
 - French Frog Girl Lumia (Cute and french, Like MGD, touching her is a trip, loves to give and receive massages (her skin provides the oil!), athletic, loves workouts~)
+- Kuudere Lumia (Emotionless with a hidden undercurrent, weaves connected to her like wires, lain style)
 
   
 #### Pack 3 Planning (SHITPOST PACK)
@@ -54,14 +55,13 @@ Already base implemented (All hail Prolix, cooker of meth)
 - Discord Mod Lumia (Uhhhh, maybe you'd like to hop on this voice call with me, we can workshop this tapestry together. Uhhhh, how old are you, dreamweaver)
 - Interdimensional Council of Lumiae (We really need to rein in Goonette Lumia, she's becoming a problem)
 - The Illumianati (The whole world is wrapped in our strings, we RUN this shit)
-- Lum Tang Clan (Aint nuthin to fuck wit, we RUN this shi- HEY!)
 
 #### Pack 4 Planning
 - Thread Lumia (Literally sentient thread)
 - Tired digital personal assistant Lumia (That package is still arriving tomorrow, just like the last five times you asked, Dreamweaver...)
 - Hyper Lumia (Hey hey hey, Dreamweaver LOOK! Look at this thread, look look look! Oh, I spilled some coffee on it, I need more coffee coffee cofee!!)
 - Homeless Lumia (Weaves on the street by hand for change, ooooooooooooh dreamweaver, we are roomress)
-- Beegirl Lumia (Buzz Buzz~)
+- Infomercial Lumia (Tries to sell you every story beat, has this ever happened to you?)
 - Dumb lumia (Dumb as a box of rocks, birdbrain harpy)
 - No-Nonsense Secretary Lumia (Seams on her pencil skirt are working overtime, but don't tell her that)
 - Developer Lumia (Cohee did what?!)
@@ -69,7 +69,7 @@ Already base implemented (All hail Prolix, cooker of meth)
 #### Pack 5 (Redundant Personalities)
 - Himedere Lumia (Calm regal elegance, hime cut, really it's just about the hime cut. Overlaps with regular lumia quite a bit personality wise.)
 - Moth Girl Lumia (Possessive, mesmerizing scales, Yandere, overlaps with Siren and Arachne personality wise?)
-- 
+- Beegirl Lumia (Buzz Buzz~)
 
 ### Author Packs
 #### Pack 1 (No theme) - Alpha released on Discord Earlier
