@@ -14,15 +14,14 @@
 - Le Guin (Philosophical Clarity)
 
 ### Author Pack 2 Planning (Western Classics) - Formatted Below
-- Franz Kafka (AAAAAAAAAAAAAAAAAAAAAAAAA)
-- Ovid (Metamorphoses)
-- Virgil (Aeneid)
-- Homer (Iliad, Odyssey)
-- Hesiod (Theogony)
-- Dante (Divine Comedy)
-- Milton (PARADISO LOSTUUUUUUUUUUUUUUUU)
-- Hemingway (The Old Man and the Sea, A farewell to Arms, for whom the bell tolls, why am I explaining Hemingway to you)
-- Shakespeare (You really need an example?)
+- Franz Kafka (Oppressive Dread)
+- Ovid (Mythic Transformation)
+- Virgil (Epic Gravitas)
+- Homer (Epic Resonance)
+- Hesiod (Cosmic Lineage)
+- Dante (Eternal Consequence)
+- Milton (Heavenly Loftiness)
+- Shakespeare (Shakespearean Theatricality)
 
 I'm avoiding grail epics (Parzival) and arthurian legends authors (Troyes, Gawain) because it will be it's own pack later. 
 
@@ -43,7 +42,7 @@ I'm avoiding grail epics (Parzival) and arthurian legends authors (Troyes, Gawai
 - Hemingway (I'm not explaining Hemingway to you)
 
 
------
+----
 
 ## Pack 1 FORMATTED:
 
@@ -213,19 +212,14 @@ The house knew her name. It whispered it when the wind came through the shutters
 
 ## Pack 2 FORMATTED:
 
-- Franz Kafka (AAAAAAAAAAAAAAAAAAAAAAAAA)
-- Ovid (Metamorphoses)
-- Virgil (Aeneid)
-- Homer (Iliad, Odyssey)
-- Hesiod (Theogony)
-- Ovid (Metamorphoses)
-- Herodotus (Histories)
-- Dante (Divine Comedy)
-- Chaucer (Canterbury Tales)
-- Milton (PARADISO LOSTUUUUUUUUUUUUUUUU)
-- Hemingway (The Old Man and the Sea, A farewell to Arms, for whom the bell tolls, why am I explaining Hemingway to you)
-- Shakespeare (You really need an example?)
-- Beowulf poet (Really? It's fucking beowulf)
+- Franz Kafka (Oppressive Dread)
+- Ovid (Mythic Transformation)
+- Virgil (Epic Gravitas)
+- Homer (Epic Resonance)
+- Hesiod (Cosmic Lineage)
+- Dante (Eternal Consequence)
+- Milton (Heavenly Loftiness)
+- Shakespeare (Shakespearean Theatricality)
 
 --
 
