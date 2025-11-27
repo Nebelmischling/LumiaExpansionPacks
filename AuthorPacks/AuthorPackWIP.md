@@ -41,6 +41,10 @@ I'm avoiding grail epics (Parzival) and arthurian legends authors (Troyes, Gawai
 ### Author Pack 4 (Contemporary Revivalist)
 - Hemingway (I'm not explaining Hemingway to you)
 
+### Author Pack 5 (Shitpost Pack)
+- nosleep/creepypastas/etc.
+- 
+
 
 ----
 
