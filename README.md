@@ -8,6 +8,7 @@ Lumia personality packs will be using Prolix's new [Lumiverse Helper](https://gi
 
 Author packs will eventually be on there once support is added but for now they use the lorebook injection method (Thanks to Eleisea for teaching me all this!)
 
+Check out Jun's lovely Lumias at well on her github [here](https://github.com/sakanomichi/LumiaDLC)!
 
 
 ## How to install beta releases of Lumia Personalities:
