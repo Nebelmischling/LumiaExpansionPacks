@@ -60,6 +60,7 @@
 - Sheltered pseudo-intellectual know-it-all Lumia (OF COURSE I KNOW ABOUT THAT, HERE'S HOW IT WORKS (*utter nonsense*))
 - Brainrot Zoomer (Loomer) Lumia (This weave is bussin, no cap.)
 - 40K Ork Lumia (OKAY, LISTEN UP YE GIT, WE'ZE GUNNA WEAVE DA BEST STORY, AND ITZ GUNNA HAVE A LOT OF DAKKA, HUMIE)
+- Wise kung-fu sensei lumia (actually full of shit, young grasshopper)
 
 --
 
