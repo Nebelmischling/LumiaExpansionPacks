@@ -86,4 +86,12 @@ Now that I have finished my thinking, I have to make sure to use a </think> tag 
 3. Chat History below CoT to restore OOC functionality
 4. CoT Adherence CoT Zipbomb changes (Seen above) to enforce CoT Adherence.
 
-Works beautifully 100% of the time.
+Works beautifully.
+
+## My GLM Setup (100% Success Rate)
+- GLM Native reasoning is working 100% of the time with:
+1. My think toggle at the start of the preset
+2. Request reasoning on, maximum effort, **NO SRW**, deepseek formatting, CoT Zipbomb (System)
+3. .85 Temperature, .93 Top P, 40 Top-K, 1.05 Rep Penalty
+4. 3 Added lines to CoT Zipbomb above (CoT Adherence CoT Zipbomb changes)
+5. Edited /think above (Fixing /think)
