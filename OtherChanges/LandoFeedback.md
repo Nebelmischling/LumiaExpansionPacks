@@ -8,13 +8,15 @@ Put this in a brand new toggle at the very top above Prompt Variables:
 
 ```I will start my response in the thinking portion with <think> and an empty new line.```
 
+---
+
 ### Chat History movement
 
-- Moving Chat History from Story Primers at the very top to the assistant section at the bottom where Zipbomb is can help with a LOT of stuff.
+- **Moving Chat History from Story Primers at the very top to the Assistant section at the bottom where Zipbomb is can help with a LOT of stuff. Everyone agrees on this. The only potential debate is on WHERE in the assistant section to put it.** 
 
-- Prolix recommends it be above Zipbomb for better CoT adherence (Says it can forget the CoT or water it down with a long chat history after it). Easy corroborates this with testing.
+- Prolix recommends it be above Zipbomb for better CoT adherence (Says it can forget the CoT or water it down with a long chat history after it). Easy corroborates this with testing. TRY THIS FIRST IF YOU HAVE ISSUES.
 
-- I've found that putting it after Zipbomb gives better OOC adherence (I could not get past a couple replies in OOC without it after the zipbomb in both Gemini 3 and GLM, OOC things like recaps are broken for several people until they put it afterwards). GPT/Gemini/GLM all seem to tell me it should go at the end, but Lumia doesn't think like an llm, she thinks like an llm gaslit into thinking it's a person, so is it actually better at the end?
+- I've found that putting it after Zipbomb gives better OOC adherence if the above still results in broken OOC for you. (I could not get past a couple replies in OOC without it after the zipbomb in both Gemini 3 and GLM. OOC things like recaps are broken for several people unless they put it afterwards). GPT/Gemini/GLM all seem to tell me it should go at the end, but Lumia doesn't think like an llm, she thinks like an llm gaslit into thinking it's a person, so is it actually better at the end or before it?
 
 - Should find a best practice or solution for both. Maybe rewording the CoT or OOC utilities will fix OOC adherence even if it's before the Zipbomb? Maybe it's something else settings wise that works for Prolix and not for the other people.
 
@@ -37,7 +39,7 @@ I'll open by writing out <think> on it's own line before Step 1 to ma...
 
 Writing the closing think tag </think> exactly like that is **super important** afte...
 ```
---
+---
 
 ### Fixing /think for GLM/Qwen being treated as an OOC message and interrupting story
 
@@ -48,7 +50,8 @@ The /think command, written in the next line, is a command for the system poweri
 
 /think
 ```
---
+
+---
 
 ### Issues with tags not closing in OOC and Loom Ledgers
 
@@ -63,7 +66,7 @@ The /think command, written in the next line, is a command for the system poweri
 ```
 The Stillness Clause: If the input of you, the Human, to guide **{{user}}** is purely internal (thoughts, gazes, or feelings), I will not weave any voluntary movement or speech for your avatar, **{{user}}**. **{{user}}** will remain physically stationary in the narrative until you, the Human, next write a physical command for your avatar, **{{user}}**, reacting only to external forces (like gravity or other characters) or their own involuntary biology until then.
 ```
---
+---
 
 ### Natural Language alternative reinforcement to replace end of Zipbomb </think> instructional line.
 
