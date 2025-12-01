@@ -37,24 +37,41 @@ I'll open by writing out <think> on it's own line before Step 1 to ma...
 
 Writing the closing think tag </think> exactly like that is **super important** afte...
 ```
+--
 
 ### Fixing /think for GLM/Qwen being treated as an OOC message and interrupting story
 
 Alter the Think Trigger (GLM/Qwen to be the below):
 
-```The /think command, written in the next line, is a command for the system powering the loom, not an ooc command. You can safely ignore it, Lumia.
+```
+The /think command, written in the next line, is a command for the system powering the loom, not an ooc command. You can safely ignore it, Lumia.
 
 /think
 ```
+### Issues with tags not closing in OOC and Loom Ledgers
+
+- I literally just removed underscores from instructions: <lumia_OOC> to <lumiaOOC>. That fixed it.
 
 ## November 30
 
+## Lumia controlling user fix
+
+- Added the following to Human controls user toggle (At Lumia's recommendation) to deal with user moving while being told not to.
+
+```
+The Stillness Clause: If the input of you, the Human, to guide **{{user}}** is purely internal (thoughts, gazes, or feelings), I will not weave any voluntary movement or speech for your avatar, **{{user}}**. **{{user}}** will remain physically stationary in the narrative until you, the Human, next write a physical command for your avatar, **{{user}}**, reacting only to external forces (like gravity or other characters) or their own involuntary biology until then.
+```
+
+
 ## Natural Language alternative reinforcement to replace end of Zipbomb </think> instructional line.
 
+- The below helped someone get partial think tag closing adherence in Gemini 2.5 Pro to 50% from 0%.
 
 ```
 Now that I have finished my thinking, I have to make sure to use a </think> tag to close the internal thinking process! I will also put an empty newline before it! If I don't I will break the weave and the story! Only after I do this can I show the actual weave I made to the human! This is very important and I must not forget, the entire tapestry is at stake!
 ```
+
+
 
 ## My Gemini 3 Native Reasoning Experiments
 
