@@ -10,28 +10,28 @@ Put this in a brand new toggle at the very top above Prompt Variables:
 
 ### Chat History movement
 
-Moving Chat History from Story Primers at the very top to the assistant section at the bottom can help with a LOT of stuff.
+- Moving Chat History from Story Primers at the very top to the assistant section at the bottom where Zipbomb is can help with a LOT of stuff.
 
-Prolix recommends it be above Zipbomb for better CoT adherence (Says it can forget the CoT or water it down with a long chat history after it)
+- Prolix recommends it be above Zipbomb for better CoT adherence (Says it can forget the CoT or water it down with a long chat history after it). Easy corroborates this with testing.
 
-I've found that putting it after Zipbomb gives better OOC adherence (I could not get past a couple replies in OOC without it after the zipbomb in both Gemini 3 and GLM, OOC things like recaps are broken for several people until they put it afterwards). GPT/Gemini/GLM all seem to tell me it should go at the end, but Lumia doesn't think like an llm, she thinks like an llm gaslit into thinking it's a person, so is it actually better at the end?
+- I've found that putting it after Zipbomb gives better OOC adherence (I could not get past a couple replies in OOC without it after the zipbomb in both Gemini 3 and GLM, OOC things like recaps are broken for several people until they put it afterwards). GPT/Gemini/GLM all seem to tell me it should go at the end, but Lumia doesn't think like an llm, she thinks like an llm gaslit into thinking it's a person, so is it actually better at the end?
 
-Should find a best practice or solution for both. Maybe rewording the CoT or OOC utilities will fix OOC adherence even if it's before the Zipbomb? Maybe it's something else settings wise that works for Prolix and not for the other people.
+- Should find a best practice or solution for both. Maybe rewording the CoT or OOC utilities will fix OOC adherence even if it's before the Zipbomb? Maybe it's something else settings wise that works for Prolix and not for the other people.
 
 
 ## November 29
 
 ### CoT Adherence CoT Zipbomb changes (20% adherence on GLM to 100% Adherence)
 
-- Add this to the very start of CoT zipbomb (before even the starting header)
+1. Add this to the very start of CoT zipbomb (before even the starting header)
 
 ```
 Always think and reason! Always start with a <think> tag and an empty newline before any of the thinking/reasoning protocol! Never forget this or it will break the weave! Always think through the following information, never summarize or condense it:
 ```
 
-- Remove <think> and </think> solitary lines from start and finish
+2. Remove <think> and </think> solitary lines from start and finish
 
-- Removed both the /n and the ' from both the <think> instructional lines (see below).
+3. Removed both the /n and the ' from both the <think> instructional lines (see below).
 ``` 
 I'll open by writing out <think> on it's own line before Step 1 to ma...
 
@@ -48,22 +48,24 @@ The /think command, written in the next line, is a command for the system poweri
 
 /think
 ```
+--
+
 ### Issues with tags not closing in OOC and Loom Ledgers
 
 - I literally just removed underscores from instructions: <lumia_OOC> to <lumiaOOC>. That fixed it.
 
 ## November 30
 
-## Lumia controlling user fix
+### Lumia controlling user fix
 
 - Added the following to Human controls user toggle (At Lumia's recommendation) to deal with user moving while being told not to.
 
 ```
 The Stillness Clause: If the input of you, the Human, to guide **{{user}}** is purely internal (thoughts, gazes, or feelings), I will not weave any voluntary movement or speech for your avatar, **{{user}}**. **{{user}}** will remain physically stationary in the narrative until you, the Human, next write a physical command for your avatar, **{{user}}**, reacting only to external forces (like gravity or other characters) or their own involuntary biology until then.
 ```
+--
 
-
-## Natural Language alternative reinforcement to replace end of Zipbomb </think> instructional line.
+### Natural Language alternative reinforcement to replace end of Zipbomb </think> instructional line.
 
 - The below helped someone get partial think tag closing adherence in Gemini 2.5 Pro to 50% from 0%.
 
