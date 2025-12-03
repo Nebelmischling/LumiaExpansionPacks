@@ -90,11 +90,11 @@ Works beautifully.
 
 ## My GLM Setup (100% Success Rate)
 - GLM Native reasoning is working 100% of the time with:
-1. My new think toggle at the start of the preset ON
+1. My new think toggle at the start of the preset ON (see up top in this readme)
 2. Request reasoning on, maximum effort, **NO SRW**, deepseek formatting, single user post proc, CoT Zipbomb (System), /think toggle on
 3. .85 Temperature, .93 Top P, 40 Top-K, 1.05 Rep Penalty
-4. 3 Added lines to CoT Zipbomb above (CoT Adherence CoT Zipbomb changes)
-5. Edited /think above (Fixing /think)
+4. 3 Added lines to CoT Zipbomb (CoT Adherence CoT Zipbomb changes, see up top in this readme)
+5. Edited /think (Fixing /think, see above in this readme)
 6. Moved Chat History to just below Zipbomb
 
 
