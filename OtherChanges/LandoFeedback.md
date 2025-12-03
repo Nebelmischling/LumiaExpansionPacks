@@ -31,7 +31,7 @@ Put this in a brand new toggle at the very top above Prompt Variables:
 Always think and reason! Always start with a <think> tag and an empty newline before any of the thinking/reasoning protocol! Never forget this or it will break the weave! Always think through the following information, never summarize or condense it:
 ```
 
-2. Remove <think> and </think> solitary lines from start and finish
+2. Remove ```<think>``` and ```</think>``` solitary lines from start and finish
 
 3. Removed both the /n and the ' from both the <think> instructional lines (see below).
 ``` 
