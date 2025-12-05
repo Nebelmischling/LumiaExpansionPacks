@@ -41,6 +41,10 @@ Also let us know the API Method you use to connect to it. (Official API? Google 
 
 **If your provider is a reverse proxy, just let us know that it *is* one, don't tell us what the proxy is! Keep your sauce secret!**
 
+
+<img width="632" height="770" alt="image" src="https://github.com/user-attachments/assets/2fba0e6b-f183-44ca-8e6d-94c42b32fcd7" />
+
+
 ---
 
 ### Question 2: What is your prompt post processing set to?
@@ -55,7 +59,13 @@ One thing that is for sure is that if you have a choice between two of the same 
 
 ### Question 3: What are your 'request model reasoning', 'reasoning effort', and 'squash system messages' settings in chat completion set to?
 
+*In the top nav bar of Sillytavern, the hamburger sliders icon will open the chat completions preset panel!*
+
+<img width="34" height="27" alt="image" src="https://github.com/user-attachments/assets/1361c5be-d537-487e-a11b-d6bebdec11dd" />
+
 *In the left hand chat completions preset panel, if you go under the samplers, there is a dropdown called chat completions. Below you will find several options that are important.*
+
+<img width="414" height="677" alt="image" src="https://github.com/user-attachments/assets/982559ac-bc25-4523-895a-2fb178b18387" />
 
 The first is 'squash system messages'. This is important to know if you have on or off depending on your answer to #2. Some prompt post-processing choices, like 'None', can use this to help out with the input into the llm.
 
@@ -65,11 +75,16 @@ Underneath that is 'reasoning effort', this is usually set to either auto (espec
 
 ---
 
-### Question 4: What are your reasoning settings and start reply with in advanced formatting set to?
+### Question 4: What are your reasoning settings and start reply with (SRW) in advanced formatting set to?
 
 *In the top nav bar of sillytavern, there is an "A" icon. This will take you to the advanced formatting tab.*
 
+<img width="36" height="32" alt="image" src="https://github.com/user-attachments/assets/397079f2-acaa-45a4-9ba1-9ea52ea9826b" />
+
 This tab will be nearly entirely grayed out, since nearly all of it is used for text completion, and you are using a chat completion preset if you are using something like Lucid Loom. *However if you scroll down on the right there is a VERY important section for reasoning. It is, strangely enough, called reasoning.*
+
+<img width="470" height="614" alt="image" src="https://github.com/user-attachments/assets/b9df8c52-2a8d-4449-8b33-f71c4ab09e09" />
+
 
 Under this section are multiple checkboxes. First is "Auto-Parse." This will enable this section to work entirely and is important to be turned on if you are using this section at all. Next is "Auto-Expand", this will simply auto expand the reasoning block. Show hidden is usually always on. Add to prompts lets you add previous reasoning blocks to your chat history, you usually always want this OFF for regular RP.
 
@@ -81,7 +96,7 @@ One important thing to keep in mind is that sometimes you won't just have a tab,
 
 Separator is always left empty.
 
-Below that is the Start Reply With field at the very bottom. This is a way to brute force reasoning into working by telling your llm to start it's response with whatever you enter in that field (usually the same thing as your prefix earlier). That way it'll always start with a thinking block! This is very useful for most "non-thinking" models, but can seriously break reasoning models, so it's always one of the things we'll ask you to tell us!
+Below that is the Start Reply With (commonly abbreviated to SRW) field at the very bottom. This is a way to brute force reasoning into working by telling your llm to start it's response with whatever you enter in that field (usually the same thing as your prefix earlier). That way it'll always start with a thinking block! This is very useful for most "non-thinking" models, but can seriously break reasoning models, so it's always one of the things we'll ask you to tell us!
 
 ---
 
@@ -90,6 +105,10 @@ Below that is the Start Reply With field at the very bottom. This is a way to br
 This is the first Lucid Loom specific question! Yes, that means the first 4 are universally useful if you want to find out about fixing reasoning settings!
 
 *The assistant setting can be found in the left hand chat completions prefix window. It's the section all the way at the very bottom of the prompt manager.*
+
+<img width="399" height="578" alt="image" src="https://github.com/user-attachments/assets/5e75b08a-9604-466c-a0f3-93b56cced33d" />
+*The most common setup for CoT's can be seen above.*
+
 
 Under there you will find all the CoT checklists for Lumia (the guidelines of what she is thinking through). It's very important for us to know what you have toggled on down here to know how your Lumia is thinking. This means, what CoT you have on (Cot Zipbomb? Reasoner Zipbomb? CoT Normal? Assistant or System?). You will only want to have one CoT on at a time, and which one you have on is essential for whether your model will work properly, hence we will usually ask you what you have on or just tell you which one to turn on.
 
