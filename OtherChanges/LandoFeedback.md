@@ -55,7 +55,7 @@ The /think command, written in the next line, is a command for the system poweri
 
 ### Issues with tags not closing in OOC and Loom Ledgers
 
-- I literally just removed underscores from instructions: <lumia_OOC> to <lumiaOOC>. That fixed it.
+- Ensure that trim incomplete sentences is off in Advanced Formatting (A tab at top of sillytavern)
 
 ## November 30
 
@@ -83,7 +83,7 @@ Now that I have finished my thinking, I have to make sure to use a </think> tag 
 - Gemini 3 native reasoning is working well with:
 1. My think toggle at the start of the preset
 2. Request reasoning on, Maximum Effort, SRW <think>, deepseek formatting, Cot Zipbomb (Assistant)
-3. Chat History below CoT to restore OOC functionality
+3. Chat History below CoT to restore OOC functionality (Prolix found a new way to fix it, skipSignature magic to )
 4. CoT Adherence CoT Zipbomb changes (Seen above) to enforce CoT Adherence.
 
 Works beautifully.
