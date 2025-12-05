@@ -67,9 +67,9 @@ Underneath that is 'reasoning effort', this is usually set to either auto (espec
 
 ### Question 4: What are your reasoning settings and start reply with in advanced formatting set to?
 
-In the top nav bar of sillytavern, there is an "A" icon. This wil take you to the advanced formatting tab.
+*In the top nav bar of sillytavern, there is an "A" icon. This will take you to the advanced formatting tab.*
 
-This tab will be nearly entirely grayed out, since nearly all of it is used for text completion, and you are using a chat completion preset if you are using something like Lucid Loom. However if you scroll down on the right there is a VERY important section for reasoning. It is, strangely enough, called reasoning.
+This tab will be nearly entirely grayed out, since nearly all of it is used for text completion, and you are using a chat completion preset if you are using something like Lucid Loom. *However if you scroll down on the right there is a VERY important section for reasoning. It is, strangely enough, called reasoning.*
 
 Under this section are multiple checkboxes. First is "Auto-Parse." This will enable this section to work entirely and is important to be turned on if you are using this section at all. Next is "Auto-Expand", this will simply auto expand the reasoning block. Show hidden is usually always on. Add to prompts lets you add previous reasoning blocks to your chat history, you usually always want this OFF for regular RP.
 
@@ -89,11 +89,11 @@ Below that is the Start Reply With field at the very bottom. This is a way to br
 
 This is the first Lucid Loom specific question! Yes, that means the first 4 are universally useful if you want to find out about fixing reasoning settings!
 
-The assistant setting can be found in the left hand chat completions prefix window. It's the section all the way at the very bottom of the prompt manager.
+*The assistant setting can be found in the left hand chat completions prefix window. It's the section all the way at the very bottom of the prompt manager.*
 
 Under there you will find all the CoT checklists for Lumia (the guidelines of what she is thinking through). It's very important for us to know what you have toggled on down here to know how your Lumia is thinking. This means, what CoT you have on (Cot Zipbomb? Reasoner Zipbomb? CoT Normal? Assistant or System?). You will only want to have one CoT on at a time, and which one you have on is essential for whether your model will work properly, hence we will usually ask you what you have on or just tell you which one to turn on.
 
-Additionally for 3.0, we will want to know if you dragged Chat History down here from the first section (Story Primers). A lot of problems can be fixed in v3.0 by dragging down chat history to just above your chosen CoT!
+*Additionally for 3.0, we will want to know if you dragged Chat History down here from the first section (Story Primers). A lot of problems can be fixed in v3.0 by dragging down chat history to just above your chosen CoT!*
 
 Lastly for a couple models (GLM and Qwen), there is an optional /think toggle that enables thinking. If you want to ask about those two models, make sure it's on, otherwise, make sure it's off.
 
