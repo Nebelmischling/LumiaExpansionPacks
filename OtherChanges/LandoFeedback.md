@@ -194,11 +194,11 @@ Finally add the following to your prompt personality matrix near the beginning o
 {{getvar::lumia_behavior_added}}
 ```
 
-## Step 7 Human Controls User experiments
+### Step 7 Human Controls User experiments
 
 Experimenting with human controls user being added to this section. None of it is referenced in the "If sov hand is off" section, it should be, it's just as important as sov hand.
 
-## Step 10 Utility Integration Experiments
+### Step 10 Utility Integration Experiments
 
 Experimenting with trying to stop overflows with less token use than my old step 9 pre-3.0 experiments.
 
