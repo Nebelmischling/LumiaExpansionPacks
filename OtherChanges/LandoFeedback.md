@@ -77,25 +77,31 @@ Now that I have finished my thinking, I have to make sure to use a </think> tag 
 ```
 
 
+## My GLM 4.6 (not tested with 4.6V) Setup (100% Success Rate)
+GLM 4.6 (Non-V) Native reasoning is working 100% of the time for me with:
+### Non-Loom Specific/Universal (Use with loom too):
+1. .85 Temperature, .93 Top P, 40 Top-K, 1.05 Rep Penalty
+2. Custom (openai compatible), Request reasoning on, maximum reasoning effort, **NO SRW (Start Reply With)**, deepseek formatting, single user post-proc, make sure your preset sends "/think" somewhere to enable thinking
+### Loom Specific (For 3.0):
+3. CoT Zipbomb (System), /think toggle on (Both have changes listed in 6 and 7)
+4. Moved Chat History to just below Zipbomb (Works better until about 70 replies?)
+5. My new think toggle at the start of the preset ON (see up top in this readme)
+6. 3 Added lines to CoT Zipbomb (CoT Adherence CoT Zipbomb changes, see up top in this readme)
+7. Edited /think (Fixing /think, see above in this readme)
 
-## My Gemini 3 Native Reasoning Experiments
+
+---
+
+## My Gemini 3 Native Reasoning Experiments (For me, other people don't use this)
 
 - Gemini 3 native reasoning is working well with:
 1. My think toggle at the start of the preset
 2. Request reasoning on, Maximum Effort, SRW <think>, deepseek formatting, Cot Zipbomb (Assistant)
-3. Chat History below CoT to restore OOC functionality (Prolix found a new way to fix it, skipSignature magic to )
+3. Chat History below CoT to restore OOC functionality (Prolix found a new way to fix it, skipSignaturemagic changes in search the channel)
 4. CoT Adherence CoT Zipbomb changes (Seen above) to enforce CoT Adherence.
 
 Works beautifully.
 
-## My GLM Setup (100% Success Rate)
-- GLM Native reasoning is working 100% of the time with:
-1. My new think toggle at the start of the preset ON (see up top in this readme)
-2. Request reasoning on, maximum effort, **NO SRW**, deepseek formatting, single user post proc, CoT Zipbomb (System), /think toggle on
-3. .85 Temperature, .93 Top P, 40 Top-K, 1.05 Rep Penalty
-4. 3 Added lines to CoT Zipbomb (CoT Adherence CoT Zipbomb changes, see up top in this readme)
-5. Edited /think (Fixing /think, see above in this readme)
-6. Moved Chat History to just below Zipbomb
 
 
 ## Helper Questionnaire
@@ -215,3 +221,4 @@ By adding an entry number, it'll be easier to adhere to a maximum number, and by
 ---
 
 I'm tired, boss
+
