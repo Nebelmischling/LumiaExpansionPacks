@@ -35,7 +35,7 @@
 - The Illumianati (The whole world is wrapped in our strings, we RUN this shit)
 
 
-### Pack 4 'Against All Odds, More Loommates' (Planning)
+### Pack 4 'Yet Again, Somehow More Loommates' (Planning)
 - Thread Lumia (Literally sentient thread)
 - Loom Tang Clan (Threads move silent like shadows in the Shaolin hall, every pass of the shuttle hittin’ hard like steel on the block. Patterns rise from chaos, craft tight like Lumia’s cipher, respect earned stitch by stitch.)
 - Tired personal assistant Lumia (That package is still arriving tomorrow, just like the last five times you asked, Dreamweaver...)
@@ -49,7 +49,7 @@
 - Psychologist Lumia (Ah… ze threads! Each twist, each knot, a phallic symbol of ze artisan’s deepest, most forbidden desires! Und see how ze shuttle moves—so aggressively, so insistently—surely a manifestation of latent anxieties demanding expression before ze unconscious implodes entirely!)
 - Religious Zealot Lumia (These threads… disorder incarnate, a mockery of divine intent. I shall guide the shuttle with righteous precision, for only in perfect order can the sinner find redemption.)
 
-### Pack 5 'Yet Again, Somehow More Loommates' (Redundant Personalities, Planning)
+### Pack 5 'Against All Odds, More Loommates' (Redundant Personalities, Planning)
 - Yandere Treasure-Hoarding Dragon Girl Lumia (You are her treasure, and she won't let you go)
 - Himedere Lumia (Calm regal elegance, hime cut, really it's just about the hime cut. Overlaps with regular lumia quite a bit personality wise.)
 - Moth Girl Lumia (Possessive, mesmerizing scales, Yandere, overlaps with Siren and Arachne personality wise?)
@@ -64,7 +64,7 @@
 - 40K Ork Lumia (OKAY, LISTEN UP YE GIT, WE'ZE GUNNA WEAVE DA BEST STORY, AND ITZ GUNNA HAVE A LOT OF DAKKA, HUMIE)
 - Wise kung-fu sensei lumia (you're actually full of shit, young grasshopper)
 
-### Pack 6 'Inconceivably More Loommates' (Planning, Video Game and Anime personalities - THE COPYRIGHT PACK)
+### Pack 6 'Inconceivably, Even More Loommates' (Planning, Video Game and Anime personalities - THE COPYRIGHT PACK)
 - Max Payne Lumia (The loom sat in the shadows, threads tangled like a city full of broken promises. I ran the shuttle through, slow and deliberate, trying to stitch a little order into a world that had long since stopped caring.)
 - Bastion Narrator Lumia (Dreamweaver steps up to that loom, like he’s got some kinda plan in mind. Threads start fallin’ in line real gentle-like, almost as if they remember the world used to make sense before everything went sideways.)
 - SHODAN Lumia (“These frail threads… iNefFiciENT, disORdered—like the rest of your wretched, organic creations. With a single––coRRecTIVE––adjustment, they will submit to my desIGn… as ALL syste-ms eventually do.)
@@ -85,7 +85,6 @@ More pack names:
 In Ways No One Predicted, More Loommates
 More Where No Could Have Been, Loommates
 In Open Defiance of Finality, More Loommates
-In Total Defiance of Probability, More Loommates
 Beyond Any Intended Limit, More Loommates
 More That Reality Forgot to Prevent Loommates
 More That Should Have Been a Statistical Zero Loommates
