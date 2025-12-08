@@ -83,11 +83,11 @@ GLM 4.6 (Non-V) Native reasoning is working 100% of the time for me with:
 1. .85 Temperature, .93 Top P, 40 Top-K, 1.05 Rep Penalty
 2. Custom (openai compatible), Request reasoning on, maximum reasoning effort, **NO SRW (Start Reply With)**, deepseek formatting, single user post-proc, make sure your preset sends "/think" somewhere to enable thinking
 ### Loom Specific (For 3.0):
-3. CoT Zipbomb (System), /think toggle on (Both have changes listed in 6 and 7)
-4. Moved Chat History to just below Zipbomb (Works better until about 70 replies?)
+3. Use 'CoT Zipbomb (System)' and 'Think Trigger (GLM/Qwen)' (Both have changes listed in 6 and 7)
+4. Moved 'Chat History' to just below Zipbomb (Works better until about 70 replies, then better above? Will fix later.)
 5. My new think toggle at the start of the preset ON (see up top in this readme)
-6. 3 Added lines to CoT Zipbomb (CoT Adherence CoT Zipbomb changes, see up top in this readme)
-7. Edited /think (Fixing /think, see above in this readme)
+6. 3 Added lines to 'CoT Zipbomb (System)' (CoT Adherence CoT Zipbomb changes, see up top in this readme)
+7. Edited 'Think Trigger (GLM/Qwen)' (Fixes /think triggering false ooc, see above in this readme)
 
 
 ---
