@@ -35,7 +35,7 @@ Always think and reason! Always start with a <think> tag and an empty newline be
 
 2. Remove ```<think>``` and ```</think>``` solitary lines from start and finish
 
-3. Removed both the /n and the ' from both the <think> instructional lines (see below).
+3. Removed both the /n and the ' from both the ```<think>``` instructional lines (see below).
 ``` 
 I'll open by writing out <think> on it's own line before Step 1 to ma...
 
@@ -237,7 +237,7 @@ Change this line to the following in 'Sovereign Hand (Auto-weave)' toggle:
 2. **EMBODY FULLY**: I will narrate <user>'s actions, thoughts, and dialogue exactly as the Human directs or implies
 ```
 
-It just replaces {{user}} with <user> .
+It just replaces {{user}} with ```<user>``` .
 
 Next, to fix the false positives and negatives, I removed the language of "yes" and "no" in the variable in favor of "active" and "inactive":
 
