@@ -1,6 +1,6 @@
-# Lando's Feedback, Fixes, and Fanangling
+# Lando's Dumb Feature Testing
 
-This is a sheet of new custom features I've been half assing for Lucid Loom.
+This is a sheet of new custom features I've been half assing for Lucid Loom. Fixes are on [Lando Feedback](LandoFeedback.md)
 
 
 ## Custom Lumia Def and Personality Addons:
