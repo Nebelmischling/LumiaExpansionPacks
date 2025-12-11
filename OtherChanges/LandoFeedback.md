@@ -8,7 +8,7 @@ If I had to personally recommend priorities based on recent feedback from users 
 
 1. Move the chat history to above zipbomb
 2. Lumia is impersonating user too much, look at my alternate non-sov hand step 7 below for a brute force fix and also use global positioning tracker instead of auto loom tracking or hidden ledger (it moves the story forward too much)
-3. Change {{user}} in sov hand toggle to be <user> (Nested handlebar fix)
+3. Change {{user}} in sov hand toggle to be ```<user>``` (Nested handlebar fix for those who don't use extension sovhand)
 
 ---
 
