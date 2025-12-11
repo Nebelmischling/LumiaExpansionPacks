@@ -216,6 +216,9 @@ Personally I did:
 - CoT Zipbomb Step 7 - Sovereign Hand
 - CoT Zipbomb Step 8-End
 
+<img width="350" height="374" alt="zipbombsplit" src="https://github.com/user-attachments/assets/52b4105b-2ac6-4590-85d5-cd4bb2e43ae2" />
+
+
 I'll break down each one with my edits below:
 
 ### CoT Zipbomb Think Pre-Intro:
