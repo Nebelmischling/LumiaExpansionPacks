@@ -413,11 +413,13 @@ GLM 4.6 (Non-V) Native reasoning is working 100% of the time for me with:
 1. .85 Temperature, .93 Top P, 40 Top-K, 1.05 Rep Penalty
 2. Custom (openai compatible), Request reasoning on, maximum reasoning effort, **NO SRW (Start Reply With)**, deepseek formatting, single user post-proc, make sure your preset sends "/think" somewhere to enable thinking
 ### Loom Specific (For 3.0):
-3. Use 'CoT Zipbomb (System)' and 'Think Trigger (GLM/Qwen)' (Both have changes listed in 6 and 7)
-4. Moved 'Chat History' to just below Zipbomb (Works better until about 70 replies, then better above? Will fix later.)
-5. My new think toggle at the start of the preset ON (see up top in this readme)
-6. 3 Added lines to 'CoT Zipbomb (System)' (CoT Adherence CoT Zipbomb changes, see up top in this readme)
-7. Edited 'Think Trigger (GLM/Qwen)' (Fixes /think triggering false ooc, see above in this readme)
+3. My new think toggle added to start
+4. Added stillness clause toggle, Edit {{user}} in sov hand to ```<user>```
+5. Dynamic Medium or (my new custom) Dynamic Large Length, going bigger is problematic
+6. Reorder utilities (character ooc above lumia ooc, all trackers to bottom), I only use global positioning tracker
+7. Remove math from OOC by making it every turn (remove all timing variables and info)
+8. Split zipbomb into pre zip, zip step 1-6, zip 7 (sov or non sov), and zip 8-end (see changes and edits for all above)
+9. Edited 'Think Trigger (GLM/Qwen)' (Fixes /think triggering false ooc, see above in this readme)
 
 
 ---
@@ -429,24 +431,6 @@ GLM 4.6 (Non-V) Native reasoning is working 100% of the time for me with:
 2. Request reasoning on, Maximum Effort, SRW <think>, deepseek formatting, Cot Zipbomb (Assistant)
 3. Chat History below CoT to restore OOC functionality (Prolix found a new way to fix it, skipSignaturemagic changes in search the channel)
 4. CoT Adherence CoT Zipbomb changes (Seen above) to enforce CoT Adherence.
-
-Works beautifully.
-
-
-
-## Helper Questionnaire
-
-Please let us know: 
-1. Your model and your provider (Unless it's a reverse proxy, in which case just tell us if it is one and keep the name secret please).
-2. What Post Processing in the connection tab is set to.
-3. What your assistant section (the last one) under Lumia prompts looks like (which ones you have toggled on).
-4. Under chat completions (under the samplers), what request reasoning is set to and what the reasoning effort is set to, and what squash system messages is set to.
-5. Under the A up top (advanced formatting), what your reasoning formatting looks like, and what start reply with is set to.
-
-
----
-
-
 
 ---
 
