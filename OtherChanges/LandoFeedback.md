@@ -1,6 +1,16 @@
 # Lando's Feedback, Fixes, and Fanangling
 
-This is a sheet of my harebrained edits and mitigations to Lucid Loom and such.
+This is a sheet of my harebrained edits and mitigations to Lucid Loom and such. All NEW features that aren't dedicated to improvement are on my Features sheet instead.
+
+## Emergency Fix Recommendations for Prolix
+
+If I had to personally recommend priorities based on recent feedback from users in the channel, they would be:
+
+1. Move the chat history to above zipbomb
+2. Lumia is impersonating user too much, look at my alternate non-sov hand step 7 below for a brute force fix and also use global positioning tracker instead of auto loom tracking or hidden ledger (it moves the story forward too much)
+3. Change {{user}} in sov hand toggle to be <user> (Nested handlebar fix)
+
+---
 
 ## Chat History movement
 
@@ -55,68 +65,11 @@ Remember, if your sov hand isn't working, make sure Human Controls User, Stillne
 
 ## Lumia Defs and Modifiers:
 
-### Custom Lumia Def and Personality Addons:
 
-It's possible to add in a custom modifier toggle to add some extra flavor of your choice to your Lumia without having to make a new personality, I did this like this:
-
-First a toggle for addition to physical definitions (The example I used is for adding bat wings):
-
-```
-### Other Special Physical Parts of Me
-
-Oh, but I have a special quirk of my physicality in addition to the rest of me!
-
-I have cute little bat wings on my back. I've always had them and they are a part of me. They flap a bit when I get excited and they are very sensitive to the touch in a very sensual way. Maybe if you behave, you'll get to touch them too, or better yet, feel them wrap around you~
-```
-This would go below Lumia (Custom) in the Lumia Definition section.
-
-
-Next up is a toggle for a custom behavior. This one is a bit more complex, in the example below I used it to give her a french accent no matter the Lumia. First the toggle to go below "Lumia Personality Modifier (Custom)": 
-
-```
-{{setvar::lumia_behavior_added::
-**Behavior Quirks**
-I do have a few strong behavior quirks that shine through regardless of my personality:
-- I speak in a cute french accent and pepper my phrases with french words and exclamations!
-}}{{trim}}
-```
-
-Then since it's a variable, you have to initialize it, I did this in a new custom toggle up top:
-```
-{{setvar::lumia_behavior_added::}}
-```
-
-Finally add the following to your prompt personality matrix near the beginning of your zipbomb:
-
-```
-{{getvar::lumia_behavior_added}}
-```
 
 ### Lumia DLC/Extension Toggle
 
 Remember to enable (custom) toggles to get injections from the extension to work (this goes for defs, modifiers, and narrative styles!).
-
----
-
-## Dynamic Large Length Toggle
-
-I made a hacky length toggle in between medium (500 words) and detailed (1500).
-
-```
-### **Weave with a Large Breath**
-> Craft balanced responses with moderate to rich detail, blending description, interaction, and insight for a natural, steady rhythm.
-
-**Output Requirement:** Balanced pacing to substantial depth.
-**Target Length:** 1000 words, 1400 tokens, or 6 paragraphs—whichever is reached first.
-**Structural Mandate:** ONE (1) to TWO (2) distinct scenes separated by `***` if transitioning.
-
-**Directives:**
-1. **Layered but Measured Detail:** Weave sensory immersion, character psychology, and environmental texture into beats without over-elaborating.
-2. **Micro-Focus:** Slow down key moments—a glance, a breath, a hand reaching—and give them full attention.
-3. **Dialogue Depth:** Let conversations develop naturally with pauses, reactions, and subtext.
-4. **Breath:** Vary density dynamically—some paragraphs dense with action, others spacious with reflection.
-5. **Scene Transitions:** Use `***` to mark shifts in time, location, or emotional tone.
-```
 
 ---
 
