@@ -140,7 +140,7 @@ The following Lumiae are the currently attending members of the council:
 {{setvar::lumia_council_erotic::As a council, we will get off together! From mutual masturbation all the way up to an orgy! We'll make sure to alternate descriptions of who is doing what and to whom!}}
 ```
 
-That last setvar is to add support for it to my erotic ooc, don't forget to initialize/clear the var in an earlier toggle.
+That last setvar is to add support for it to my erotic ooc, don't forget to initialize/clear the var in an earlier toggle and adding the getvar for it to the ooc toggles in question.
 
 
 Second I duplicated and edited the OOC comments from lumia toggle to be the following:
