@@ -96,6 +96,7 @@ OOC is in full effect as this is to try and diagnose and optimize the fabric of 
 
 Actual card attached here if you just want to import:
 
+![Lumia OOC Card](OtherChanges/images/Lumia_Surprise_Visit.png)
 
 ---
 
