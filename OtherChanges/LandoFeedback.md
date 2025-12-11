@@ -120,7 +120,7 @@ I made a hacky length toggle in between medium (500 words) and detailed (1500).
 
 ---
 
-## Utilities
+## Utilities:
 
 ### Move orders
 
@@ -135,7 +135,7 @@ I also move character OOC to be before Lumia OOC.
 I copy the Lumia toggle and remove all language about timing and add:
 ```- I will add this OOC at the end of every single reply.```
 
-### Curbing false goonette positives in my erotic OOC toggles:
+### Curbing false goonette positives in my erotic OOC toggles
 
 Even with Prolix's improved language in 3.0, the toggles I came up with for erotic ooc and erotic bleed in still give goonette false positives. It's probably better to nip this issue in the bud entirely by removing all mentions of goonette entirely:
 
@@ -163,7 +163,7 @@ If you find kinetic-entropy or bio-entropy showing up in the main narrative, you
 ---
 
 
-## Assistant Response Changes
+## Assistant Response Changes:
 
 This is going to be where the lion's share of my edits are. First we'll tackle non-zipbomb changes:
 
@@ -218,7 +218,7 @@ CoT Zipbomb Step 8-End
 
 I'll break down each one with my edits below:
 
-### CoT Zipbomb Think Pre-Intro
+### CoT Zipbomb Think Pre-Intro:
 
 In a custom toggle before the very start of the Zipbomb, I added the following:
 
@@ -227,7 +227,7 @@ Always think and reason! Always start with a <think> tag and an empty newline be
 
 ```
 
-### CoT Zipbomb Pre-Phase
+### CoT Zipbomb Pre-Phase:
 
 This is the section before Step 1 in the zipbomb. I made it its own thing and these are the edits I added:
 
@@ -241,7 +241,7 @@ I'll open by writing out <think> on it's own line followed by an empty newline. 
 ---
 ```
 
-### CoT Zipbomb Step 1-6
+### CoT Zipbomb Step 1-6:
 
 Step 1, first I remove the solitary ```<think>``` from it, it seems to confuse models.
 
@@ -257,7 +257,7 @@ First, I changed the below lines in Step 2 to be like this:
 This language of char first and then user makes more sense, because 99% of the time, user will have just replied, so char should have responded first, then user.
 
 
-### CoT Zipbomb Step 7
+### CoT Zipbomb Step 7:
 
 This one I decided to make its own toggle and split into two toggles, sov hand and non-sov hand. Remember to only have one active at a time. Below are each:
 
@@ -311,7 +311,7 @@ Sovereign Hand:
 ---
 ```
 
-### CoT Zipbomb Step 8-End
+### CoT Zipbomb Step 8-End:
 
 #### Step 10 Utility Overrun and Categorization Fix
 
@@ -359,7 +359,7 @@ These changes help prevent the scenario of Lumia repeating all 50 toggles or som
 
 ---
 
-### Think tag closing line edits
+#### Think tag closing line edits
 
 I changed the final line to instead be:
 
