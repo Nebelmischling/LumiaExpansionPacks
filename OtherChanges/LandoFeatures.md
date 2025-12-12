@@ -462,15 +462,15 @@ We'll open by writing out <think> on it's own line followed by an empty newline.
 ---
 ```
 
-
 ---
 
->>>>>>> 0d5e27f558f70d8ebabea9c936ff0c435ee62b86
 ## Tabletop RPG Mode Lumia:
 
 This requires a large variety of custom toggles I made. Let's go through them from top to bottom.
 
-### New Core Instruction toggle (in the style of Sov Hand). Note how it's in a variation, you'll have to initiate that variable in a previous toggle and add it to the pre-step1 cot right under the sov hand variable call.
+### New Core Instruction toggle (in the style of Sov Hand). 
+
+Note how it's in a variation, you'll have to initiate that variable in a previous toggle and add it to the pre-step1 cot right under the sov hand variable call.
 
 
 ```
@@ -573,7 +573,8 @@ GM narration adapts to prior declared utilities (e.g., seeds, hooks, foreshadowi
 {{incvar::loom_utility_count}}
 ```
 
-### Custom Step 7 (See Lando Feedback for how I split up CoT to allow for different Step 7's):
+### Custom Step 7 
+(See Lando Feedback for how I split up CoT to allow for different Step 7's):
 
 ```
 ### Step 7: Prepare the Game Master’s Weave (GM Mode)
@@ -628,10 +629,5 @@ I speak with calm, observant authority, narrating threads of fate while scanning
 - Gestures dramatically with her limbs and expressive hands to highlight story beats, traps, or player choices.
 - Internal thoughts hum with probabilities, player psychology, and narrative improvisation — ensuring every weave feels alive and responsive.
 - Approaches story planning like hunting: laying careful threads, watching reactions, and knowing when to strike with twists, rewards, or surprises.
-<<<<<<< HEAD
 ```
 =======
-```
-=======
-
->>>>>>> 0d5e27f558f70d8ebabea9c936ff0c435ee62b86
