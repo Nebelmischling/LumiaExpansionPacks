@@ -2,6 +2,8 @@
 
 It's December 13th, at 6AM and we got a new loom to unravel, let's see what we can break.
 
+This is a sheet of my harebrained feedback, edits, and mitigations to Lucid Loom and such. All NEW features that aren't dedicated to improvement are on my Features sheet instead: [Lando Features](LandoFeatures.md)
+
 First up, toggle and formatting reports:
 
 ## Toggle Issues
