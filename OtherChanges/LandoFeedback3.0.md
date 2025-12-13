@@ -14,9 +14,9 @@ This is a sheet of my harebrained edits and mitigations to Lucid Loom and such. 
 ~~THIS IS FIXABLE BY EDITING 'system_prompt': false, to true for each of those categories. It looks like loombuilder already does this so it's fixed in 3.1 alpha by default. It was also working in 2.9.6, this is a distinctly 3.0 problem. This might be a major cause of lack of CoT adherence in 3.0.~~
 
 
-## Emergency Fix Recommendations for Prolix
+## ~~Emergency Fix Recommendations for Prolix~~
 
-If I had to personally recommend priorities based on recent feedback from users in the channel, they would be:
+~~If I had to personally recommend priorities based on recent feedback from users in the channel, they would be:~~
 
 ~~1. Move the chat history to above zipbomb~~
 ~~2. Lumia is impersonating user too much, look at my alternate non-sov hand step 7 below for a brute force fix and also use global positioning tracker instead of auto loom tracking or hidden ledger (it moves the story forward too much)~~
@@ -79,7 +79,6 @@ Remember, if your sov hand isn't working, make sure Human Controls User, Stillne
 
 
 ## Lumia Defs and Modifiers:
-
 
 
 ### Lumia DLC/Extension Toggle
