@@ -35,9 +35,9 @@ This is a sheet of my harebrained edits and mitigations to Lucid Loom and such. 
 
 - ~~If you get bad OOC, you can try putting it after zipbomb, but I don't recommend it anymore.~~
 
-## Issues with tags not closing in OOC and Loom Ledgers
+## ~~Issues with tags not closing in OOC and Loom Ledgers~~
 
-- Ensure that trim incomplete sentences is off in Advanced Formatting (A tab at top of sillytavern)~~
+- ~~Ensure that trim incomplete sentences is off in Advanced Formatting (A tab at top of sillytavern)~~
 
 ---
 
