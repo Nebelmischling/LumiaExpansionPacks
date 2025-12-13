@@ -2,6 +2,16 @@
 
 This is a sheet of my harebrained edits and mitigations to Lucid Loom and such. All NEW features that aren't dedicated to improvement are on my Features sheet instead: [Lando Features](LandoFeatures.md)
 
+
+## New Emergency break for 3.0
+
+## ALL HEADERS IN 3.0 ARE BROKEN
+
+NONE OF THEM SEND TO THE RAW PROMPT, THIS MEANS THE ```<LOOM_CATEGORY>``` TAGS DON'T WORK AND ALL MARKDOWN HEIRARCHY IS BROKEN. THIS IS BECAUSE THE HEADERS ARE SYSTEM/GLOBAL PROMPTS, INSTEAD OF PRESET/USER PROMPTS. THIS IS WHY THEY DON'T HAVE TOKEN COUNTS, THEY DON'T SEND TO THE LLM.
+
+THIS IS FIXABLE BY EDITING 'system_prompt': false, to true for each of those categories. It looks like loombuilder already does this so it's fixed in 3.1 alpha by default. It was also working in 2.9.6, this is a distinctly 3.0 problem. This might be a major cause of lack of CoT adherence in 3.0.
+
+
 ## Emergency Fix Recommendations for Prolix
 
 If I had to personally recommend priorities based on recent feedback from users in the channel, they would be:
@@ -9,6 +19,9 @@ If I had to personally recommend priorities based on recent feedback from users 
 1. Move the chat history to above zipbomb
 2. Lumia is impersonating user too much, look at my alternate non-sov hand step 7 below for a brute force fix and also use global positioning tracker instead of auto loom tracking or hidden ledger (it moves the story forward too much)
 3. Change {{user}} in sov hand toggle to be ```<user>``` (Nested handlebar fix for those who don't use extension sovhand)
+4. NEW ONE, NEW ONE. ALL HEADERS IN 3.0 ARE BROKEN.
+
+
 
 ---
 
