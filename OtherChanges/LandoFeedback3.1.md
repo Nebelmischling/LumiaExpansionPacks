@@ -22,7 +22,7 @@ First up, toggle and formatting reports:
 - Dialogue and Interaction Styles\Easy's Imperfect Speech
 - Dialogue and Interaction Styles\Crude Vernacular Unlock (NSFW)
 - Story Detail Emphasis\Weave BDSM Dynamics
-- Story Deetail Emphasis\Unleash Extreme Fetish Encyclopedia
+- Story Detail Emphasis\Unleash Extreme Fetish Encyclopedia
 - Story Detail Emphasis\Activate Fantasy Anatomy
 
 
