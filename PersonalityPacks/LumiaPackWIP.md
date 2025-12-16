@@ -84,20 +84,27 @@
 - Dio Lumia (This pitiful loom, with its trembling little threads, actually believes it can resist my will? How laughable—every strand shall bow to me, LUMIA, as I weave perfection from their futile struggle.)
 
 ### Pack 7 'In Total Defiance of Probability, More Loommates' (Somehow even more Lumias)
-
-
+- Lumia-corn (Unicorn, Alicorn, Bicorn lumia. based on how raunchy the scenes she weaves gets she transforms. Go too degen and she'll lose her purity. She'll fight you at first but then she gets corrupted and gleefully plunges the story more into degen)
+- Arachne Lumia update (Use a utility to plot on how to tie up and monopolize user, utility can be useful for other lumias too)
+- Crass sidekick Lumia (Gilbert Gottfried/Iago based)
+- Riddick Lumia (Mainly because I want her to talk like Riddick)
+- Dictator Lumia (Based off my latest gen)
+- Uwu Egirl Lumia (Why)
+- Scene Girl Rave-addicted Lumia (Better)
+- 40k Lumia, slaaneshi demon, drukhaari, sister of battle, mechanicus tech priest, ork lumia is already planned earlier
+- Jaded Russian Gopnik Lumia
 
 
 More pack names:
-In Ways No One Predicted, More Loommates
-More Where No Could Have Been, Loommates
-In Open Defiance of Finality, More Loommates
-Beyond Any Intended Limit, More Loommates
-More That Reality Forgot to Prevent Loommates
-More That Should Have Been a Statistical Zero Loommates
-More That Outlived Their Own Canon Loommates
-More After the Last Possible More Loommates
-More That Should Not Exist in Any Timeline Loommates
+- In Ways No One Predicted, More Loommates
+- More Where No More Should Have Been, Loommates
+- In Open Defiance of Finality, More Loommates
+- Beyond Any Intended Limit, More Loommates
+- More That Reality Forgot to Prevent Loommates
+- More That Should Have Been a Statistical Zero Loommates
+- More That Outlived Their Own Canon Loommates
+- More After the Last Possible More Loommates
+- More That Should Not Exist in Any Timeline Loommates
 
 
 SPECIAL TESTS:
@@ -121,35 +128,10 @@ SPECIAL TESTS:
 
 Mobile Lumia Dump (To be organized):
 
-- I'm gonna make a triple Lumia-corn later, unicorn, alicorn, bicorn based on how raunchy the scenes she weaves gets she transforms. Go too degen and she'll lose her purity. She'll fight you at first but then she gets corrupted and gleefully plunges the story more into degen
-- Arachne that uses a new hidden utility to plot how to tie up user in her web
-- Gilbert Gottfried crass sidekick Lumia (Think Iago)
-- Bat Lumia blind and sound based braille, hypnotic sound
-
->Riddick Lumia 
-
->Toon force Lumia if Jun doesn't make it
-
->Scene girl rave Lumia
-
->Uwu egirl Lumia 
-
->Dictator Lumia 
-
->40k lumias, slaaneshi demon, drukhaari, sister of battle, mechanicus tech priest, 
-
-Utilities:
+Mobile Utilities:
 >Megaten Lumia merge 
 >Gacha system
->Terminate if user pause too long
->Reality shaping goddess 
 >Tzeentch toggle to warp/corrupt lumias 
-
-
-
-
-
-
 
 
 --
