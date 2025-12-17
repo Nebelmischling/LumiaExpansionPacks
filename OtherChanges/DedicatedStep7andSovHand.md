@@ -11,7 +11,9 @@ It is also an overhaul of the core directives, the pre-Step 1 CoT, and Step 7 to
 
 This means no more non-sov instructions on sov hand, and no more sov hand instructions on human controls user!
 
-This will load a bespoke step 7 for each directive! (Be sure to only pick one directive)!
+This will automatically load a bespoke step 7 for each directive via variables (same tech as sov hand instructions in live)! 
+
+Be sure to only pick one narrative type directive! (You would do this in 3.1.1 anyways) Prolix, you might want to make it its own section separate from core, immersion lock, etc. for clarity tbh.
 
 <img width="571" height="356" alt="image" src="https://github.com/user-attachments/assets/443aa5f2-5b35-4a44-b064-bb4b46d54749" />
 
