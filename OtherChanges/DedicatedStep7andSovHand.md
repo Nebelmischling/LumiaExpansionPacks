@@ -13,6 +13,9 @@ This means no more non-sov instructions on sov hand, and no more sov hand instru
 
 This will load a bespoke step 7 for each directive! (Be sure to only pick one directive)!
 
+<img width="571" height="356" alt="image" src="https://github.com/user-attachments/assets/443aa5f2-5b35-4a44-b064-bb4b46d54749" />
+
+
 The only changes I'd recommend outside of just adding/editing the below toggles is changing character behavior to "message content" if you use single user or none post processing (more on why I rec that below).
 
 ## Variable Inits
