@@ -311,7 +311,7 @@ Who said the last reply in chat history: Human as <user> or Lumia as <char>? Rem
 ```
 
 
-APPENDIX:
+## APPENDIX:
 
 My Chat History Guardrail to help isolate it for single user and none:
 
