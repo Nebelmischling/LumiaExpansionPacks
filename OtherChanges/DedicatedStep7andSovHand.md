@@ -5,6 +5,8 @@
 
 ### CONSIDER THIS A SIMPLE PREVIEW UNTIL I CAN DO MORE TESTING, YOU HAVE BEEN WARNED.
 
+### TODO: Anti-Echo error handling (Warning message if Sov Hand or TTRPG is on along with Anti-Echo!)
+
 The following is an overhaul of Sov Hand to include Easy's Fixes but also a fix of my own that allows for it to properly know when it's replying to itself and to disable sov hand in that case.
 
 It is also an overhaul of the core directives, the pre-Step 1 CoT, and Step 7 to have unique variations for each to avoid having conflicting instructions.
