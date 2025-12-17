@@ -9,6 +9,11 @@ The following is an overhaul of Sov Hand to include Easy's Fixes but also a fix 
 
 It is also an overhaul of the core directives, the pre-Step 1 CoT, and Step 7 to have unique variations for each to avoid having conflicting instructions.
 
+This means no more non-sov instructions on sov hand, and no more sov hand instructions on human controls user!
+
+This will load a bespoke step 7 for each directive! (Be sure to only pick one directive)!
+
+The only changes I'd recommend outside of just adding/editing the below toggles is changing character behavior to "message content" if you use single user or none post processing (more on why I rec that below).
 
 ## Variable Inits
 
