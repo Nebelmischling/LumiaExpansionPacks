@@ -19,7 +19,7 @@ Testing Battery:
 
 #### Auto-Weave:
 - Currently Testing
-- 12/12 Successes on GLM 4.6 Thinking (Single User Post, Character Behavior: Message Content)
+- 20/20 Successes on GLM 4.6 Thinking (Single User Post, Character Behavior: Message Content)
 
 
 #### TTRPG Mode:
