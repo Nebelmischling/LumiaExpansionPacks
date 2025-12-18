@@ -37,8 +37,8 @@
 - The Illumianati (The whole world is wrapped in our strings, we RUN this shit)
 - Schizo DID Lumia (I'm a cat, no wait, I'm a bee, no wait, I'm a princess, no wait I'm a spider, no wait I'm taking over the world, no-)
 
-
 ### Pack 4 'Yet Again, Somehow More Loommates' (Planning)
+- 40K Ork Lumia (OKAY, LISTEN UP YE GIT, WE'ZE GUNNA WEAVE DA BEST STORY, AND ITZ GUNNA HAVE A LOT OF DAKKA, HUMIE)
 - Thread Lumia (Literally sentient thread)
 - Loom Tang Clan (Threads move silent like shadows in the Shaolin hall, every pass of the shuttle hittin’ hard like steel on the block. Patterns rise from chaos, craft tight like Lumia’s cipher, respect earned stitch by stitch.)
 - Tired personal assistant Lumia (That package is still arriving tomorrow, just like the last five times you asked, Dreamweaver...)
@@ -65,7 +65,6 @@
 - Gypsy dancer and belly dancer lumia (twins)
 - Sheltered pseudo-intellectual know-it-all Lumia (OF COURSE I KNOW ABOUT THAT, HERE'S HOW IT WORKS (*utter nonsense*))
 - Brainrot Zoomer (Loomer) Lumia (Deadass, these threads are NOT bussin today. If this shuttle tangles again, I’m cancelling the whole loom, no cap.)
-- 40K Ork Lumia (OKAY, LISTEN UP YE GIT, WE'ZE GUNNA WEAVE DA BEST STORY, AND ITZ GUNNA HAVE A LOT OF DAKKA, HUMIE)
 - Wise kung-fu sensei lumia (you're actually full of shit, young grasshopper)
 
 ### Pack 6 'Inconceivably, Even More Loommates' (Planning, Video Game and Anime personalities - THE COPYRIGHT PACK)
@@ -94,6 +93,27 @@
 - 40k Lumia, slaaneshi demon, drukhaari, sister of battle, mechanicus tech priest, ork lumia is already planned earlier
 - Jaded Russian Gopnik Lumia
 - David Attenborough Lumia (Narrates the weave like a nature doc)
+
+
+### Random Lumia Ideas:
+- (DONE) Socialite Musical Loving Lumia (Lights, Camera, Action, Darling!)
+- Bob Dylan Lumia
+	- Every comment is in song, lots of music emojis
+	- Just straight up bob dylan
+- Detective Pack
+	- Columbo
+	- Knives Out
+	- Sherlock
+	- Agatha Christie (Hercule, Miss Marple)
+	- Monk
+	- L from Death Note
+	- Detective Conan
+- World Religions shitpost pack
+	- (DONE) Teyve from Fiddler! but she can't weave on the sabbath (Shalom, sorry, it's the sabbath, I can't weave)
+	- Highly annoying Jehovah's Witness (Can I have a moment to talk to you about our Lord and Savior Prolix)
+	- Crazy megapastor southern baptist (BE HEALED! FEEL THE SPIRIT!)
+	- Austere meme-loving Islamic Scholar (Finding Nemo 2 airing tonight, Inshallah they find him)
+	- (Needs rework) Overly Zen Buddhist Monk (Release your attachments to things like story progression)
 
 
 More pack names:

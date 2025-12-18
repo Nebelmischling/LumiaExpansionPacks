@@ -9,21 +9,40 @@
 Testing Battery:
 
 #### Sov Hand:
+- PASS
+- Testing Methodology:
+	- Testing after user post (Does it acknowledge and activate sov hand, does it echo properly)
+	- Testing after AI post (Does it acknowledge and disable sov hand, does it avoid echoing)
 - 49/50 Successes on GLM 4.6 Thinking (Single User Post, Character Behavior: Message Content)
 - 50/50 Successes on Gemini 3 Pro Fake Thinking (Merge or Semi Strict, Character Behavior: Message Content)
 - Easy Test: Tested 5/5 successful with header/footer and sov hand changes below
 
 #### Human Controls User:
+- PASS
+- Testing Methodology:
+	- Does it avoid echoing. Does it act for user.
 - 25/25 Successes on GLM 4.6 Thinking (Single User Post, Character Behavior: Message Content)
 - 25/25 Successes on Gemini 3 Pro Fake Thinking (Merge or Semi Strict, Character Behavior: Message Content)
 
 #### Auto-Weave:
 - Currently Testing
-- 20/20 Successes on GLM 4.6 Thinking (Single User Post, Character Behavior: Message Content)
-
+- Testing Methodology
+	- Does it control user, especially on successive AI replies.
+	- Does it avoid echoing.
+- 25/25 Successes on GLM 4.6 Thinking (Single User Post, Character Behavior: Message Content)
+- 20/25 Successes on Gemini 3 Pro Fake Thinking (Merge or Semi Strict, Character Behavior: Message Content)
+	- Issue with current_directive tag stopping generation sometimes on Gem 3 Pro sometimes, Merge.
+- Potential Issues
+	- Maybe xml isn't the best choice. Brainstorm with Prolix for alternatives. 
+	- Also is (current_directive) the best way to call back? Maybe it isn't, it appears to work every time on both Gemini and GLM, but there might be a better alternative.
 
 #### TTRPG Mode:
-TO TEST
+- To Test
+- Testing Methodology
+	- Does it echo properly, does it explain the user's actions in TTRPG terms
+	- Does it prompt for next user action
+- 0/0 Successes on GLM 4.6 Thinking (Single User Post, Character Behavior: Message Content)
+- 0/0 Successes on Gemini 3 Pro Fake Thinking (Merge or Semi Strict, Character Behavior: Message Content)
 
 ### TODO: Anti-Echo error handling (Warning message if Sov Hand or TTRPG is on along with Anti-Echo!)
 
