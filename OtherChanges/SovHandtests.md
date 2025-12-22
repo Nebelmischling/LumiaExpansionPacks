@@ -1,4 +1,4 @@
-# Random Sov Hand Shit (3.1.1 Edition)
+# Random Sov Hand Shit for Prolix (3.1.1 Edition)
 
 
 ## Sov Hand vs Continuation Mode (Extension Edition)
