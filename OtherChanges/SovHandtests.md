@@ -63,6 +63,10 @@ People who agree that Lumia should still have control over {{user}}:
 
 <img width="350" height="89" alt="prolixresponse" src="https://github.com/user-attachments/assets/3a5b39ac-4732-4dbe-9cb3-d4b248a65127" />
 
+- Suban
+
+<img width="395" height="280" alt="subanreply" src="https://github.com/user-attachments/assets/fa8da080-0bc1-4259-8331-ddbb0928775b" />
+
 
 People we still need opinions from:
 - Suban
