@@ -5,14 +5,11 @@
 
 Right now in the extension you have two modes for Sov Hand, regular (user last reply) and continuation (char last reply).
 
-Both send out the full sov hand instructions. The continuation mode then sends out this blurb about continuation:
+Both send out the full sov hand instructions via {{loomSovHand}}. The continuation mode then sends out this blurb about continuation under the sov hand instructions:
 
-```
-CONTINUATION MODE:
-Note: The character was the last to speak. Continue the scene naturally without waiting for Human input. Progress the narrative organically, maintaining momentum and character voice.
-```
+<img width="781" height="150" alt="continuationmode" src="https://github.com/user-attachments/assets/c0f4a549-9b35-4b94-9f28-07d642f2c38a" />
 
-This continuation mode instruction is at odds with the instructions sent just before it.
+These continuation mode instructions are at odds with the instructions sent just before them.
 
 Sov Hand instructions are mostly about echoing human input and elaborating on it.
 
@@ -28,6 +25,8 @@ This way you ensure it only follows continuation mode instructions 100% of the t
 
 The only thing left to decide is then what it should be able to do in continuation mode, for this there are two options, which I will cover in the next section.
 
+
+
 ## Should Lumia have control over {{user}} in a continuation turn?
 
 What the title says.
@@ -36,16 +35,34 @@ If she has control over {{user}}, like she already does in sov hand, she'll be a
 
 If she doesn't, the {{user}} will sit there immobile while everyone around them comments on how they have brain damage and are a mute (This is how successive character replies in human controls user works).
 
+I obviously see that as a problem:
+
+<img width="444" height="784" alt="userbraindead" src="https://github.com/user-attachments/assets/8f8115b1-d9ca-4adb-990f-92d3843ec9e1" />
+
+But do other people see it as a problem? Junigiri suggested polling the sov hand users.
 
 Polling of Sov Hand Users:
+
+<img width="653" height="192" alt="prolixpoll" src="https://github.com/user-attachments/assets/de90f4fa-bcd0-434f-b8d1-94b1e29c3a47" />
+
 
 People who never use continuation mode at all so it doesn't apply:
 - Easy
 
+<img width="311" height="386" alt="easyresponse" src="https://github.com/user-attachments/assets/734ab9c0-ad45-4bb2-a623-bd18ac056f2f" />
+
+
 People who agree that Lumia should still have control over {{user}}:
-- Lando
+- Lando (Hey that's me! Obviously I know what I want! Lumia should be able to have her way with me!)
 - Eleisea
+
+<img width="476" height="121" alt="eleisearesponse" src="https://github.com/user-attachments/assets/66902985-21c9-444b-841d-f7d299f1816c" />
+
+
 - Prolix
+
+<img width="350" height="89" alt="prolixresponse" src="https://github.com/user-attachments/assets/3a5b39ac-4732-4dbe-9cb3-d4b248a65127" />
+
 
 People we still need opinions from:
 - Suban
@@ -67,6 +84,9 @@ Right now there is a zipbomb for non-extension sov and a zipbomb for extension s
 These can be collapsed down into a single zipbomb with a single clever trick.
 
 With my new directive overhaul, it's already obvious that you are only supposed to pick one directive.
+
+<img width="586" height="221" alt="directives" src="https://github.com/user-attachments/assets/f5537788-ac1c-4f69-84f7-714df3a27e36" />
+
 
 So simply have a Sov Hand (Extension only) toggle that is empty with the following:
 
