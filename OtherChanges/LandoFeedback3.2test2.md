@@ -136,19 +136,3 @@ Title
 ### Dialogue Header opens \<loomnsfw> instead of dialogue
 
 Title
-
-
-.lumia-ooc-content {
-    color: rgba(255, 255, 255, 0.88);
-}
-
-.lumia-ooc-content em, .lumia-ooc-content i {
-    color: rgba(186, 135, 255, 0.9);
-    font-style: italic;
-}
-
-
-.lumia-ooc-content strong, .lumia-ooc-content b {
-    color: rgba(255, 255, 255, 0.95);
-    font-weight: 600;
-}
