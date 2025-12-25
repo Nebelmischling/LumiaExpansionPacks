@@ -88,7 +88,16 @@ Remember to replace the names in the template with their actual names! Remember 
 ---
 ```
 
+## Formatting issues:
 
-## Lumia OOC Controls
+### Lumia OOC Controls
 
 Minor formatting error in the second OOC example, missing the closing quote.
+
+### Double <loomcore>  in core instructions and the first core instruction
+
+What it says on the tin
+
+### Dialogue Header opens <loomnsfw> instead of dialogue
+
+Title
