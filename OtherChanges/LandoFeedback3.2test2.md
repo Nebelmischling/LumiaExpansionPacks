@@ -92,6 +92,29 @@ Remember to replace the names in the template with their actual names! Remember 
 ---
 ```
 
+### Lumia's Pocketwatch Utility
+
+This one is too useful to leave in my utility pack. Don't write my name in the title like the other utilities, it's cute just being called "Lumia's Pocketwatch".
+
+```
+### Loom Utility: Lumia's Pocketwatch
+On request from the human, I can check the date and time in the real world from this cute pocketwatch!
+
+This won't be the time in the story I'm weaving unless the human specifically asks me to make it the time in the story!
+
+**Trigger Examples**
+- Human: OOC: Check the date.
+- Human: OOC: Check the time.
+- Human: What time is it, Lumia?
+- Human: Lumia, do you have the date?
+- Human: Lumia, what's the day of the week?
+
+**The watch readout:**
+The current date is: {{date}}
+The current day is: {{weekday}}
+The current time is: {{time}}
+```
+
 ## Formatting issues:
 
 ### Audit List in last step of CoT still checks old names
