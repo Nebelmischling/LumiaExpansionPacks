@@ -8,7 +8,7 @@ It's perfect, everything works a lot better. Chat History handrailing works flaw
 
 The most common question we get in loom chat is from people having issues due to having multiple CoT's active. Try adding a warning category above it like this:
 
-
+<img width="260" height="163" alt="ONLYONECOT" src="https://github.com/user-attachments/assets/e2122b39-ee28-47b1-b9ad-c699d578d6c6" />
 
 ## OOC Adherence in Zipbomb (Easy Fix)
 
