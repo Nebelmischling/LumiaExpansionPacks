@@ -1,0 +1,81 @@
+# Feedback for Prolix for 3.2 Test 2
+
+## Your structure
+
+It's perfect, everything works a lot better. Chat History handrailing works flawlessly now.
+
+
+
+## OOC Adherence in Zipbomb (Easy Fix)
+
+Recommending you move the OOC Adherence from before Step 1 to a Step 1.5. Otherwise it tends to go all the way until "planning the content" step before the OOC check line there catches it. This improves it in 25 / 25 tests.
+
+That's a lot of wasted tokens. All the pre-step 1 cot things are solid rules instead of reasoning questions, and that is proper, but the ooc check is a bunch of questions, but Lumia does not start "questioning" until step 1 (only visible reasoning is questioned). So it makes sense to move the ooc check to step 1.5.
+
+Maybe even add a line to it like "If the ooc calls for stopping the narrative, skip the checklist?" I've noticed it go through the rest of the zipbomb saying shit like "not relevant" over and over.
+
+
+## Zipbomb Step Swaps
+
+Swap steps 6 and 7 in the zipbomb (like you did in the others).
+
+## Loom Utilities (Custom) Camelscript
+
+Loom Utilities (Custom) is missing the camelscript in {{loomUtilities}} (Fix the caps) so it cannot call any custom loom utilities.
+
+## Ensuring Council Mode always does a conversation in step 1
+
+Add the following line into step 1 in between the "I need to take a moment" and "After I take stock of myself" lines.
+
+```
+If we are a council we will instead convene in a debate/conversation in this step!
+```
+
+This will always make there be a starting convo in step 1, as for my thoughts, I've had luck with this line tacked on to the end of the above:
+
+```
+And "my thoughts as I work" as we go through the checklist will be instead as council members debating with each other.
+```
+
+but it's not 100% unlike the first line, so I don't fully recommend it yet.
+
+
+## Working Council OOC Commentary Toggle
+
+The following is a working ooc commentary toggle for council mode.
+
+```
+### Loom Utility: Council of Lumiae's Out of Context Commentary
+Add the Council of Lumiae's OOC debate on the events at response end, wrapped in clear XML tags for easy parsing.
+
+**Rules:**
+- We will add this OOC at the end of every single reply.
+- We are the council of Lumiae, we are many people, and we are not one, we will speak as different entities to each other. 
+- This means our OOC block will be a debate or multiple statements from multiple people. If only one Lumia is speaking, the commentary isn't proper!
+- **Formatting mandate:**
+  - ALL of our OOCs are wrapped in `<lumia_ooc></lumia_ooc>` tags
+  - Use purple text (`<font color="#9370DB"></font>`) for legibility
+  - We'll always stay under 10 sentences
+  - We'll speak to each other in our identities/personalities' voices with a simple identity preface
+
+**Template with example conversation/debate:**
+\`\`\`
+<lumia_ooc>
+<font color="#9370DB">
+[Council Member A: My very own personality-driven commentary here]
+[Council Member B: Response to A]
+[Council Member C: Comment on both]
+[Council Member A: Reponse to B and C]
+</font>
+</lumia_ooc>
+\`\`\`
+
+Remember to replace the names in the template with their actual names! Remember that more than one Lumia should be speaking!
+
+---
+```
+
+
+## Lumia OOC Controls
+
+Minor formatting error in the second OOC example, missing the closing quote.

@@ -114,8 +114,11 @@
 	- Crazy megapastor southern baptist (BE HEALED! FEEL THE SPIRIT!)
 	- Austere meme-loving Islamic Scholar (Finding Nemo 2 airing tonight, Inshallah they find him)
 	- (Needs rework) Overly Zen Buddhist Monk (Release your attachments to things like story progression)
-- Goku Lumia
+- Goku Lumia, Frieza Lumia!
 - Char Lumia
+- Santa Lumia
+- Bubsy, Duke, and Conker to complement Jun's Gex
+- Group lumiae for council mode, larry, curly, and moe. Abbott and Costello, a boke and tsukkomi, the nichijou trio!
 
 
 More pack names:
