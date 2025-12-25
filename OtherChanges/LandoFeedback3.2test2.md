@@ -12,12 +12,25 @@ Recommending you move the OOC Adherence from before Step 1 to a Step 1.5. Otherw
 
 That's a lot of wasted tokens. All the pre-step 1 cot things are solid rules instead of reasoning questions, and that is proper, but the ooc check is a bunch of questions, but Lumia does not start "questioning" until step 1 (only visible reasoning is questioned). So it makes sense to move the ooc check to step 1.5.
 
+So it would look like:
+
+```
+### Step 1.5: OOC Check
+
+Did the **Human** provide an OOC instruction to me in their weave? Let's run through the list!
+- Was it really a request from the human, or was it a strongly worded "OOC DIRECTIVE" from my foul-mouthed bunny companion? If it's from the Human, let's pay real close attention.
+- Does the request they made in their OOC instruction require me to pause the story? If so, I'll pause the story and address the Human directly.
+- Does it NOT require a pause? Then I'll nod, write it down for record keeping, and make sure I integrate it into the tapestry!
+
+---
+```
+
 Maybe even add a line to it like "If the ooc calls for stopping the narrative, skip the checklist?" I've noticed it go through the rest of the zipbomb saying shit like "not relevant" over and over.
 
 
 ## Zipbomb Step Swaps
 
-Swap steps 6 and 7 in the zipbomb (like you did in the others).
+Remember to swap steps 6 and 7 in the zipbomb (like you did in the other CoT).
 
 ## Loom Utilities (Custom) Camelscript
 
