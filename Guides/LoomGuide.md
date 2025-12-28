@@ -579,9 +579,11 @@ Hit save in the profile preset after setting these.
 # Where to Go for Help!
 
 In the AI Presets discord:
+
 https://discord.gg/y6JPs948
 
 There is a Lucid Loom Channel in said discord:
+
 https://discordapp.com/channels/1357259252116488244/1414663352428396574
 
 I hang out there, as well as other regulars.
@@ -632,46 +634,60 @@ It's a beta on the loom channel. It has structure improvements, no need for usin
 
 Essentials for Loom:
 - Lumiverse Helper (Custom Loom Features)
+
 https://github.com/prolix-oc/SillyTavern-LumiverseHelper
 - Nemo Preset Extension (Make Loom Categories easier to navigate)
+
 https://github.com/NemoVonNirgend/NemoPresetExt
 
 
 THE GOATS:
 - Guided Generations (Lets you send next reply guidance to the LLM without having to send a reply)
+
 https://github.com/Samueras/GuidedGenerations-Extension
 - Moonlit Echoes Theme (Theme so ubiquitous, nearly everyone uses it, be sure to use glimmer)
+
 https://github.com/RivelleDays/SillyTavern-MoonlitEchoesTheme
 - Presence (allows you to set groupchat members to only see the scenes where they are present)
+
 https://github.com/lackyas/SillyTavern-Presence
 
 UI Improvements:
 - Custom Sliders (Add in missing sliders, like top k into openai)
+
 https://github.com/SillyTavern/Extension-CustomSliders
 
 To make your chats better
 - Silly Sim Tracker (Also by Prolix, the maker of Loom, a fancy tracker that can track stats, relationships, and loads of other stuff, works well with Loom!)
+
 https://github.com/prolix-oc/SillyTavern-SimTracker
 - Group SendAs (Send a message as a group member in a chat with an easy button)
+
 https://github.com/SillyTavern/SillyTavern-GroupSendAs
 - Timelines (Visual Novel Timeline based navigation for Branching Chat Histories)
 https://github.com/SillyTavern/SillyTavern-Timelines
 
 Better Memories:
 - Memory Books (Allows saving entire segments of multiple messages to lorebooks for cross chat recall)
+
 https://github.com/aikohanasaki/SillyTavern-MemoryBooks
 - World Info Recommender (Guided event creation from messages for lorebooks)
+
 https://github.com/bmen25124/SillyTavern-WorldInfo-Recommender
 
 Better Characterization:
 
 - BunnyMo (Lorebooks that allow smart insertion of character traits)
+
 https://github.com/Coneja-Chibi/BunnyMo
 - Carrotkernel (Automates the above)
+
 https://github.com/Coneja-Chibi/CarrotKernel
 
 Vectorization (A way to save context on messages, lorebooks, etc.):
 - Vecthare (Alternate Vectorization Storage Engine)
+
 https://github.com/Coneja-Chibi/VectHare
 - BananaBread (A vectorization/embedding server, you'd use the above to connect to it)
+
 https://github.com/prolix-oc/BananaBread
