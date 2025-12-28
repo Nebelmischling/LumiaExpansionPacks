@@ -130,7 +130,7 @@ Kimi K2 Thinking is used by some people in the loomchat. It tends to be problema
 
 I don't know a single person who still uses Qwen, but people used to a lot.
 
-#### Recommended Third Party Providers for Open Weight Models
+#### My recommended Third Party Provider for Open Weight Models
 
 My **personal** recommendation for using open weight models is through Nano-GPT. They have an 8 dollar subscription that lets you use 60,000 message requests per month, unlimited tokens on 80+ different open weight models. They do rotate providers as the tokens are used up on their end, so sometimes you'll have a slower provider, but you can't beat 8 bucks a month for practically unlimited requests (I've never even come close to 60k chat messages per month). The subscription includes 80+ open weight third party hosted text models with things like GLM 4.7, Deepseek 3.2-Thinking, Kimi K2, Qwen, a lot of local models (including the classic TheDrummer ones like Rocinante, Cydonia, etc.), four image models (Chroma, Hidream, Juggernaut XL (animagine based), and Qwen Edit), and lots of abliterated/derestricted/finetuned versions of popular models (TheDrummer's glm 4.5 air finetune called GLM Steam comes to mind).
 
@@ -138,6 +138,11 @@ You can find it by googling nanoGPT, or you can help me out by using my referral
 
 https://nano-gpt.com/invite/XFjmGJg8
 
+If you use Nano GPT with the subscription, you can access a subscription model only endpoint by entering the following as your custom (openAI-compatible) endpoint:
+
+https://nano-gpt.com/api/subscription/v1
+
+This will give you only the subscription models so you run 0 risk of accidentally spending money!
 
 Other Providers include Openrouter (no subscription, pay as you go), Featherless, Infermatic, ArliAI, and Chutes (Don't... just don't, chutes is awful).
 
@@ -448,8 +453,7 @@ Context Size 600k-1000k
 Response Size: 32762
 Streaming ON
 Temperature: 1
-Top K: 255
-Top P: .96
+Top P: 1
 
 -- Insert picture of this here --
 
@@ -522,3 +526,93 @@ Top P: .95
 
 Hit save in the profile preset after setting these.
 
+
+---
+
+
+# Appendix
+
+## What is Sovereign Hand (Sov Hand)
+
+Sovereign Hand is a feature pioneered by Easy and endlessly iterated on by Prolix. What it does is take your input on what {{user}} is doing in the message you send, and then in the next AI sent reply, it will rewrite and expand upon what you wrote into full prose with additional detail.
+
+So for example if you wrote {{user}} opened the door. It will write about {{user}} seeing the door, walking up to it, feeling the doorknob, opening it, etc.
+
+This means it echoes the last response, meaning you need to TURN OFF ANTI-ECHO DIALOGUE SEAL in the prose guidelines section (it's there in 3.1.1, 3.2 will have it in the same section as sov hand).
+
+It also means Lumia controls user, which means you need to TURN OFF HUMAN CONTROLS USER toggle.
+
+## Lumiverse Helper Extension
+
+This is an extension by Prolix, the same dev of Lucid Loom that can be found here:
+
+https://github.com/prolix-oc/SillyTavern-LumiverseHelper
+
+Features:
+
+- Import custom Lumias straight from the extension (I've pushed 40 Lumias there as of December 2025, and Prolix and Jun have pushed many of their own!)
+- Import custom narrative styles (I've pushed nearly 20 allowing Lumia to write from famous authors throughout history)
+- Import custom utilities (I'm about to push a pack!)
+- Better Sovereign Hand (Sov Hand that allows inserting the user message, trimming old context, and lots of other stuff)
+- Chat History Cleaning Features (Trim old Loom specific tags or any html from old replies)
+- Summarization (A summarization engine that supports alternate LLMs other than your main)
+
+## Nemo Preset Extension (Better organization for Prompts)
+
+This extension by Nemo allows you to have the categories nest in dropdowns in the prompt manager, saving your scroll finger and your sanity. Link here:
+
+https://github.com/NemoVonNirgend/NemoPresetExt
+
+It also has a bunch of other ui overhauls and features.
+
+## You mentioned 3.2?
+
+It's a beta on the loom channel. It has structure improvements, no need for using \<think\> on GLM anymore, and loads of other neat stuff, please look forward to the final release.
+
+## Recommended Extensions (My Personal Favorites)
+
+Essentials for Loom:
+- Lumiverse Helper (Custom Loom Features)
+https://github.com/prolix-oc/SillyTavern-LumiverseHelper
+- Nemo Preset Extension (Make Loom Categories easier to navigate)
+https://github.com/NemoVonNirgend/NemoPresetExt
+
+
+THE GOATS:
+- Guided Generations (Lets you send next reply guidance to the LLM without having to send a reply)
+https://github.com/Samueras/GuidedGenerations-Extension
+- Moonlit Echoes Theme (Theme so ubiquitous, nearly everyone uses it, be sure to use glimmer)
+https://github.com/RivelleDays/SillyTavern-MoonlitEchoesTheme
+- Presence (allows you to set groupchat members to only see the scenes where they are present)
+https://github.com/lackyas/SillyTavern-Presence
+
+UI Improvements:
+- Custom Sliders (Add in missing sliders, like top k into openai)
+https://github.com/SillyTavern/Extension-CustomSliders
+
+To make your chats better
+- Silly Sim Tracker (Also by Prolix, the maker of Loom, a fancy tracker that can track stats, relationships, and loads of other stuff, works well with Loom!)
+https://github.com/prolix-oc/SillyTavern-SimTracker
+- Group SendAs (Send a message as a group member in a chat with an easy button)
+https://github.com/SillyTavern/SillyTavern-GroupSendAs
+- Timelines (Visual Novel Timeline based navigation for Branching Chat Histories)
+https://github.com/SillyTavern/SillyTavern-Timelines
+
+Better Memories:
+- Memory Books (Allows saving entire segments of multiple messages to lorebooks for cross chat recall)
+https://github.com/aikohanasaki/SillyTavern-MemoryBooks
+- World Info Recommender (Guided event creation from messages for lorebooks)
+https://github.com/bmen25124/SillyTavern-WorldInfo-Recommender
+
+Better Characterization:
+
+- BunnyMo (Lorebooks that allow smart insertion of character traits)
+https://github.com/Coneja-Chibi/BunnyMo
+- Carrotkernel (Automates the above)
+https://github.com/Coneja-Chibi/CarrotKernel
+
+Vectorization (A way to save context on messages, lorebooks, etc.):
+- Vecthare (Alternate Vectorization Storage Engine)
+https://github.com/Coneja-Chibi/VectHare
+- BananaBread (A vectorization/embedding server, you'd use the above to connect to it)
+https://github.com/prolix-oc/BananaBread
