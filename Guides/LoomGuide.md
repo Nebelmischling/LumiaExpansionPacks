@@ -4,12 +4,12 @@ So you want to use Prolix's wonderful Lucid Loom preset? There are a lot of togg
 
 Table of Contents:
 
-About LLMs and Picking a model
-About Sillytavern and setting it up
-Downloading and Importing Lucid Loom
-Lucid Loom's Structure and Categories
-Configuring Reasoning to Work for Loom in Sillytavern
-Best practices and recommended settings for each model
+- About LLMs and Picking a model
+- About Sillytavern and setting it up
+- Downloading and Importing Lucid Loom
+- Lucid Loom's Structure and Categories
+- Configuring Reasoning to Work for Loom in Sillytavern
+- Best practices and recommended settings for each model
 
 ## What do I need to use Lucid Loom? First, pick a Model
 
@@ -285,11 +285,13 @@ Now that you have a better idea of what Loom looks like. Let's get to installing
 
 Okay, now that you've imported Loom and I've gone over the structure, we can configure it for proper reasoning!
 
-Thankfully there are only a few places we'll have to look to get reasoning up and running. I'll point out the locations and what they do first, and then we'll tackle how to set them up for each model afterwards.
+Thankfully there are only a few places we'll have to look to get reasoning up and running. I'll point out the locations and what they do first, and then we'll tackle how to set them up for each model afterwards. There are only three locations to set, prompt post processing, reasoning formatting, and chat completion settings. After that you just pick the right zipbomb, set your samplers to your flavor, and you are good to go!
 
 ### Prompt Post Processing
 
 In the API Tab underneath where you select the model is a dropdown called Prompt Post Processing. This alters the raw prompt sent out to the LLM to better help it understand which things are from the system and which are from the user.
+
+-- Insert screenshot of prompt post processing --
 
 There are several options:
 - None (no processing applied) 
@@ -304,8 +306,11 @@ Additionally there is tools or no tools for each of these. Tool calling lets llm
 
 In the advanced formatting tab (The A up top to the right of the API icon), you'll find that most of it is grayed out since most of these options are for text completion. However we still have a few important sections here.
 
+-- Insert screenshot of button for advanced formatting --
+
 To the lower left are three checkboxes under the context formatting section. These are user preference except for Trim Incomplete Sentences, you'll want this one UNCHECKED, or it can break loom tags and formatting.
 
+-- Insert screenshot of context formatting --
 
 On the lower right is the Reasoning formatting section.
 
@@ -319,6 +324,8 @@ Show Hidden shows the reasoning time for models with hidden reasoning, I recomme
 
 Below that is a **Reasoning Formatting** dropdown you can expand. This is where you set the reasoning formats.
 
+-- Insert screenshot of reasoning formatting section --
+
 I recommend for pretty much everything that you pick Deepseek here. Gemini uses it, Claude uses it, GLM uses it, and of course Deepseek uses it. Both fake and native reasoning models will use deepseek formatting, and if they don't, there's no harm in leaving this on deepseek anyways.
 
 The dropdown sets the next two boxes, Prefix and Suffix, which are what will open and close the reasoning block.
@@ -331,16 +338,187 @@ Separator is usually always empty.
 
 Below that in miscellaneous is one box that we care about, **Start Reply With**
 
+-- Insert screenshot of start reply with section here --
+
 Start Reply With is ALWAYS empty for native reasoning models like GLM and Deepseek, and usually filled with the same thing you have in the prefix for fake reasoning models like Gemini and Claude.
 
+This is important! If your reasoning doesn't work, Start Reply With is the first place you should check.
+
+These reasoning models save with your API settings, so hit SAVE on the api page after editing them (yes, they save with the api profile, not with the preset settings).
+
+-- Insert Photo of API Save Button here --
 
 
+### Chat Completion Reasoning Settings
 
- although first we need to answer, are you going to use fake reasoning or native reasoning? Both work well, don't worry. Which one you choose will depend on the model, frontier models tend to use fake reasoning, and chinese open weight reasoner models tend to use native reasoning.
+In the left hand Chat Completion menu above where the loom toggles are and below the sampler sliders is a little dropdown called Chat Completion Settings.
 
-For this I've collected information from all the regular users of Lucid Loom active in the channel.
+In there is a toggle option call "Squash System Messages". This can be used for some prompt post processing options like None, but unless directed to, I'd recommend you leave this UNCHECKED.
 
-### Fake Reasoning (Gemini, GPT, Claude)
+The important sectino is below that. Two options both related to Reasoning.
 
-For fake reasoning, we'll be "tricking"
+Request Model Reasoning affects the ability of Sillytavern to show incoming native/non-fake reasoning at all. If you are using native reasoning, this checkbox MUST BE ON (you'll still receive reasoning without it on, but sillytavern will not show it, meaning you just wasted tokens for no reason).
+
+Next is Reasoning Effort, this one is important for every model. For native reasoning models like Deepseek or GLM, you want it on Maximum. For models where you don't want to use the reasoning and instead want to use "Fake" reasoning, you want it on minimum or auto (sometimes auto means off, your mileage may vary).
+
+So it's ON / Maximum for GLM and Deepseek, OFF / Minimum for Gemini and Claude!
+
+### Zipbomb Choice
+
+I'll go over this in more detail in the per model best options, but typically you want cot zipbombs for fake reasoning models (Gemini, Claude), and reasoner zipbomb for native reasoning models (GLM, Deepseek)
+
+## Non-Reasoning Related Options
+
+There are some universally useful options for every model.
+
+Context Size is how big the context is. Every model has a different value (GLM is 200k, Gemini is 1 million). Sometimes setting it to 2/3's the max context provides better results (I follow this rule as a law).
+
+Max Response Length is how big the response you can get back is. I suggest 16384 or 32768.
+
+Streaming On or Off. Streaming off means you won't get any reply until the entire reply is posted. Loom works perfectly with it on, so turn it on so you can see the thinking in realtime!
+
+Samplers are the sliders that determine how creative or non-creative a model is. There are typically three samplers we play around with:
+
+Temperature. Temperature determines how "whacky" the output of the model is. Higher temp = more whacky. Lower temp = less creative. Every model has a happy medium.
+
+Top K. Top K determines how many of the most likely option is taken. Let's say I meet someone and I want to say hi. When I open my mouth, the most common thing I might say is Hello, followed by Hi, or Heyo, or what's up, for example. Top K's value takes those most common values and cuts them off. So a Top K of 40 means only the 40 most likely values are kept and the rest are discarded.
+
+Top P. Top P is a way to make the least likely value more likely. It works like a curve in test grading. Everyone gets the benefit of the curve, and it hurts the top/most likely response the most while benefitting the lowest one the most.
+
+These are the main three samplers people play around it, the rest are to user's taste more often. Top K might be missing from your options, you can send it with additional parameters or the custom sliders extension if so (not that important).
+
+So which setting is best for each model? The following is collected from the common users of the Lucid Loom discord chat.
+
+## Best Settings for each model (Current as of Lucid Loom 3.1.1)
+
+### Fake Reasoning Models (Gemini, Claude)
+
+For all fake reasoning models like Gemini 3 Pro/Flash and Claude Sonnet/Opus we want the following settings in common:
+
+Reasoning Formatting (Advanced Formatting Tab, lower left):
+
+Deepseek in the dropdown. \<think\> (followed by a newline) Prefix and \</think\> (preceded by a newline) suffix.
+
+Start Reply With: \<think\> followed by an empty newline.
+
+-- Insert picture of this here --
+
+Hit save on your api profile after this since it's saved there.
+
+Chat Completions Reasoning Section:
+
+Request Model Reasoning should be OFF/Unchecked
+
+Model Reasoning Effort should be Minimum.
+
+-- Insert Picture of this here --
+
+Hit save on the preset panel after setting the above.
+
+#### Google Gemini 3 Pro / Flash
+
+Prompt Post Processing: Semi-strict or Merge
+
+Hit save on the api profile to save the above after setting it.
+
+CoT Choice in Loom: CoT Zipbomb (System)
+
+Context and Samplers:
+Context Size 600k-1000k
+Response Size: 32762
+Streaming ON
+Temperature: 1
+Top K: 255
+Top P: .96
+
+-- Insert picture of this here --
+
+Hit save in the profile preset after setting these.
+
+#### Claude Sonnet and Opus
+
+Prompt Post Processing: Semi-strict or Merge
+
+Hit save on the api profile to save the above after setting it.
+
+CoT Choice in Loom: CoT Zipbomb (System)
+
+Context and Samplers:
+Context Size 600k-1000k
+Response Size: 32762
+Streaming ON
+Temperature: 1
+Top K: 255
+Top P: .96
+
+-- Insert picture of this here --
+
+Hit save in the profile preset after setting these.
+
+
+### Native Reasoning Models (GLM, Deepseek)
+
+For all native reasoning models like GLM and Deepseek we want the following settings in common:
+
+Reasoning Formatting (Advanced Formatting Tab, lower left):
+
+Deepseek in the dropdown. \<think\> (followed by a newline) Prefix and \</think\> (preceded by a newline) suffix.
+
+Start Reply With: EMPTY, ALWAYS EMPTY
+
+-- Insert picture of this here --
+
+Hit save on your api profile after this since it's saved there.
+
+Chat Completions Reasoning Section:
+
+Request Model Reasoning should be ON/Checked
+
+Model Reasoning Effort should be MAXIMUM.
+
+-- Insert Picture of this here --
+
+Hit save on the preset panel after setting the above.
+
+#### ZAI GLM 4.7
+
+Prompt Post Processing: Single User - (For 3.1.1, 3.2 beta is different)
+
+Hit save on the api profile to save the above after setting it.
+
+CoT Choice in Loom: CoT Zipbomb (System) - (Again, for 3.1.1, 3.2 beta is different)
+
+GLM Think Trigger: On (This is at the bottom of the CoT section). This is not necessary if you pick GLM "thinking" models on NanoGPT (It will send this for you).
+
+Context and Samplers:
+Context Size 128k-200k
+Response Size: 16384
+Streaming ON
+Temperature: .85-1
+Top K: 40
+Top P: .93
+
+-- Insert picture of this here --
+
+Hit save in the profile preset after setting these.
+
+#### Deepseek 3.2 Thinking
+
+Prompt Post Processing: Merge
+
+Hit save on the api profile to save the above after setting it.
+
+CoT Choice in Loom: Reasoner Zipbomb (System)
+
+Context and Samplers:
+Context Size 128k
+Response Size: 16384
+Streaming ON
+Temperature: 1-1.5
+Top K: 0 (Might not support it)
+Top P: .95
+
+-- Insert picture of this here --
+
+Hit save in the profile preset after setting these.
 
