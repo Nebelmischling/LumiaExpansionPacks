@@ -60,7 +60,7 @@ Before I go into the types there is one last thing to mention, quantizations. Qu
 
 Now, onto the two types of models: 
 
-#### Frontier Models
+### Frontier Models
 
 Frontier models, which are ONLY hosted by the company itself and include things you might have heard of like Claude's Sonnet and Opus, Google's Gemini, OpenAI's ChatGPT, and XAI's Grok. 
 
@@ -79,7 +79,7 @@ There is another big downside, *cost*. Most frontier models cost more than the n
 
 Now let's look at the alternative.
 
-#### Open Weight Models
+### Open Weight Models
 
 Open weight models are released by the companies and let loose onto the internet as *files you can download and run on your own hardware.* These include aforementioned local models, although the larger open weight models are too resource hungry (especially ram) to run on local PC's, tending to be run by third party server providers.
 
@@ -98,11 +98,11 @@ Smaller parameters and no huge RAG infrastructure means the models are less "sma
 Slower releases: Since the models aren't updated on the daily without warning like front
 
 
-### Frontier Model Recommendations
+## Frontier Model Recommendations
 
 First up, frontier model recommendations. Remember the name of the game here: convenient, very fast, smart, no privacy, no control over updates, and expensive.
 
-#### Google Gemini 3 Pro and 3 Flash
+### Google Gemini 3 Pro and 3 Flash
 
 Google's Gemini is the most commonly used frontier model by the regulars of Lucid Loom. There are two versions, Gemini 3 Pro, and Gemini 3 Flash. The former is estimated to be a trillion parameters, but as a frontier model, Google does not release information about it. It's pretty smart, although recently (about December 22) it got a huge hit to smarts and nobody is sure why (a day after the release of the smaller model, maybe google moved limited compute over to flash).
 
@@ -116,7 +116,7 @@ Gemini is usually used through a service called AI Studio, and like most frontie
 
 There is a subscription too, but I don't know the limits of usage on it. Plenty of information out there about it.
 
-#### Claude Sonnet and Opus
+### Claude Sonnet and Opus
 
 Claude is considered the state of the art for roleplay and coding at the moment. Claude has two models, Opus 4.5 and Sonnet 4.5. Sonnet is smaller and equivalent to Gemini 3 Flash from earlier, Opus 4.5 is newer, larger, and comparable to 3 pro. However Sonnet is MUCH smarter than 3 flash and Opus is MUCH smarter than 3 pro.
 
@@ -126,16 +126,16 @@ Opus 4.5 is their brand new model. It is smarter than Sonnet, but some people sa
 
 The downside of both of these is that not only is Claude pay per token, it's the most expensive pay per token by far.
 
-#### Grok or GPT
+### Grok or GPT
 
 Some people use Grok, I never have.
 
 Every GPT I ever used for roleplay has been dogwater, don't use it.
 
 
-### Open Weight Model Recommendations
+## Open Weight Model Recommendations
 
-#### ZAI's GLM 4.7-thinking
+### ZAI's GLM 4.7-thinking
 
 **GLM is my model of choice**, my daily driver. ZAI has two models, GLM (the big one, 355B parameters) and GLM Air (little brother, 105B parameters). They release them in an alternating fashion. Currently the latest as of December 2025 is GLM 4.7, and it's a doozy.
 
@@ -149,17 +149,17 @@ The company that makes it is Z.AI and they have a subscription plan for it. You 
 
 I recommend NanoGPT, a third party provider, due to their 8 dollar a month practically unlimited subscription, I'll give more info on it later.
 
-#### Deepseek's Deepseek
+### Deepseek's Deepseek
 
 Deepseek is probably the most well known of the chinese model makers. They have Deepseek 3.2 speciale and Deepseek 3.2 thinking. Both are larger 685 billion parameter models, but the former has more "active" parameters than the latter. That means Speciale is their model comparable to Gemini 3 Pro, while 3.2 Thinking is the one comparable to Flash. As far as I know the former is still only available direct from deepseek, which means you need to deal with the privacy issues inherent to using any model straight from the manufacturer. The latter is available from third party providers readily.
 
-#### Kimi K2 and Qwen
+### Kimi K2 and Qwen
 
 Kimi K2 Thinking is used by some people in the loomchat. It tends to be problematic and fight you, I don't recommmend it.
 
 I don't know a single person who still uses Qwen, but people used to a lot.
 
-#### My recommended Third Party Provider for Open Weight Models
+## My recommended Third Party Provider for Open Weight Models
 
 My **personal** recommendation for using open weight models is through Nano-GPT. They have an 8 dollar subscription that lets you use 60,000 message requests per month, unlimited tokens on 80+ different open weight models. They do rotate providers as the tokens are used up on their end, so sometimes you'll have a slower provider, but you can't beat 8 bucks a month for practically unlimited requests (I've never even come close to 60k chat messages per month). The subscription includes 80+ open weight third party hosted text models with things like GLM 4.7, Deepseek 3.2-Thinking, Kimi K2, Qwen, a lot of local models (including the classic TheDrummer ones like Rocinante, Cydonia, etc.), four image models (Chroma, Hidream, Juggernaut XL (animagine based), and Qwen Edit), and lots of abliterated/derestricted/finetuned versions of popular models (TheDrummer's glm 4.5 air finetune called GLM Steam comes to mind).
 
