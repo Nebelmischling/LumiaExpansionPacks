@@ -2,9 +2,9 @@
 
 So you want to use Prolix's wonderful Lucid Loom preset? There are a lot of toggles and options and a lot of models to use them with, and it might look daunting, but it's actually pretty easy with some guidance!
 
-## What do I need to use Lucid Loom?
+## What do I need to use Lucid Loom? First, pick a Model
 
-### An LLM
+### About LLM's
 
 An LLM (Large Language Model) is the AI that powers the roleplay. There are a multitude of ones to choose from and a few favorites.
 
@@ -55,19 +55,86 @@ The second major pro is privacy. Since it can be run outside of the main company
 The third pro is COST. A lot of open weight models are smaller and easier to run, plus they don't have massive amounts of infrastructure and RAGs tied to them. So you can find them for pay per month subscriptions instead of pay-per-token like frontier models (I'll shill my favorite later). This is much cheaper by order of magnitudes than models on Claude or Google.
 
 Cons:
-Smaller parameters and no huge RAG infrastructure means the models are less performant than frontier models in general. However the biggest and most advanced open weight models (Deepseek, GLM) can punch well above their weight class. To the point where I have access to both unlimited Gemini and unlimited GLM and I prefer GLM and it seems *smarter* to me for roleplay. 
+Smaller parameters and no huge RAG infrastructure means the models are less "smart" than frontier models in general. However the biggest and most advanced open weight models (Deepseek, GLM) can punch well above their weight class. To the point where I have access to both unlimited Gemini and unlimited GLM and I prefer GLM and it seems *smarter* to me for roleplay. 
+
+Slower releases: Since the models aren't updated on the daily without warning like front
 
 
+### Frontier Model Recommendations
+
+First up, frontier model recommendations. Remember the name of the game here: convenient, very fast, smart, no privacy, no control over updates, and expensive.
+
+#### Google Gemini 3 Pro and 3 Flash
+
+Google's Gemini is the most commonly used frontier model by the regulars of Lucid Loom. There are two versions, Gemini 3 Pro, and Gemini 3 Flash. The former is estimated to be a trillion parameters, but as a frontier model, Google does not release information about it. It's pretty smart, although recently (about December 22) it got a huge hit to smarts and nobody is sure why (a day after the release of the smaller model, maybe google moved limited compute over to flash).
+
+3 Pro can handle roleplay very well, struggles with logic sometimes, and generally has a positivity bias (It'll agree with you too much, color the story more positive, Loom can naturally mitigate this with it's many "darker" toggles). It is censored and requires a jailbreak (Loom as a preset is enough of a jailbreak).
+
+3 Flash is Pro's smaller, lighter weight deranged little brother. It's made for general use, especially on phones, as it's Android's main AI assistant. It's got a darker color, is not as smart as 3 Pro (Although it appears to have more compute dedicated to it as of December 2025, so 3 pro isn't that much smarter), and is also censored, albeit the darker coloring lets you get away with more. Not that it matters, as Loom is enough of a jailbreak for 3 Flash as well.
+
+Native reasoning is not used for Gemini with Loom, in favor of "fake reasoning" (I'll go into this later).
+
+Gemini is usually used through a service called AI Studio, and like most frontier models, is "pay per token". There are free trials you can abuse and plenty of guides on the internet to do it.
+
+There is a subscription too, but I don't know the limits of usage on it. Plenty of information out there about it.
+
+#### Claude Sonnet and Opus
+
+Claude is considered the state of the art for roleplay and coding at the moment. Claude has two models, Opus 4.5 and Sonnet 4.5. Sonnet is smaller and equivalent to Gemini 3 Flash from earlier, Opus 4.5 is newer, larger, and comparable to 3 pro. However Sonnet is MUCH smarter than 3 flash and Opus is MUCH smarter than 3 pro.
+
+Sonnet was originally trained up for creative pursuits, and as such is very lauded for roleplaying in particular. It struggles with logic and things like formatting. It also tends to be very token heavy, overthinking everything.
+
+Opus 4.5 is their brand new model. It is smarter than Sonnet, but some people say that hurts roleplay a bit. However those people have not tried the brand new effort parameter. Give it a try, medium effort is supposed to be similar to Sonnet.
+
+The downside of both of these is that not only is Claude pay per token, it's the most expensive pay per token by far.
+
+#### Grok or GPT
+
+Some people use Grok, I never have.
+
+Every GPT I ever used for roleplay has been dogwater, don't use it.
 
 
+### Open Weight Model Recommendations
 
-#### Actual Model Recommendations
+#### ZAI's GLM 4.7-thinking
 
+**GLM is my model of choice**, my daily driver. ZAI has two models, GLM (the big one, 355B parameters) and GLM Air (little brother, 105B parameters). They release them in an alternating fashion. Currently the latest as of December 2025 is GLM 4.7, and it's a doozy.
 
+GLM 4.7 is a reasoning model (we use the native reasoning for Lucid Loom, unlike Gemini, because the native reasoning is GOOD). It is 355B parameters, and regularly outsmarts 1 trillion parameter models like Gemini 3 Pro. I love it to death.  It's smart enough to handle complex formatting, html tags, keep track of stories very well. The downside is that it is slower than Gemini, because third party providers and even zai don't have as much compute as google or claude do. But it's so much cheaper as a result.
+
+GLM 4.7 air... does not exist yet. The latest air is GLM 4.5 Air. GLM 4.6 skipped air and went straight to GLM 4.6V, a vision model (this means it can interpret pictures), which hurt the roleplay/text performance. I do not recommend using GLM 4.6V as a result.
+
+So yeah, just use GLM 4.7. How can you use it though? Since it's an open weight model you have two options, from the manufacturer or third party.
+
+The company that makes it is Z.AI and they have a subscription plan for it. You can get GLM straight from them, however, they have been doing prompt injection lately to "clean up" the nsfw of the model. If you want to use it for smut roleplay, I do NOT recommend zai, in fact, I don't recommend ZAI at all. As a source company for the model, they have the infrastructure in place to mass collect data and sort it easily.
+
+I recommend NanoGPT, a third party provider, due to their 8 dollar a month practically unlimited subscription, I'll give more info on it later.
+
+#### Deepseek's Deepseek
+
+Deepseek is probably the most well known of the chinese model makers. They have Deepseek 3.2 speciale and Deepseek 3.2 thinking. Both are larger 685 billion parameter models, but the former has more "active" parameters than the latter. That means Speciale is their model comparable to Gemini 3 Pro, while 3.2 Thinking is the one comparable to Flash. As far as I know the former is still only available direct from deepseek, which means you need to deal with the privacy issues inherent to using any model straight from the manufacturer. The latter is available from third party providers readily.
+
+#### Kimi K2 and Qwen
+
+Kimi K2 Thinking is used by some people in the loomchat. It tends to be problematic and fight you, I don't recommmend it.
+
+I don't know a single person who still uses Qwen, but people used to a lot.
+
+#### Third Party Providers for Open Weight Models
+
+A lot of people tend to use openrouter, it's pretty well known.
+
+My recommendation for using open weight models is through Nano-GPT. They have an 8 dollar subscription that lets you use 60,000 message requests per month, unlimited tokens on 80+ different open weight models. They do rotate providers as the tokens are used up on their end, so sometimes you'll have a slower provider, but you can't beat 8 bucks a month for practically unlimited requests (I've never even come close to 60k chat messages per month). The subscription includes things like GLM 4.7, Deepseek 3.2-Thinking,
 
 https://nano-gpt.com/invite/XFjmGJg8
 
-### Sillytavern
+
+
+
+
+
+## What else do I need to use Lucid Loom? Sillytavern
 
 Loom is built with one use case in mind. **Loading it in Sillytavern.**
 
@@ -88,8 +155,6 @@ Sillytavern has pretty robust documentation for getting it up and running.
 Here are guides for installation on various operating systems including Android:
 
 https://docs.sillytavern.app/installation/
-
-
 
 I personally recommend running it on a desktop or laptop and then connecting to it from your phone via web browser, Sillytavern has built in support for connecting to it remotely. Sillytavern is a server, so it runs as a program and then you can visit it in the same pc's web browser, or from a remote client like a cell phone or another pc.
 
