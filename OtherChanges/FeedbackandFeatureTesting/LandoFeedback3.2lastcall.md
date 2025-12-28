@@ -24,11 +24,14 @@ CoT Zipbomb (Assistant)
 
 Uses getvar version of sov hand on/off instead of Lumiverse one.
 
-### Old Zips
+### Switch Steps 6 and 7
 
-The following Zipbombs have not had their steps 6 and 7 switched:
+The following Zipbombs have not had their steps 6 and 7 switched yet:
+CoT Zipbomb (System)
+CoT Zipbomb (Lumiverse Sov Hand)
+Reasoner Zipbomb (System)
+CoT Zipbomb (Assistant)
 
-CoT Zip Beta (Lumiverse Sov Hand)
 
 ### Missing Loom Council Instructions
 
