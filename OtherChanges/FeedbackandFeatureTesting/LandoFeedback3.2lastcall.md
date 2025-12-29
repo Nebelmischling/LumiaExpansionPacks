@@ -10,6 +10,8 @@ AFTER doing the below feedback fixes/corrections. I've done the following Tests:
 
 This is again with the below issues fixed by hand.
 
+Only issues I saw were the occasional message repeat (I think that's an ST problem).
+
 ## CoT Feedback
 
 ### All Zipbombs are missing 'loomutils' tag on the end of Step 11.
