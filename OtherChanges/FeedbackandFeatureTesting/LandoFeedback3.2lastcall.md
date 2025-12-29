@@ -51,3 +51,16 @@ They do have the extension's {{lumiaBehavior}} which is a lumiverse lumia featur
 
 I recommend moving CoT Selections (System) category to be after Zipbomb so people don't think those are the best/default options. We've had several new people assuming CoT Normal is the best in the channel lately.
 
+## Add the reserved color line to other color calling text format toggles
+
+Add the following line from Colored Character Thoughts:
+
+```
+- **FORBIDDEN:** #9370DB (reserved for Lumia's OOC only)
+```
+
+To the other color calling toggles:
+- Signature Micro-Text
+- Visual Text Effects
+
+To prevent OOC block captures in randomly purple colored special text. There are other colored text toggles but I haven't seen those be problematic yet, worth checking out.
