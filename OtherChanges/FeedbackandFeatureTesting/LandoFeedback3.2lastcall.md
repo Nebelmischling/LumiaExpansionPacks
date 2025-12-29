@@ -64,3 +64,7 @@ To the other color calling toggles:
 - Visual Text Effects
 
 To prevent OOC block captures in randomly purple colored special text. There are other colored text toggles but I haven't seen those be problematic yet, worth checking out.
+
+## Turn on all lumiverse custom toggles by default.
+
+No reason to leave them off and it could head off confusion in our channel at the pass.
