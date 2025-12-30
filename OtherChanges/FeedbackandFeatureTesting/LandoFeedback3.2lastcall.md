@@ -38,9 +38,9 @@ Some are missing descriptions
 - ~~Reasoner Zip Beta (Lumiverse)~~
 
 
-### Steps 6 and 7 not switched yet in some Zipbombs
+### ~~Steps 6 and 7 not switched yet in some Zipbombs~~
 
-The following Zipbombs have not had their steps 6 and 7 switched yet:
+~~The following Zipbombs have not had their steps 6 and 7 switched yet:~~
 - ~~CoT Zipbomb (System)~~
 - ~~CoT Zipbomb (Lumiverse Sov Hand)~~
 - ~~Reasoner Zipbomb (System)~~
