@@ -6,7 +6,7 @@ This Loom guide is current as of 3.2 release (December 30, 2025)!
 
 The latest release is 3.2 from https://lucid.cards/chat-presets
 
-3.2 Last Call is a BETA release from BEFORE 3.2. Upgrade to 3.2 if you still use it! 
+Warning: 3.2 Last Call is a BETA release from BEFORE 3.2. Upgrade to 3.2 if you still use it! 
 
 ## Table of Contents:
 
@@ -32,16 +32,17 @@ The latest release is 3.2 from https://lucid.cards/chat-presets
 	- Context Size and Max Response
 	- Streaming
 	- Most commonly changed samplers (Temp, Top P, and Top K)
-- Best Settings for each model (For Loom 3.2 Final)
+- Best Settings for each model (For Loom 3.2 Release)
 	- Fake Reasoning
-		- Gemini 3 Pro/Flash
-		- Claude Sonnet/Opus
+		- Gemini 3 Pro/Flash (CoT Zipbomb)
+		- Claude Sonnet/Opus (CoT Zipbomb)
 	- Native Reasoning
 		- GLM 4.7 (Reasoning Zip)
 		- GLM 4.6 (Fallback, CoT Zipbomb)
 		- Deepseek 3.2 Thinking
 - Appendix
 	- What is Sov Hand?
+	- What is Regex?
 	- Lumiverse Helper Extension
 	- Nemo Preset Extension
 	- My Sillytavern Extension Recommendations
