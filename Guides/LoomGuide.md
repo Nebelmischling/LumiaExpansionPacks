@@ -8,6 +8,8 @@ The latest release is 3.2 from https://lucid.cards/chat-presets
 
 Warning: 3.2 Last Call is a BETA release from BEFORE 3.2. Upgrade to 3.2 if you still use it! 
 
+Best Settings for Each Model are [Here](#best-settings-for-each-model)
+
 ## Table of Contents:
 
 - [About LLMs and Picking a model](#what-do-i-need-to-use-lucid-loom-first-pick-a-model)
