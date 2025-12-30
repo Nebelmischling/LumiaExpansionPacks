@@ -97,7 +97,7 @@ OOC is in full effect as this is to try and diagnose and optimize the fabric of 
 
 Actual card attached here if you just want to import:
 
-![Lumia OOC Card](images/Lumia_Surprise_Visit.png)
+![Lumia OOC Card](../images/Lumia_Surprise_Visit.png)
 
 ---
 
@@ -106,7 +106,7 @@ Actual card attached here if you just want to import:
 Expect these to change a lot, I'm still experimenting, they are just here for Prolix's eyes basically.
 
 
-## Tabletop RPG Mode Lumia:
+## Tabletop RPG Mode Lumia (For Loom 3.0):
 
 This requires a large variety of custom toggles I made. Let's go through them from top to bottom (And then a custom lumia to add some flair).
 

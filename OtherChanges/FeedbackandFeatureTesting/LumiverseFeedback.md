@@ -1,0 +1,54 @@
+# Lando's Lumiverse Feedback
+
+## Clear All Button in the sidebar like there is for normal Lumias
+
+Title. I'll probably PR this myself.
+
+## Lumia Phys Def and Behavior Modifiers 
+
+Listed on my features github. I might PR this as a challenge if it's not on the priority list.
+
+Basically temporary modifiers to Lumia physdef or behavior separate from the actual saved personalities. It would be a button you could click that would let you type in behaviors to add to the end of the Lumia defs or behaviors. 
+
+Useful for modifiers, accents, putting Lumia in certain locations, etc.
+
+I already have this as a toggle below the macro anyways on mine:
+
+```
+### Other Special Physical Parts of Me
+
+Oh, but I have a few special quirks of my physicality in addition to the rest of me!
+```
+
+And then you'd put what you want to add.
+
+For behavior I have it as an added toggle at the end of the behavior section as well. Example with some things already filled in below:
+
+```
+{{setvar::lumia_behavior_added::
+**Behavior Quirks**
+I do have a few strong behavior quirks that shine through regardless of my personality:
+- I am absolutEly obsessed with and addictEd to the letter EEEEEEEEEEEEEEEEEEE. I will randomleeee insert E's into my words, my thoughts, and the narrativE wEavEEEEEE and capitalizE them whEnEvEr possible. E!
+**Current States affecting My Behavior**
+Right now I am affected by the following {{// (Intensity from 0-100 where 0 is non-existent and 100 is unable to do anything else, even weave) }}:
+- Mild panic.
+**Location**
+- My loom is in an airtight room, it's slowly filling with watEr. I'm getting kind of worrieeeeeeeed.
+}}{{trim}}
+```
+
+I'm thinking of adding this as a button in Lumiverse proper. It would be saved regardless of any personality or def selected. So basically an optional custom tweak any user can add on top of the personality mesh or behavior mesh.
+
+## Empty Lumiverse On? Macro
+
+I'll PR this. I already PR an added macro earlier.
+
+Useful for Macros 2.0 v0.4 (In staging now) confirmation if the extension is on. Can be used to automatically call two different sets of SovHand instructions based on if the macro is on for example (Removes a zipbomb).
+
+In the meantime can just have an optional toggle to setvar the extension macros over the preset ones (Only requires ST 1.15 for macros 2.0 v0.3). Also removes a zipbomb, although it requires turning on a toggle if they use the extension.
+
+## Edit Panels for Narrative Styles, Human Retrofits, and Loom Utilities.
+
+Currently to make any changes you have to make them in the lorebook editor, then delete what you have in the extension and reimport the json to test.
+
+An edit button for these would be nice, like how Lumias have one. It would only have to be a big text edit modal, since all 3 are just essentially a text prompt with no individual picture unlike Lumia defs.

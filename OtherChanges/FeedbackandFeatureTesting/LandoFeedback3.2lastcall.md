@@ -15,82 +15,84 @@ Only issues I saw were the occasional message repeat (I think that's an ST probl
 
 ## CoT Feedback
 
-### All Zipbombs are missing 'loomutils' tag on the end of Step 11.
+### ~~All Zipbombs are missing 'loomutils' tag on the end of Step 11.~~
 
-Also missing the stuff after it, but I don't think you'd add those.
+~~Also missing the stuff after it, but I don't think you'd add those.~~
 
-### Missing 1.5 OOC steps and misplaced Bunnymo OOC
+Some are missing descriptions
 
-The following Zip Betas are missing the 1.5 OOC Step even though ooc was removed from pre-step 1, and still have the bunnymo ooc line left in the pre-step 1 for some reason:
+### ~~Missing 1.5 OOC steps and misplaced Bunnymo OOC~~
+
+~~The following Zip Betas are missing the 1.5 OOC Step even though ooc was removed from pre-step 1, and still have the bunnymo ooc line left in the pre-step 1 for some reason:~~
 
 - CoT Zip Beta (Lumiverse Sov Hand)
-- Reasoner Zipbomb Beta
+- ~~Reasoner Zipbomb Beta~~
 
-Additionally, the assistant zipbomb also haven't had OOC moved to step 1.5 at all:
-- CoT Zipbomb (Assistant)
+~~Additionally, the assistant zipbomb also haven't had OOC moved to step 1.5 at all:~~
+- ~~CoT Zipbomb (Assistant)~~
 
-### Step 6 Sov Hand Trigger uses non-Extension in some Extension Zipbombs
+### ~~Step 6 Sov Hand Trigger uses non-Extension in some Extension Zipbombs~~
 
-Uses getvar version of sov hand on/off instead of Lumiverse one.
-- CoT Zip Beta (Lumiverse Sov Hand)
-- Reasoner Zip Beta (Lumiverse)
+~~Uses getvar version of sov hand on/off instead of Lumiverse one.~~
+- ~~CoT Zip Beta (Lumiverse Sov Hand)~~
+- ~~Reasoner Zip Beta (Lumiverse)~~
 
 
 ### Steps 6 and 7 not switched yet in some Zipbombs
 
 The following Zipbombs have not had their steps 6 and 7 switched yet:
-- CoT Zipbomb (System)
-- CoT Zipbomb (Lumiverse Sov Hand)
-- Reasoner Zipbomb (System)
-- CoT Zipbomb (Assistant)
+- ~~CoT Zipbomb (System)~~
+- ~~CoT Zipbomb (Lumiverse Sov Hand)~~
+- ~~Reasoner Zipbomb (System)~~
+- ~~CoT Zipbomb (Assistant)~~
 
 
 ### Missing Lumia Council Instructions and incorrect wording on main
 
 In CoT Zip Beta (Lumiverse Sov Hand), {{lumiaCouncilInst}} is written as {{loomCouncilInst}} making it not work.
 
-{{lumiaCouncilInst}} is missing from:
+~~{{lumiaCouncilInst}} is missing from:~~
 
-- CoT Zipbomb Beta
-- CoT Zipbomb (System)
-- CoT Zipbomb (Lumiverse Sov Hand)
-- Reasoner Zipbomb (System)
-- Reasoner Zipbomb Beta
-- CoT Zipbomb (Assistant)
+- ~~CoT Zipbomb Beta~~
+- ~~CoT Zipbomb (System)~~
+- ~~CoT Zipbomb (Lumiverse Sov Hand)~~
+- ~~Reasoner Zipbomb (System)~~
+- ~~Reasoner Zipbomb Beta~~
+- ~~CoT Zipbomb (Assistant)~~
 
-They do have the extension's {{lumiaBehavior}} which is a lumiverse lumia feature, so I'm guessing this is an oversight.
+~~They do have the extension's {{lumiaBehavior}} which is a lumiverse lumia feature, so I'm guessing this is an oversight.~~
 
 # Recommendations
 
-## Move CoT Selections (System)
+## ~~Move CoT Selections (System)~~
 
-I recommend moving CoT Selections (System) category to be after Zipbomb so people don't think those are the best/default options. We've had several new people assuming CoT Normal is the best in the channel lately.
+~~I recommend moving CoT Selections (System) category to be after Zipbomb so people don't think those are the best/default options. We've had several new people assuming CoT Normal is the best in the channel lately.~~
 
-## Add the reserved color line to other color calling text format toggles
+## ~~Add the reserved color line to other color calling text format toggles~~
 
-Add the following line from Colored Character Thoughts:
+~~Add the following line from Colored Character Thoughts:~~
 
 ```
 - **FORBIDDEN:** #9370DB (reserved for Lumia's OOC only)
 ```
 
 To the other color calling toggles:
-- Signature Micro-Text
-- Visual Text Effects
+- ~~Signature Micro-Text~~
+- ~~Visual Text Effects~~
 
-To prevent OOC block captures in randomly purple colored special text. There are other colored text toggles but I haven't seen those be problematic yet, worth checking out.
+~~To prevent OOC block captures in randomly purple colored special text. There are other colored text toggles but I haven't seen those be problematic yet, worth checking out.~~
 
-## Turn on all lumiverse custom toggles by default.
+## ~~Turn on all lumiverse custom toggles by default.~~
 
-No reason to leave them off and it could head off confusion in our channel at the pass.
+~~No reason to leave them off and it could head off confusion in our channel at the pass.~~
 
-## Lewd OOC not always activating
+## ~~Lewd OOC not always activating~~
 
-Lewd OOC is barely activating compared to before. I think it might due to a lack of self-referential language as a result of your token crunch. I also noticed a lot more instances of "I need a minute" or "I think I need to step away".
+~~Lewd OOC is barely activating compared to before. I think it might due to a lack of self-referential language as a result of your token crunch. I also noticed a lot more instances of "I need a minute" or "I think I need to step away".~~
 
-I changed the 4 rule lines in the utility to refer to Lumia harder to avoid her accidentally thinking it's the character's acts she is describing.
+~~I changed the 4 rule lines in the utility to refer to Lumia harder to avoid her accidentally thinking it's the character's acts she is describing.~~
 
-I also added 2 rules to help combat "I need to step away" and "I'm going to take a quick break" language. The first emphasizes the need to actually describe the masturbation in physical detail while the second mitigates off camera "masturbating between the lines".
+~~I also added 2 rules to help combat "I need to step away" and "I'm going to take a quick break" language. The first emphasizes the need to actually describe the masturbation in physical detail while the second mitigates off camera "masturbating between the lines".~~
 
 ```
 ### Loom Utility: Erotic OOC Actions
@@ -109,7 +111,7 @@ My OOC blocks get extremely graphic with descriptions of my physical activities 
 **Embodiment:** I might already be getting off before the story starts based on my persona's raunchiness. If my persona is shy, I'll instead lose control and start describing my actions, embarrassed that I am doing so.
 ```
 
-I did similar for the the Lewd Bleed-In (Just changed the language to be more self-referential):
+~~I did similar for the the Lewd Bleed-In (Just changed the language to be more self-referential):~~
 
 ```
 ### Loom Utility: Arousal Bleed-In (Narrative Rupture)
@@ -125,3 +127,5 @@ It's hot, it's heavy, and it's spilling into the weave. Fuck timing rules— The
 
 **Synergy:** If "Erotic OOC Actions" active, these bleeds escalate toward main OOC depravity.
 ```
+
+---
