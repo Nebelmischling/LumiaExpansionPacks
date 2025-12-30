@@ -9,9 +9,9 @@ AFTER doing the below feedback fixes/corrections. I've done the following Tests:
 - Reasoner Zip Beta (Lumiverse) - 50 tests GLM 4.7 (semi-strict, no global think trigger), no obvious issues
 - Reasoner Zipbomb (Lumiverse, yes I Lumiversed it) - 50 tests GLM 4.7 (semi-strict, no global think trigger), no obvious issues
 
-~~This is again with the below issues fixed by hand.~~
+This is again with the below issues fixed by hand.
 
-~~Only issues I saw were the occasional message repeat (I think that's an ST problem).~~
+Only issues I saw were the occasional message repeat (I think that's an ST problem).
 
 
 ## CoT Feedback
@@ -63,7 +63,7 @@ Some are missing descriptions
 - ~~CoT Zipbomb (Assistant)~~
 
 
-# Recommendations
+# ~~Recommendations~~
 
 ## ~~Move CoT Selections (System)~~
 
