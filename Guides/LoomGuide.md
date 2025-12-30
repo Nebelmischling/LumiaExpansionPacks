@@ -444,6 +444,9 @@ For models where you don't want to use the reasoning and instead want to use "Fa
 
 So it's ON / Maximum for GLM and Deepseek, OFF / Minimum for Gemini and Claude!
 
+To save these you hit the save button by the preset dropdown up top:
+
+<img width="369" height="157" alt="image" src="https://github.com/user-attachments/assets/3158b8ca-68bf-4aa6-9fea-fcb90b98936f" />
 
 ### Zipbomb Choice
 
@@ -480,6 +483,10 @@ Top K. Top K determines how many of the most likely option is taken. Let's say I
 Top P. Top P is a way to make the least likely value more likely. It works like a curve in test grading. Everyone gets the benefit of the curve, and it hurts the top/most likely response the most while benefitting the lowest one the most.
 
 These are the main three samplers people play around it, the rest are to user's taste more often. Top K might be missing from your options, you can send it with additional parameters or the custom sliders extension if so (not that important).
+
+To save these you also hit the preset save button up top.
+
+<img width="369" height="157" alt="image" src="https://github.com/user-attachments/assets/3158b8ca-68bf-4aa6-9fea-fcb90b98936f" />
 
 So which setting is best for each model? The following is collected from the common users of the Lucid Loom discord chat.
 
