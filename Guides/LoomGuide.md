@@ -139,7 +139,6 @@ Some people use Grok, I never have.
 
 Every GPT I ever used for roleplay has been dogwater, don't use it.
 
-
 ## Open Weight Model Recommendations
 
 ### ZAI's GLM 4.7-thinking
@@ -320,25 +319,37 @@ CoTs, or Chain of Thoughts, are a kind of checklist to guide the reasoning proce
 
 **ONLY USE ONE COT AT A TIME. THIS IS IMPORTANT.**
 
-You'll see that the Loom CoT sections are split up into three section.
+You'll see that the Loom CoT sections are split up into four sections.
 
-### CoT Selections (System) - The Old and Small
 
-First one is the CoT Selections (System) category. This one includes older and smaller checklists that aren't really the focus of Loom. They can be used if you desperately need to save on token usage.
 
 ### Cot Selections (Zipbomb) - The latest and greatest
 
-Next up is the CoT  up are the Zipbombs. These are large, detailed checklists where Lumia thinks through her reasoning in character. This is where the lion's share of Loom's dev time for CoT goes to and the CoT type I will always recommend to people.
+First up in the CoT sections are the Zipbombs. These are large, detailed checklists where Lumia thinks through her reasoning in character. This is where the lion's share of Loom's dev time for CoT goes to and the CoT type I will always recommend to people.
 
 You'll find two major types of Zipbomb. CoT Zipbomb and Reasoner Zipbomb. The former includes language for \<think\> tags in the beginning and ending. These are useful for "fake reasoning" models like Gemini where you have to start the reply with a \<think\>.
 
 The reasoner zipbomb are for models smart enough to handle the thinking block start and stop on their own, like GLM 4.7.
 
-Additionally you'll see that there is a subtitle of (Lumiverse Sov). This is for using the Sovereign Hand built into Lumiverse extension instead of the more primitive one that comes in base Loom. I'll go over what Sovereign Hand is later.
+<img width="383" height="177" alt="image" src="https://github.com/user-attachments/assets/60490687-b9cb-498d-9fd2-a315a815b036" />
+
+
+### CoT Selections (Lumiverse)
+
+If you use the Lumiverse Helper Extension (See Appendix) at all, you should pick your Zipbomb from here. This means if you use custom Lumias or the Extensions Summary or Sov Hand function you NEED to pick your zipbomb from here if you want it to work.
+
+You will pick the same zipbomb you'd pick in the above section, just picking down here instead of the above.
+
+<img width="377" height="186" alt="image" src="https://github.com/user-attachments/assets/0e5681f2-aba5-40ae-9edb-21f6a5608ffe" />
+
+### CoT Selections (System) - The Old and Small
+
+Third is the CoT Selections (System) category. This one includes older and smaller checklists that aren't really the focus of Loom. They can be used if you desperately need to save on token usage.
+
 
 ### CoT Selections (Assistant) - Alternate sending roles and utilities
 
-These CoT's in here allow you to send them as assistant instead of system, something you won't be doing very often. In addition there is a /think flag that is useful in here for GLM on platforms that aren't NanoGPT.
+Lastly, these CoT's in here allow you to send them as assistant instead of system, something you won't be doing very often. In addition there is a /think flag that is useful in here for GLM on platforms that aren't NanoGPT.
 
 ### That's a lot of Information
 
@@ -536,7 +547,6 @@ Top P: 1
 <img width="368" height="183" alt="image" src="https://github.com/user-attachments/assets/62970b4d-43d6-4c43-a1b8-630ae305c0c6" />
 
 Hit save in the profile preset after setting these.
-
 
 ### Native Reasoning Models (GLM, Deepseek) - COMMON SETTINGS
 
