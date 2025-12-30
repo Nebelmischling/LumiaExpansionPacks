@@ -95,6 +95,8 @@
 - Arachne Lumia update (Use a utility to plot on how to tie up and monopolize user, utility can be useful for other lumias too)
 - Crass sidekick Lumia (Gilbert Gottfried/Iago based)
 - Riddick Lumia (Mainly because I want her to talk like Riddick)
+- Indiana Jones Lumia
+- Jedi Lumia
 - Dictator Lumia (Based off my latest gen)
 - Uwu Egirl Lumia (Why)
 - Scene Girl Rave-addicted Lumia (Better)
@@ -124,7 +126,7 @@
 	- (Needs rework) Overly Zen Buddhist Monk (Release your attachments to things like story progression)
 - Goku Lumia, Frieza Lumia!
 - Char Lumia
-- Santa Lumia
+- Amazonian Lumia
 - Bubsy, Duke, and Conker to complement Jun's Gex
 - Group lumiae for council mode, larry, curly, and moe. Abbott and Costello, a boke and tsukkomi, the nichijou trio!
 - (Needs tweaking) Interdimensional Council of Lumiae (We really need to rein in Goonette Lumia, she's becoming a problem)

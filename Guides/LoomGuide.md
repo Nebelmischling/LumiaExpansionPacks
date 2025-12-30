@@ -2,6 +2,12 @@
 
 So you want to use Prolix's wonderful Lucid Loom preset? There are a lot of toggles and options and a lot of models to use them with, and it might look daunting, but it's actually pretty easy with some guidance! 
 
+This Loom guide is current as of 3.2 release (December 30, 2025)!
+
+The latest release is 3.2 from https://lucid.cards/chat-presets
+
+3.2 Last Call is a BETA release from BEFORE 3.2. Upgrade to 3.2 if you still use it! 
+
 ## Table of Contents:
 
 - About LLMs and Picking a model
@@ -26,18 +32,18 @@ So you want to use Prolix's wonderful Lucid Loom preset? There are a lot of togg
 	- Context Size and Max Response
 	- Streaming
 	- Most commonly changed samplers (Temp, Top P, and Top K)
-- Best Settings for each model (For Loom 3.1.1)
+- Best Settings for each model (For Loom 3.2 Final)
 	- Fake Reasoning
 		- Gemini 3 Pro/Flash
 		- Claude Sonnet/Opus
 	- Native Reasoning
-		- GLM 4.7
+		- GLM 4.7 (Reasoning Zip)
+		- GLM 4.6 (Fallback, CoT Zipbomb)
 		- Deepseek 3.2 Thinking
 - Appendix
 	- What is Sov Hand?
 	- Lumiverse Helper Extension
 	- Nemo Preset Extension
-	- You mentioned 3.2?
 	- My Sillytavern Extension Recommendations
 
 ## What do I need to use Lucid Loom? First, pick a Model
@@ -295,7 +301,7 @@ These are the reasoning checklists for Loom. I'll explain them in more detail in
 
 ## Reasoning or non-Reasoning? CoT?
 
-Lucid Loom is built with reasoning in mind. It works a lot better if you are using the reasoning capabilities of an LLM.
+Lucid Loom is built with reasoning in mind. It works a lot better if you are using the reasoning capabilities of an LLM. If you don't want to use Reasoning, I'll have a section at the end for you.
 
 So what do we mean by reasoning. Well reasoning is using the first part of the response of an llm to "think through" or plan the response, and then it follows it with the final actual response.
 
@@ -309,7 +315,7 @@ CoTs, or Chain of Thoughts, are a kind of checklist to guide the reasoning proce
 
 **ONLY USE ONE COT AT A TIME. THIS IS IMPORTANT.**
 
-You'll see that the Loom CoT sections are split up into three section (In 3.2).
+You'll see that the Loom CoT sections are split up into three section.
 
 ### CoT Selections (System) - The Old and Small
 
@@ -419,7 +425,11 @@ So it's ON / Maximum for GLM and Deepseek, OFF / Minimum for Gemini and Claude!
 
 ### Zipbomb Choice
 
-I'll go over this in more detail in the per model best options, but typically you want cot zipbombs for fake reasoning models (Gemini, Claude), and reasoner zipbomb for native reasoning models (GLM, Deepseek)
+I'll go over this in more detail in the per model best options, but typically you want CoT zipbombs for fake reasoning models (Gemini, Claude), and reasoner zipbomb for native reasoning models (GLM, Deepseek).
+
+As for what "Mini" means, they are 
+
+If you use the lumiverse extension, you should pick the Zipbombs from the CoT Selections (Lumiverse) category instead. Custom Lumias and Extension Sov Hand will NOT work without it!
 
 ## Non-Reasoning Related Options
 
@@ -443,7 +453,7 @@ These are the main three samplers people play around it, the rest are to user's 
 
 So which setting is best for each model? The following is collected from the common users of the Lucid Loom discord chat.
 
-## Best Settings for each model (Current as of Lucid Loom 3.1.1)
+## Best Settings for each model (Current as of Lucid Loom 3.2)
 
 ### Fake Reasoning Models (Gemini, Claude)
 
@@ -469,7 +479,7 @@ Model Reasoning Effort should be Minimum.
 
 Hit save on the preset panel after setting the above.
 
-#### Google Gemini 3 Pro / Flash
+#### Google Gemini 3 Pro / Flash, 2.5 Pro / Flash
 
 Prompt Post Processing: Semi-strict or Merge
 
@@ -509,7 +519,7 @@ Top P: 1
 Hit save in the profile preset after setting these.
 
 
-### Native Reasoning Models (GLM, Deepseek)
+### Native Reasoning Models (GLM, Deepseek) - COMMON SETTINGS
 
 For all native reasoning models like GLM and Deepseek we want the following settings in common:
 
@@ -517,7 +527,7 @@ Reasoning Formatting (Advanced Formatting Tab, lower left):
 
 Deepseek in the dropdown. \<think\> (followed by a newline) Prefix and \</think\> (preceded by a newline) suffix.
 
-Start Reply With: EMPTY, ALWAYS EMPTY
+Start Reply With: *EMPTY, ALWAYS EMPTY FOR EVERY CHINESE REASONING MODEL*
 
 -- Insert picture of this here --
 
@@ -535,33 +545,62 @@ Hit save on the preset panel after setting the above.
 
 #### ZAI GLM 4.7
 
-Prompt Post Processing: Single User - (For 3.1.1, 3.2 beta is different)
+Prompt Post Processing: Semi-Strict
 
 Hit save on the api profile to save the above after setting it.
 
-CoT Choice in Loom: CoT Zipbomb (System) - (Again, for 3.1.1, 3.2 beta is different)
+CoT Choice in Loom: CoT Reasoner Mini or CoT Reasoner Mini
 
-GLM Think Trigger: On (This is at the bottom of the CoT section). This is not necessary if you pick GLM "thinking" models on NanoGPT (It will send this for you).
+Global Think Trigger: OFF (The one at the start of the preset)
+
+GLM Think Trigger: Off (This is at the bottom of the CoT section). This is not necessary if you pick GLM "thinking" models on NanoGPT (It will send this for you). But otherwise you want it on for other providers.
 
 Context and Samplers:
 Context Size 128k-200k
 Response Size: 16384
 Streaming ON
 Temperature: .85-1
-Top K: 40
+Top K: 40 (Optional, Additional Parameters or Custom Slider to add it)
 Top P: .93
 
 -- Insert picture of this here --
 
 Hit save in the profile preset after setting these.
 
+If these don't work you can use the below settings as a fallback.
+
+#### ZAI GLM 4.6
+
+Prompt Post Processing: Single User
+
+Hit save on the api profile to save the above after setting it.
+
+Global Think Trigger: ON (The one at the very start of the preset)
+
+GLM Think Trigger: Off (This is at the bottom of the CoT section). This is not necessary if you pick GLM "thinking" models on NanoGPT (It will send this for you). But otherwise you want it on for other providers.
+
+CoT Choice in Loom: CoT Zipbomb Mini or CoT Zipbomb (System) [Lumiverse if using ext]
+
+Context and Samplers:
+Context Size 128-200k
+Response Size: 16384
+Streaming ON
+Temperature: .85-1
+Top K: 40 (Optional, Additional Parameters or Custom Slider to add it)
+Top P: .93
+
+Hit save in the profile preset after setting these.
+
+
 #### Deepseek 3.2 Thinking
 
 Prompt Post Processing: Merge
 
+Global Think Trigger: OFF (The one at the start of the preset)
+
 Hit save on the api profile to save the above after setting it.
 
-CoT Choice in Loom: Reasoner Zipbomb (System)
+CoT Choice in Loom: Reasoner Zip Mini or Reasoner Zipbomb (System) [Lumiverse if using ext]
 
 Context and Samplers:
 Context Size 128k
@@ -575,6 +614,32 @@ Top P: .95
 
 Hit save in the profile preset after setting these.
 
+
+### Settings for not using reasoning at all
+
+For people who don't want reasoning, be aware that Loom is designed for reasoning and it has no reminder handrails for non-reasoning use (I'll be coming up with some soon and pushing them at Prolix). The below are settings for 
+
+Reasoner Formatting Settings:
+
+Doesn't matter, but you need to make sure START REPLY WITH is EMPTY.
+
+Prompt-Post Processing: Refer back to your model's settings up top.
+
+Hit save to lock these in.
+
+Chat Completion Settings:
+
+Request Model Reasoning should be UNCHECKED.
+Model Reasoning Effort should be set to Auto for Claude and Minimum for Gemini.
+
+Global Think Trigger at the top of Loom: TOGGLED OFF
+
+CoT Selection: 
+Ensure no CoT is selected at all, check all 4 sections in loom to ensure none are on.
+
+Think Trigger (GLM/Qwen) in Assistant section: TOGGLED OFF
+
+You should be good to go with no reasoning now.
 
 # Where to Go for Help!
 
@@ -593,15 +658,19 @@ I hang out there, as well as other regulars.
 
 # Appendix
 
-## What is Sovereign Hand (Sov Hand)
+## What is Sovereign Hand (Sov Hand)?
 
 Sovereign Hand is a feature pioneered by Easy and endlessly iterated on by Prolix. What it does is take your input on what {{user}} is doing in the message you send, and then in the next AI sent reply, it will rewrite and expand upon what you wrote into full prose with additional detail.
 
 So for example if you wrote {{user}} opened the door. It will write about {{user}} seeing the door, walking up to it, feeling the doorknob, opening it, etc.
 
-This means it echoes the last response, meaning you need to TURN OFF ANTI-ECHO DIALOGUE SEAL in the prose guidelines section (it's there in 3.1.1, 3.2 will have it in the same section as sov hand).
+This means it echoes (repeats) the last response, meaning you need to TURN OFF ANTI-ECHO DIALOGUE SEAL in the Core Instructions section (it's there in 3.2, in prose in older ones).
 
-It also means Lumia controls user, which means you need to TURN OFF HUMAN CONTROLS USER toggle.
+It also means Lumia controls User, which means you need to TURN OFF HUMAN CONTROLS USER toggle in the same section.
+
+## What is Regex?
+
+Regex is short for Regular Expression, it's a scripting language that allows you to find text and either replace it or get rid of it. The most common use of it is ST is to trim out old tags. Loom has some custom regexes you can turn on if you want, but I would not recommend using them, instead I recommend using:
 
 ## Lumiverse Helper Extension
 
@@ -615,7 +684,7 @@ Features:
 - Import custom narrative styles (I've pushed nearly 20 allowing Lumia to write from famous authors throughout history)
 - Import custom utilities (I'm about to push a pack!)
 - Better Sovereign Hand (Sov Hand that allows inserting the user message, trimming old context, and lots of other stuff)
-- Chat History Cleaning Features (Trim old Loom specific tags or any html from old replies)
+- Chat History Cleaning Features (Trim old Loom specific tags or any html from old replies, replacing the need for Regex)
 - Summarization (A summarization engine that supports alternate LLMs other than your main)
 
 ## Nemo Preset Extension (Better organization for Prompts)
@@ -626,9 +695,7 @@ https://github.com/NemoVonNirgend/NemoPresetExt
 
 It also has a bunch of other ui overhauls and features.
 
-## You mentioned 3.2?
-
-It's a beta on the loom channel. It has structure improvements, no need for using \<think\> on GLM anymore, and loads of other neat stuff, please look forward to the final release.
+Some important changes to make, Turn off "Unified Reasoning Section", it can occasionally break reasoning settings. Also I recommend changing Section Dropdown Style to Accordion List for your own sanity.
 
 ## Recommended Extensions (My Personal Favorites)
 
