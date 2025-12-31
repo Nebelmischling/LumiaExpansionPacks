@@ -555,7 +555,7 @@ Hit save on the api profile to save the above after setting it.
 CoT Choice in Loom: CoT Zipbomb (System) or CoT Zipbomb Mini  [Lumiverse if using extension]
 
 Context and Samplers:
-Context Size 600k-1000k
+Context Size 120k-200k
 Response Size: 32762
 Streaming ON
 Temperature: 1
