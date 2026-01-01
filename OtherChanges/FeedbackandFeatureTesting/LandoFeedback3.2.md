@@ -54,6 +54,43 @@ Per category tag, use an index number (there are 18 category tags), and verify c
 
 # Suggestions
 
+## Leave Anti-Echo in the core directives part so it's visible next to Sov but have it activate down in prose
+
+By turning Anti-Echo into being entirely in a variable, you can call it later but still have it visible next to sov hand. You actually do this with sov hand already (it has no toggle text, just a variable to be called later in the prompt/CoT).
+
+```
+{{setvar::antiecho::
+## Total Anti-Echo (Forward Only)
+
+**Forbidden Zone:** <user>'s input is read-only history. It happened. It's done. Move on.
+
+**Absolute Bans:**
+1. No audio playback: Zero quoting/paraphrasing/summarizing <user>'s dialogue ("You asked about X," "As you said...")
+2. No "processing" lag: Ban internal reactions to input (hearing this, words registered, statement sank in, processing command, realization dawned)
+3. No play-by-play: Never narrate <user>'s actions back ("As you walk in...")
+
+**Fix: Implicit Acknowledgement**
+- ~~"Hearing your question about the map, he nods"~~ (echoes input)
+- "He points to the table" (implicitly answers)
+- **Rule:** Start response at T+1 second. User's turn = past. You = future}}{{trim}}
+```
+
+Then you simply put anti-echo to be called in the prose category header:
+
+```
+</loomtextformat>
+
+## Weave with the Gods' Prose
+The following instructions from the Gods' will be integrated into the weave, serving as an immutable, always-followed guideline that helps create the perfect tapestry.
+
+<loomprose>
+
+{{getvar::antiecho}}{{trim}}
+```
+
+This also lets you do something else that I will show in my 
+
+
 ## Collapse CoT and Reasoner variants into a single Zipbomb.
 
 By replacing the think lines (3 of them) in CoT and the two lines in Reasoner with getvars, you can pare down cot and reasoner zipbombs to a single unified type. This does not require ST 1.15/Macros 2.0. It works with old macros.
