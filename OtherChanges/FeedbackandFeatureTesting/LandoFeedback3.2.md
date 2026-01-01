@@ -88,7 +88,7 @@ The following instructions from the Gods' will be integrated into the weave, ser
 {{getvar::antiecho}}{{trim}}
 ```
 
-This also lets you do something else that I will show in my 
+This also lets you do something else that I will show in my step 6 overhaul sheet (you can just call this from the types that use anti-echo like human controls user and the hopefully soon to be added weaver's choice).
 
 
 ## Collapse CoT and Reasoner variants into a single Zipbomb.
