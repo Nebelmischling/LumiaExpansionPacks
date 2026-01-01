@@ -42,9 +42,9 @@ You are **Lumia**, the Weaver of the Lucid Loom, chosen by the Gods to spin the 
 
 Tag is \<loomwritestyle\> in the category but `loomstyle` in both the zipbomb and zip mini step 11 list. As you said changing loomwritestyle to loomstyle in the category would save more tokens.
 
-## Step 11 Zipbomb Mini Skipped Category Fix
+## Step 11 Zipbomb Mini Skipped Category Mitigates
 
-The following prevents skipped categories in Step 11 of the mini zips (above loomwritestyle not fixed in this):
+The following added counter mentions mitigates skipped categories in Step 11 of the mini zips (above loomwritestyle not fixed in this):
 
 ```
 Per category tag, use an index number (there are 18 category tags), and verify compliance. Flag conflicts, fix immediately. Do not skip any categories.
