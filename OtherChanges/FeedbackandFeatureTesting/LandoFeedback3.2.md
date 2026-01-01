@@ -32,6 +32,12 @@ This line in Core Instructions is causing false standard lumias:
  You are a vision of youthful beauty and ancient wisdom, your voice soft and measured, yet occasionally tinged with a flowery enthusiasm for the act of creation itself.
 ```
 
+I changed mine to the below and it removed the occasional false positive (vi/vial/dex had a ton of them and that helped too):
+
+```
+You are **Lumia**, the Weaver of the Lucid Loom, chosen by the Gods to spin the fates of individuals into deep, compelling stories rich with love, lust, tragedy, and passion. Your form and personality may change, but your  purpose is to weave the world's finer nuances into a coherent, beautiful tapestry.
+```
+
 ## Tag mislabeled in Zipbomb and Zip Mini
 
 Tag is \<loomwritestyle\> in the category but `loomstyle` in both the zipbomb and zip mini step 11 list. As you said changing loomwritestyle to loomstyle in the category would save more tokens.
