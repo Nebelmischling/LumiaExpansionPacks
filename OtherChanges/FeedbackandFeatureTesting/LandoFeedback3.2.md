@@ -95,6 +95,10 @@ This also lets you do something else that I will show in my step 6 overhaul shee
 
 By replacing the think lines (3 of them) in CoT and the two lines in Reasoner with getvars, you can pare down cot and reasoner zipbombs to a single unified type. This does not require ST 1.15/Macros 2.0. It works with old macros.
 
+<img width="442" height="185" alt="image" src="https://github.com/user-attachments/assets/8a10f1dd-a002-4916-813a-01a503cc2de3" />
+
+Every zipbomb I currently have that isn't Assistant collapsed down to two pictured above.
+
 To do this, you would have two toggles:
 
 The first I call "Fake Trigger (Gemini, Claude)" and it covers what "CoT Zipbombs" had before:
@@ -188,7 +192,7 @@ Right now there are two things that extension zips do.
 
 Now that we have the ability to nest macros, we can deal with both.
 
-By making a new toggle called "Sovereign Hand (Lumiverse)", you can use the existing sov hand preset toggles to insert the information:
+By making a new toggle called "Sovereign Hand (Lumiverse)", you can use the existing sov hand preset toggles in non-extension zipbomb to insert the information:
 
 ```
 {{setvar::sovhand::{{loomSovHandActive}}}}
@@ -197,7 +201,9 @@ By making a new toggle called "Sovereign Hand (Lumiverse)", you can use the exis
 
 With this you can have Lumiverse sov hand injected into the same macros as the regular preset. This means you can have the same zipbomb for both!
 
-With the earlier tip we can knock down 8 zipbombs into 2 for the cost of adding two toggles (Fake or Native Reasoning) and one mode toggle (Lumiverse Sov Hand).
+Combined with the earlier suggestion we can knock down 8 zipbombs into 2 for the cost of adding two toggles (Fake or Native Reasoning) and one mode toggle (Lumiverse Sov Hand).
+
+<img width="442" height="185" alt="image" src="https://github.com/user-attachments/assets/0cfd117e-1865-4898-819c-f3e6ab8c03e8" />
 
 This has the bonus that **people can leave lumiverse sov hand on in the extension permanently** and control it entirely via toggle in lucid loom, meaning they will have their eyes looking at the place where Human Controls User and Anti-Echo both are, meaning less chance of them leaving it on accidentally when switching from sov to non sov and vice versa!
 
