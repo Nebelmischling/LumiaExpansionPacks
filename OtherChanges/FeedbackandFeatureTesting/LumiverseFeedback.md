@@ -49,11 +49,9 @@ Useful for Macros 2.0 v0.4 (In staging now) confirmation if the extension is on.
 
 In the meantime can just have an optional toggle to setvar the extension macros over the preset ones (Only requires ST 1.15 for macros 2.0 v0.3). Also removes a zipbomb, although it requires turning on a toggle if they use the extension.
 
-## Edit Panels for Narrative Styles, Human Retrofits, and Loom Utilities.
+## Edit Buttons in selector modal for Narrative Styles, Human Retrofits, and Loom Utilities.
 
-Currently to make any changes you have to make them in the lorebook editor, then delete what you have in the extension and reimport the json to test.
-
-An edit button for these would be nice, like how Lumias have one. It would only have to be a big text edit modal, since all 3 are just essentially a text prompt with no individual picture unlike Lumia defs.
+To match how lumia selector modals have edit buttons there.
 
 # LoomBuilder
 

@@ -599,7 +599,7 @@ CoT Choice in Loom: CoT Reasoner Mini or CoT Reasoner Mini [Lumiverse if using e
 
 Global Think Trigger: OFF (The one at the start of the preset)
 
-GLM Think Trigger: Off (This is at the bottom of the CoT section). This is not necessary if you pick GLM "thinking" models on NanoGPT (It will send this for you). But otherwise you want it on for other providers.
+GLM Think Trigger: Off (This is at the bottom of the CoT section). This is not necessary if you pick GLM "thinking" models on NanoGPT (*IF you pick GLM 4.7:thinking* on nano, it will send this for you, so pick the thinking model option). But otherwise you want it on for other providers.
 
 Context and Samplers:
 Context Size 128k-200k
