@@ -42,9 +42,12 @@ Then lastly in story detail emphasis, we get rid of somatic lock and replace it 
 {{getvar::somaticlock}}{{trim}}
 ```
 
+This way it only activates with human controls user (Somatic lock is not compatible with sov hand or weaver's choice since it roots user) and if someone doesn't want to use it with human controls user (Jun keeps it off for example), they can just shut off the receiver.
+
+
 ## Sanitizing HTML and tag rendering for a new Gemini lobotomy
 
-New day, new gemini lobotomy. Since you give your examples for tags and such in backticks so they won't break the markdown in the system prompts, now Gemini (and even GLM a couple times) is adding in the tags into the final output with backticks, preventing rendering.
+New day, new gemini lobotomy. Since you give your examples for tags and such in backticks so they won't break the markdown in the system prompts, now Gemini (and even GLM a couple times) is adding in the tags into the final output with backticks, preventing proper rendering.
 
 I added the following to both Colored Dialogue and Colored Thoughts toggles:
 
