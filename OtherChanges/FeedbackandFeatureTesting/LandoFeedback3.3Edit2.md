@@ -1,5 +1,6 @@
 # My feedback for 3.3 Lando Schizo Edit 2 Loom Version
 
+# Fixes/Quick Suggestions
 
 ## Anti-Slop Header has wrong depth
 
@@ -51,6 +52,12 @@ I added the following to both Colored Dialogue and Colored Thoughts toggles:
 - **Rendering Constraint:** Do NOT enclose font tags or colored text in backticks (`), single quotes ('), or double quotes (") in the final weave. Font tags must be raw, unescaped HTML/Markdown syntax to render correctly.
 ```
 
+## Turn off Preset Regexes by default
+
+What it says on the tin. If people want them on, they can turn them on. Too many people are forgetting they exist and leaving them on and wondering what the hell happened.
+
+# Feature Suggestions
+
 ## Early Prose Cleaner Concept (Needs improving)
 
 See if you can improve on this idea, Prolix, maybe it would work better in lumiverse?
@@ -83,10 +90,6 @@ If above 5 messages, this protocol will not activate and the 3 below guidelines 
 ```
 
 Basically it is to mitigate the first message hijacking the first loom messages and poisoning loom context early. It relies on the {{lastMessageID}} and the LLM knowing how to count, if we made it a lumiverse toggle/option we could simply make this toggle be empty after the first few messages.
-
-## Turn off Preset Regexes by default
-
-What it says on the tin. If people want them on, they can turn them on. Too many people are forgetting they exist and leaving them on and wondering what the hell happened.
 
 ## Claude Killer/Gemini Saver Proof of Concept (Per Step custom planning effort)
 
