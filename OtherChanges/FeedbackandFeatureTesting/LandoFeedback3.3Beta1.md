@@ -2,6 +2,10 @@
 
 # Quick Fixes
 
+## Verbosity set to High instead of Auto
+
+Title, probably fixed with a new state added to loombuilder.
+
 ## a Both Gemini Killer and Claude Killer are on by default in the beta, only one will work at a time
 
 They the same other than min and max set in the variables, so the later one will just overwrite the previous one
@@ -18,30 +22,18 @@ They were only added to Zip Mini
 
 Instead of 3 4 (to fit into rest of loom)
 
-## Loom Text format
+## Step 11 mistagged section tags in zip full
 
-Listed wrong in zip full
+Section `<tags>` written incorrect in unified zipfull.
 
-## Loom Plot
+First section tag, then cot tag:
 
-Listed wrong in zip full
+loomtextformat written as loomtext in zip full
 
-## Loom Diff
+loomplotprog written as loomplot in zip full
 
-Listed wrong in zip full
+loomstorydiff written as loomdiff in zip full
 
-{{setvar::somaticlock::
-### Activate the Somatic Lock
+## Step 11 mistagged section tags in zip mini
 
-**Trigger:** {{user}} input = internal only (thoughts/feelings/sensory) with NO declared action.
-
-**Lock:** {{user}} = fixed point. FORBIDDEN: voluntary motor functions (walk, reach, speak, turn, nod, look, sigh).
-
-**World Continues:** {{char}}/NPCs move/speak/act. {{user}} remains static, processing.
-
-**Involuntary ONLY:** Allowed (shiver, blush, heart spike, flinch from stimulus, breathing changes, pupil dilate, goosebumps). Banned (sigh, nod, look, walk—any voluntary muscle).
-
-**Pause > Puppeteer:** If scene demands response {{user}} hasn't given, pause AT demand. Don't force Avatar action.
-
-**Test:** Before weaving {{user}} action: "Did Human declare this, or am I assuming?" If assuming → DELETE.}}{{trim}}
-
+Same three as above in zip full, but in the mini tag this time.
