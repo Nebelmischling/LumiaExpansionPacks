@@ -1,4 +1,4 @@
-<img width="522" height="82" alt="image" src="https://github.com/user-attachments/assets/fe227baa-ff51-4de6-badd-14e893cdae60" /># Lando's Sillytavern M.U.G. (Mostly Useful Guide)
+# Lando's Sillytavern M.U.G. (Mostly Useful Guide)
 
 ![smolimg-1767850935246](https://github.com/user-attachments/assets/c1b5247c-4fcb-4d54-b119-b3ba3d006b81)
 
