@@ -6,27 +6,37 @@ This is a guide for commonly asked Sillytavern Questions. It is:
 2. Not Terminology or Model Specific (Check my loom guide for basic model rundowns and terminology)
 3. Not Reasoning-Setup specific (This will be different for every preset, I have a detailed breakdown of reasoning options in sillytavern in my Loom Guide)
 
-## Table of Contents
+# Table of Contents
 
 To add later
 
-## General Questions
+# General Questions
 
-### Sillytavern Documentation?
+## Sillytavern Documentation?
 
 Available below:
 
 https://docs.sillytavern.app
 
-### Installing Sillytavern
+## Installing Sillytavern
 
 Different detailed guides for every version are here:
 
 https://docs.sillytavern.app/installation/
 
-## Preset/Prompt Questions
+## How do I enable Macros 2.0?
 
-### How can I import a preset?
+First you need to at least be on Sillytavern 1.15 Live or Staging.
+
+Then you need to go to the user settings by clicking the profile icon with a cogwheel at the top center of the topmost bar in sillytavern.
+
+Then on the right click turn on "Experimental Macro Engine." It will have a little flask to the right of it. You are all set.
+
+You can test if it works by trying out a nested macro in a chat message like ```{{setvar::greeting::Hello, {{user}}}} {{getvar::greeting}}```. If it works and shows Hello and your own persona name, grats, you have macros 2.0 up and running.
+
+# Preset/Prompt Questions
+
+## How can I import a preset?
 
 Simple Steps:
 1. Select Chat Completion in API Tab
@@ -42,7 +52,7 @@ Now that chat completion is selected, click the left most hamburger menu looking
 
 Then use the import icon to import the preset json file. After importing, ensure your new preset is selected in the drop down to use it. Any changes you make to the preset below, whether they be to sampler sliders, reasoning settings, or toggle states or custom toggles will be lost unless you hit the save button under the dropdown at the top of this panel.
 
-### How do I add a new/custom toggle
+## How do I add a new/custom toggle
 
 Simple steps:
 1. Add the prompt
@@ -58,7 +68,7 @@ First, ensure the preset you want to add it to is selected in the Chat Completio
 
 Next scroll down to the start of the list of toggles. There you will see a Prompts Dropdown and to the right of it some buttons. The last button, the one with the plus icon, is the New Prompt button.
 
-#### The New/Edit Prompt Page
+### The New/Edit Prompt Page
 
 If you click it, a new panel will pop up with several options. Name is what the toggle will say in the toggle manager, the LLM will never see this name so you can name it whatever you want.
 
@@ -70,7 +80,7 @@ Position is where the toggle is sent. Relative means you can slide it around the
 
 In the prompt box you enter your prompt, and you can save it in the lower right.
 
-#### After making the new toggle
+### After making the new toggle
 
 After you save and the prompt disappears, your prompt is not actually saved, it can still disappear if you refresh the window so I recommend scrolling up to the preset dropdown and hitting save. Then scroll back down.
 
@@ -82,17 +92,17 @@ Drag your prompt to where you want it and hit save.
 
 You can use nemo preset extension to help you navigate giant presets more easily, but it can be a bit glitchy, so remember to save often!
 
-#### Editing my Prompt
+### Editing my Prompt
 
 Simply click the pencil icon to the right of your prompt (or eyeball icon if you are on nemo tray). Remember to hit save in the lower right to lock in changes to your prompt and save on the preset afterwards to save changes to your preset.
 
-### How can I view my raw prompt sent to the LLM?
+## How can I view my raw prompt sent to the LLM?
 
 To see what the AI received in any AI response, once the response is done generating or has been stopped. You can expand the options in the upper right of the response and click the 
 
-## Identifying and Repairing Prompt Issues
+# Identifying and Repairing Prompt Issues
 
-### First steps
+## First steps
 
 First, please don't hesitate to:
 
@@ -100,11 +110,11 @@ First, please don't hesitate to:
 2. Look for a chat channel or hangout for your preset and check the pins for a guide or FAQ, then use the search bar and if you get no hits, ask for help!
 3. Use the edit button (pencil icon) to look at your actual prompts for insight!
 
-### How can I diagnose issues with my prompt if the above fails?
+## How can I diagnose issues with my prompt if the above fails?
 
 First, this depends on the capabilities of your model. Anything GLM 4.7 level or more complex will do fine (GLM, Gemini, Deepseek, Claude), small local models will probably not. This will work better if your preset has a dedicated OOC handling engine or toggle. Keep in mind this can be more art than science, so ask around in the discord channel or check the homepage of your preset for frequently asked questions, maybe someone has already found and fixed your issue.
 
-#### Preliminary Steps
+### Preliminary Steps
 
 Next time you see a problem occur in a reply, in the reply immediately after, go to Advanced Formatting and go to the reasoning Formatting section in the lower left and hit "Add to Prompts" and set it to 1.
 
@@ -112,7 +122,7 @@ This will allow the LLM to see the Reasoning Block in the last reply it sent (us
 
 Use sillytavern's branch feature to branch off your chat off the problematic reply. Now in the new branched chat, in whatever OOC engine or format your preset has (I'll use Prolix's Lucid Loom OOC formatting as an example); you will type something akin to the following:
 
-#### Examples
+### Examples
 
 Replace X with the name of your preset personality, or assistant if you don't have one.
 Replace Y with the issue you are saying happen.
@@ -136,18 +146,18 @@ For making a new rule to prevent a thing from happening when there is no existin
 OOC: X, pause the story/narrative/roleplay and keep it paused until I say otherwise. X, You now have access to the full llm details including the rules, mandates, system prompt, and instructions that you have followed. In your last response you did y. I do not want you to do this anymore. We need to identify why this happened and how to stop it with a new rule change. Do not simply say you will fix this in your context, we need to fix it for other chats and future stories, which will not have access to your context. Give me an rule change or addendum and where to add it in your prompt.
 ```
 
-#### Commonalities
+### Commonalities
 
 Note how I first instructed the addressed the assistant by name. If your Preset has a name for the storyteller/assistant, like how Lucid Loom has Lumia, address them by their name. Now notice how I specified rules, mandates, system prompts, and instructions. Lucid Loom calls its prompt rules mandate of the gods, but I always make sure to give every common prompt name variation so I can hit.
 
-#### Things that can help:
+### Things that can help:
 
 1. If your preset has personalities (Vex, Lumia), pick analytical, smart, or developer related ones (For example, in Prolix's Lucid Loom I specifically created a personality that is a developer with knowledge of LLMs and Sillytavern and prompt engineer for this purpose).
 2. Ensure add to prompts is set to 1 so your model can examine it's CoT too.
 3. Check to see if your preset has pre-built diagnostic prompts! I added one to Prolix's Lucid Loom in the upcoming update, your preset might have one built in too!
 4. Check the system prompt to see if there are rules 
 
-#### Things to stress in follow up responses:
+### Things to stress in follow up responses:
 
 1. I don't want to toss around blame, I want to implement solutions. Let's find the root cause.
 2. We cannot do a context fix, we need to implement a rules change in the actual system prompt, give me potential rules to add and where to add them.
@@ -159,9 +169,9 @@ Once you have a potential fix, edit your toggles or add a new one (check the add
 
 It's also worth trying it in a new chat, as context in that chat history can "poison" your LLM with bad habits even if you implement a fix!
 
-## Extensions
+# Extensions
 
-### How do I install an extension
+## How do I install an extension
 
 Before you do this, ensure your api profile and preset are both saved (the below operations will refresh sillytavern and will cause you to lose unsaved changes).
 
@@ -190,7 +200,7 @@ If you install it for a specific user it will be in (default-user used as exampl
 
 Users without administrative rights will not be able to uninstall global extensions.
 
-### How do I enable/disable, update, remove, or switch the branch of an extension
+## How do I enable/disable, update, remove, or switch the branch of an extension
 
 Before you do this, ensure your api profile and preset are both saved (the below operations will refresh sillytavern and will cause you to lose unsaved changes).
 
@@ -198,7 +208,7 @@ In the extensions panel, on the upper right, will be a manage extensions button 
 
 Once you click this you will see a list of extensions, scroll down to "Installed extensions." It will probably be busy "loading extensions". This means it's doing update checks, let it do it's thing.
 
-#### Updating an Extension
+### Updating an Extension
 
 To see if an extension has an update, simply scroll down when the loading indicator finishes and look for a green color to the extension name. On the right will be an button that only appears if there is an update, with a down arrow pointing at a hard disk. Click it to update. 
 
@@ -206,26 +216,20 @@ Alternatively you can also scroll back up to the top after loading is done and h
 
 After doing this, the updates will install (some may say failed, they probably didn't fail even if they said they did). After all the updates are done, your sillytavern will probably refresh, if it does, refresh the page manually, the extensions will require this.
 
-#### Toggling an extension on or off
+### Toggling an extension on or off
 
 To turn an extension off and on, click the check circle the left of it's name. You will probably have to refresh the page afterwards for the extension to properly enable or disable. If you are fast you can disable or enable multiple extensions at once before the refresh!
 
-#### Uninstalling an extension.
+### Uninstalling an extension.
 
 To the right on the same row as your target extension will be a trash can icon, click it to uninstall the extension, sillytavern will refresh after it does. If it doesn't, do the refresh yourself.
 
-#### Switching extension branches.
+### Switching extension branches.
 
 Sometimes a developer will have a test or dev branch of an extension. To switch to it you use the switch branch button to the right in the same row. A dropdown window will then appear and you can select your branch from it.
 
 Historically I've had issues with this feature, so I'd recommend uninstalling and reinstalling but with the proper branch name in the install extension dialog if switching branches like this doesn't work.
 
-### How do I enable Macros 2.0?
+## What extensions do you recommend
 
-First you need to at least be on Sillytavern 1.15 Live or Staging.
-
-Then you need to go to the user settings by clicking the profile icon with a cogwheel at the top center of the topmost bar in sillytavern.
-
-Then on the right click turn on "Experimental Macro Engine." It will have a little flask to the right of it. You are all set.
-
-You can test if it works by trying out a nested macro in a chat message like ```{{setvar::greeting::Hello, {{user}}}} {{getvar::greeting}}```. If it works and shows Hello and your own persona name, grats, you have macros 2.0 up and running.
+My recommended extensions are on my Loom Guide in the appendix.
