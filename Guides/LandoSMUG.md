@@ -63,9 +63,11 @@ Then on the right click turn on "Experimental Macro Engine." It will have a litt
 You can test if it works by trying out a nested macro in a chat message like ```{{setvar::greeting::Hello, {{user}}}} {{getvar::greeting}}```. If it works and shows Hello and your own persona name, grats, you have macros 2.0 up and running.
 
 Enter it into your chat:
+
 <img width="420" height="45" alt="image" src="https://github.com/user-attachments/assets/4997247d-8ce3-46de-87af-f73c19ab5570" />
 
 A successful Reply:
+
 <img width="131" height="80" alt="image" src="https://github.com/user-attachments/assets/cb775194-772e-449b-92a8-44d57a61fbf4" />
 
 
@@ -92,6 +94,7 @@ Now that chat completion is selected, click the left most hamburger menu looking
  (AI Response Configuration) to open the Chat Completion Presets Panel on the left of Sillytavern.
 
 Then use the import icon to import the preset json file:
+
 <img width="281" height="228" alt="image" src="https://github.com/user-attachments/assets/f9549c74-1d4f-4f13-862a-d7ca4f2acb80" />
 
 After importing, ensure your new preset is selected in the drop down to use it. 
@@ -156,9 +159,11 @@ Select your new prompt in the dropdown just above the prompt list.
 Click the chain icon to insert your prompt into the list below.
 
 Before Chain:
+
 <img width="273" height="195" alt="image" src="https://github.com/user-attachments/assets/571a7173-9e2f-45fd-823c-a935c8d32649" />
 
 After Chain:
+
 <img width="367" height="189" alt="image" src="https://github.com/user-attachments/assets/dca3a5af-3b78-4a61-93e9-e021dbd33123" />
 
 Drag your prompt to where you want it, enable it if you want with the toggle, and hit save on the preset way up top!
@@ -181,13 +186,16 @@ To see what the AI received and used to create the reply in any AI response, onc
 <img width="89" height="90" alt="image" src="https://github.com/user-attachments/assets/248033d3-0fb2-4afe-9daa-520a82780b77" />
 
 Then you click the little writing tablet icon to bring up the Prompt Itemizer:
+
 <img width="83" height="74" alt="image" src="https://github.com/user-attachments/assets/eab1918b-82b2-4667-8fe3-665622e746d4" />
 
 
 Once there you can click the two buttons at the upper right to view your prompt in a pop window:
+
 <img width="864" height="566" alt="image" src="https://github.com/user-attachments/assets/bf602a67-5610-4eaf-9adb-d23cec8b8a54" />
 
 You can click the second button to copy it to your clipboard for easier viewing in a text editor:
+
 <img width="352" height="85" alt="image" src="https://github.com/user-attachments/assets/b7723dac-601e-4b63-8aef-3aef23ad3f2a" />
 
 # Identifying and Repairing Prompt Issues
@@ -342,12 +350,15 @@ Once you click this you will see a list of extensions, scroll down to "Installed
 To see if an extension has an update, simply scroll down when the loading indicator finishes and look for a green color to the extension name. 
 
 In the below example, Lumiverse Helper has an update and More Flexible Continues does not:
+
 <img width="355" height="99" alt="image" src="https://github.com/user-attachments/assets/d9aab668-9c4f-4d71-a757-690e16a753cc" />
 
 On the right will be an button that only appears if there is an update, with a down arrow pointing at a hard disk. Click it to update: 
+
 <img width="522" height="82" alt="image" src="https://github.com/user-attachments/assets/22fca089-5040-4c3b-b0f7-90f2b2aa4655" />
 
 Alternatively you can also scroll back up to the top after loading is done and hit update all or update enabled in the upper left:
+
 <img width="368" height="91" alt="image" src="https://github.com/user-attachments/assets/0b99b076-3976-40bc-9d58-bbc69f0bf3e0" />
 
 After doing this, the updates will install (some may say failed, they probably didn't fail even if they said they did). After all the updates are done, your sillytavern will probably refresh, if it does, refresh the page manually, the extensions will require this.
@@ -357,6 +368,7 @@ After doing this, the updates will install (some may say failed, they probably d
 To turn an extension off and on, click the check circle the left of it's name. You will probably have to refresh the page afterwards for the extension to properly enable or disable. If you are fast you can disable or enable multiple extensions at once before the refresh!
 
 In the below example, Group SendAs is enabled, and qvink_memory is disabled:
+
 <img width="286" height="134" alt="image" src="https://github.com/user-attachments/assets/5f6c9809-0d7f-4b08-8b37-0de9b3fb2667" />
 
 ### Uninstalling an extension.
@@ -368,11 +380,13 @@ To the right on the same row as your target extension will be a trash can icon, 
 ### Switching extension branches.
 
 Sometimes a developer will have a test or dev branch of an extension. To switch to it you use the switch branch button to the right in the same row:
+
 <img width="136" height="86" alt="image" src="https://github.com/user-attachments/assets/53bba89a-4c3f-4dca-804d-e67048a26e79" />
 
 A dropdown window will then appear and you can select your branch from it. 
 
 Seen here, two branches for an extension, main and internationalization:
+
 <img width="595" height="185" alt="image" src="https://github.com/user-attachments/assets/f641dc1c-aecd-4a14-8ba1-e45b60477b3c" />
 
 
