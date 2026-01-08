@@ -1,4 +1,4 @@
-# Lando's Sillytavern M.U.G. (Mostly Useful Guide)
+<img width="522" height="82" alt="image" src="https://github.com/user-attachments/assets/fe227baa-ff51-4de6-badd-14e893cdae60" /># Lando's Sillytavern M.U.G. (Mostly Useful Guide)
 
 ![smolimg-1767850935246](https://github.com/user-attachments/assets/c1b5247c-4fcb-4d54-b119-b3ba3d006b81)
 
@@ -51,13 +51,23 @@ https://docs.sillytavern.app/installation/
 
 You might be told by an extension developer to turn on Macros 2.0.
 
-To do this, first you need to at least be on Sillytavern 1.15 Live or Staging.
+To do this, first you need to *at least* be on Sillytavern 1.15 Live or Staging.
 
-Then you need to go to the user settings by clicking the profile icon with a cogwheel at the top center of the topmost bar in sillytavern.
+Then you need to go to the user settings by clicking the profile icon with a cogwheel <img width="31" height="28" alt="image" src="https://github.com/user-attachments/assets/beeb1f04-ec80-4e11-be22-d477b48b2d25" />
+ at the top center of the topmost bar in sillytavern.
 
 Then on the right click turn on "Experimental Macro Engine." It will have a little flask to the right of it. You are all set.
 
+<img width="291" height="374" alt="image" src="https://github.com/user-attachments/assets/3f5ba283-6b4b-4692-b1c1-c6a7911f222d" />
+
 You can test if it works by trying out a nested macro in a chat message like ```{{setvar::greeting::Hello, {{user}}}} {{getvar::greeting}}```. If it works and shows Hello and your own persona name, grats, you have macros 2.0 up and running.
+
+Enter it into your chat:
+<img width="420" height="45" alt="image" src="https://github.com/user-attachments/assets/4997247d-8ce3-46de-87af-f73c19ab5570" />
+
+A successful Reply:
+<img width="131" height="80" alt="image" src="https://github.com/user-attachments/assets/cb775194-772e-449b-92a8-44d57a61fbf4" />
+
 
 > [!TIP]
 > You can turn this back off at any time by unchecking it. {{pick}} macros used in chats in macro 2.0 will not be compatible if you switch back. If you don't use {{pick}} macros feel free to switch back and forth (Keep in mind macro 2.0 extension macros will usually only work in 2.0, and non-2.0 might not work with 2.0).
@@ -78,12 +88,18 @@ First you need to know if a preset is chat or text completion.
 
 Most presets on the AI presets discord including Lucid Loom, NemoNet/Nemo Engine, Izumi, and others are all chat completion, so ensure you have "Chat Completion" selected on the API Tab (Plug icon at the top).
 
-Now that chat completion is selected, click the left most hamburger menu looking icon at the top (AI Response Configuration) to open the Chat Completion Presets Panel on the left of Sillytavern.
+Now that chat completion is selected, click the left most hamburger menu looking icon at the top <img width="31" height="30" alt="image" src="https://github.com/user-attachments/assets/d19ede7c-73dd-4cd0-9562-55f52954970b" />
+ (AI Response Configuration) to open the Chat Completion Presets Panel on the left of Sillytavern.
 
-Then use the import icon to import the preset json file. After importing, ensure your new preset is selected in the drop down to use it. 
+Then use the import icon to import the preset json file:
+<img width="281" height="228" alt="image" src="https://github.com/user-attachments/assets/f9549c74-1d4f-4f13-862a-d7ca4f2acb80" />
+
+After importing, ensure your new preset is selected in the drop down to use it. 
 
 > [!WARNING]
 > Any changes you make to the preset below, whether they be to sampler sliders, reasoning settings, or toggle states or custom toggles **will be lost** unless you hit the save button under the dropdown at the top of this panel.
+
+<img width="270" height="124" alt="image" src="https://github.com/user-attachments/assets/7ac9dcd9-639a-454e-920f-b5796088a8b8" />
 
 ## How do I add a new/custom toggle
 
@@ -99,11 +115,21 @@ Then use the import icon to import the preset json file. After importing, ensure
 
 First, ensure the preset you want to add it to is selected in the Chat Completion Presets panel. *Toggles are added per preset, not globally.*
 
-Next scroll down to the start of the list of toggles. There you will see a Prompts Dropdown and to the right of it some buttons. The last button, the one with the plus icon, is the New Prompt button.
+Next scroll down to the start of the list of toggles. There you will see a Prompts Dropdown and to the right of it some buttons. 
+
+<img width="385" height="309" alt="image" src="https://github.com/user-attachments/assets/b3b01fad-459f-48cd-9d1c-5b8a66396206" />
+
+The last button, the one with the plus icon, is the New Prompt button.
+
+<img width="448" height="98" alt="image" src="https://github.com/user-attachments/assets/297c3ef0-962f-400f-8500-c865c97ed9bc" />
 
 ### The New/Edit Prompt Page
 
-If you click it, a new panel will pop up with several options. Name is what the toggle will say in the toggle manager, the LLM will never see this name so you can name it whatever you want.
+If you click it, a new panel will pop up with several options. 
+
+<img width="1175" height="241" alt="image" src="https://github.com/user-attachments/assets/4e115cbf-f93b-4f75-8f68-fdd03edf664f" />
+
+Name is what the toggle will say in the toggle manager, the LLM will never see this name so you can name it whatever you want.
 
 Role is what it is sent to the LLM as, most of the time you want system here. 
 
@@ -113,16 +139,31 @@ Position is where the toggle is sent. Relative means you can slide it around the
 
 In the prompt box you enter your prompt, and you can save it in the lower right.
 
-### After making the new toggle
+<img width="144" height="162" alt="image" src="https://github.com/user-attachments/assets/14277825-c6d2-4eb6-9076-4709648a37c4" />
 
-> [!NOTE]
+> [!WARNING]
 > After you save and the prompt disappears, your prompt is not actually saved, it can still disappear if you refresh the window so I recommend scrolling up to the preset dropdown and hitting save. Then scroll back down.
+
+Always save!:
+<img width="373" height="96" alt="image" src="https://github.com/user-attachments/assets/436319b2-54f2-47cd-8866-d35614118925" />
+
+### After making the new toggle
 
 Select your new prompt in the dropdown just above the prompt list.
 
+<img width="261" height="148" alt="image" src="https://github.com/user-attachments/assets/a0701793-ec22-453e-b48f-c2e24e9e8842" />
+
 Click the chain icon to insert your prompt into the list below.
 
-Drag your prompt to where you want it and hit save on the preset way up top.
+Before Chain:
+<img width="273" height="195" alt="image" src="https://github.com/user-attachments/assets/571a7173-9e2f-45fd-823c-a935c8d32649" />
+
+After Chain:
+<img width="367" height="189" alt="image" src="https://github.com/user-attachments/assets/dca3a5af-3b78-4a61-93e9-e021dbd33123" />
+
+Drag your prompt to where you want it, enable it if you want with the toggle, and hit save on the preset way up top!
+
+You can click the red crossed out chain next to the draggable prompt to remove it from the prompt list (it will still be in the dropdown!)
 
 > [!TIP]
 > You can use nemo preset extension to help you navigate giant presets more easily, but it can be a bit glitchy, so remember to save often!
@@ -131,11 +172,23 @@ Drag your prompt to where you want it and hit save on the preset way up top.
 
 Simply click the pencil icon to the right of your prompt (or eyeball icon if you are on nemo tray). Remember to hit save in the lower right to lock in changes to your prompt and save on the preset afterwards to save changes to your preset.
 
+<img width="323" height="36" alt="image" src="https://github.com/user-attachments/assets/1a7df862-b3ab-49b0-884c-4b3042225def" />
+
 ## How can I view my raw prompt sent to the LLM?
 
-To see what the AI received and used to create the reply in any AI response, once the response is done generating or has been stopped: You can expand the options in the upper right of the response and click the little writing tablet icon to bring up the Prompt Itemizer.
+To see what the AI received and used to create the reply in any AI response, once the response is done generating or has been stopped: You can expand the options in the upper right of the response by clicking the three dots.
 
-Once there you can click the two buttons at the upper right to either view your prompt in a pop window, or copy it to your clipboard for easier viewing in a text editor.
+<img width="89" height="90" alt="image" src="https://github.com/user-attachments/assets/248033d3-0fb2-4afe-9daa-520a82780b77" />
+
+Then you click the little writing tablet icon to bring up the Prompt Itemizer:
+<img width="83" height="74" alt="image" src="https://github.com/user-attachments/assets/eab1918b-82b2-4667-8fe3-665622e746d4" />
+
+
+Once there you can click the two buttons at the upper right to view your prompt in a pop window:
+<img width="864" height="566" alt="image" src="https://github.com/user-attachments/assets/bf602a67-5610-4eaf-9adb-d23cec8b8a54" />
+
+You can click the second button to copy it to your clipboard for easier viewing in a text editor:
+<img width="352" height="85" alt="image" src="https://github.com/user-attachments/assets/b7723dac-601e-4b63-8aef-3aef23ad3f2a" />
 
 # Identifying and Repairing Prompt Issues
 
@@ -165,14 +218,21 @@ In general the workflow is
 
 ### Preliminary Steps
 
-Next time you see a problem occur in a reply, in the reply immediately after, go to Advanced Formatting and go to the reasoning Formatting section in the lower left and hit "Add to Prompts" and set it to 1.
+Next time you see a problem occur in a reply, in the reply immediately after, go to Advanced Formatting <img width="39" height="46" alt="image" src="https://github.com/user-attachments/assets/ac0a13ff-7506-42e9-8e21-bb29d3da619e" /> (A icon at the top) and go to the reasoning Formatting section in the lower right and hit "Add to Prompts" and set it to 1:
+
+<img width="328" height="109" alt="image" src="https://github.com/user-attachments/assets/f762c18c-3293-4829-a7eb-5772d5f1ae00" />
+
 
 This will allow the LLM to see the Reasoning Block in the last reply it sent (usually empty). 
 
 > [!TIP]
-> Remember to turn this back off when you go back to roleplaying if you usually have it off.
+> This setting is saved in your api profile, not your preset! Remember to turn this back off when you go back to roleplaying if you usually have it off.
 
-Use sillytavern's branch feature to branch off your chat off the problematic reply. Now in the new branched chat, in whatever OOC engine or format your preset has (I'll use Prolix's Lucid Loom OOC formatting as an example); you will type something akin to the following:
+Use sillytavern's branch feature to branch off your chat off the problematic reply.
+
+<img width="236" height="83" alt="image" src="https://github.com/user-attachments/assets/ff7f8299-ea97-4d06-a8e4-f4a65d8310c7" />
+
+Now in the new branched chat, in whatever OOC engine or format your preset has (I'll use Prolix's Lucid Loom OOC formatting as an example); you will type something akin to the following:
 
 ### Examples
 
@@ -241,11 +301,15 @@ Once you have a potential fix, edit your toggles or add a new one (check the add
 
 ### Detailed Explanation:
 
-In the extensions tab (3 blocks in a pyramid in the center right of the topmost bar in sillytavern) you will see a couple of buttons in the upper right.
+In the extensions tab (3 blocks in a pyramid in the center right of the topmost bar in sillytavern) <img width="107" height="60" alt="image" src="https://github.com/user-attachments/assets/6dcc3f58-0d47-4d82-b21b-21cebec32bf8" />
+ you will see a couple of buttons in the upper right.
 
-The rightmost button with a cloud symbol and a down arrow is "Install Extension."
+The rightmost button with a cloud symbol and a down arrow <img width="140" height="63" alt="image" src="https://github.com/user-attachments/assets/c39eda0c-5de7-4b78-8a6b-e2244090157d" />
+ is "Install Extension."
 
 Once you click this a popup dialog will appear asking you to enter the git url of the extension. You can enter the plain github url here, and below add a tag or branch name if it's not the main branch (95% of the time it will be).
+
+<img width="518" height="402" alt="image" src="https://github.com/user-attachments/assets/12deacf4-b8ad-42dc-99c3-a694de55f957" />
 
 Then you can install for all users or just you. If you install for all users it will be in the following folder:
 
@@ -267,13 +331,24 @@ If you install it for a specific user it will be in (default-user used as exampl
 
 In the extensions panel, on the upper right, will be a manage extensions button (same 3 block pyramid icon).
 
-Once you click this you will see a list of extensions, scroll down to "Installed extensions." It will probably be busy "loading extensions". This means it's doing update checks, let it do it's thing.
+<img width="159" height="78" alt="image" src="https://github.com/user-attachments/assets/449dabcf-3d9a-4f5a-80a5-3fd97c21be69" />
+
+Once you click this you will see a list of extensions, scroll down to "Installed extensions." It will probably be busy "loading extensions". This means it's doing update checks, wait and let it do its thing.
+
+<img width="347" height="86" alt="image" src="https://github.com/user-attachments/assets/7a6303ad-eb67-4952-b912-6318a508487a" />
 
 ### Updating an Extension
 
-To see if an extension has an update, simply scroll down when the loading indicator finishes and look for a green color to the extension name. On the right will be an button that only appears if there is an update, with a down arrow pointing at a hard disk. Click it to update. 
+To see if an extension has an update, simply scroll down when the loading indicator finishes and look for a green color to the extension name. 
 
-Alternatively you can also scroll back up to the top after loading is done and hit update all or update enabled in the upper left.
+In the below example, Lumiverse Helper has an update and More Flexible Continues does not:
+<img width="355" height="99" alt="image" src="https://github.com/user-attachments/assets/d9aab668-9c4f-4d71-a757-690e16a753cc" />
+
+On the right will be an button that only appears if there is an update, with a down arrow pointing at a hard disk. Click it to update: 
+<img width="522" height="82" alt="image" src="https://github.com/user-attachments/assets/22fca089-5040-4c3b-b0f7-90f2b2aa4655" />
+
+Alternatively you can also scroll back up to the top after loading is done and hit update all or update enabled in the upper left:
+<img width="368" height="91" alt="image" src="https://github.com/user-attachments/assets/0b99b076-3976-40bc-9d58-bbc69f0bf3e0" />
 
 After doing this, the updates will install (some may say failed, they probably didn't fail even if they said they did). After all the updates are done, your sillytavern will probably refresh, if it does, refresh the page manually, the extensions will require this.
 
@@ -281,13 +356,25 @@ After doing this, the updates will install (some may say failed, they probably d
 
 To turn an extension off and on, click the check circle the left of it's name. You will probably have to refresh the page afterwards for the extension to properly enable or disable. If you are fast you can disable or enable multiple extensions at once before the refresh!
 
+In the below example, Group SendAs is enabled, and qvink_memory is disabled:
+<img width="286" height="134" alt="image" src="https://github.com/user-attachments/assets/5f6c9809-0d7f-4b08-8b37-0de9b3fb2667" />
+
 ### Uninstalling an extension.
 
 To the right on the same row as your target extension will be a trash can icon, click it to uninstall the extension, sillytavern will refresh after it does. If it doesn't, do the refresh yourself.
 
+<img width="530" height="73" alt="image" src="https://github.com/user-attachments/assets/9cab0acd-be2a-4e96-bf8a-a3e0e4346f1d" />
+
 ### Switching extension branches.
 
-Sometimes a developer will have a test or dev branch of an extension. To switch to it you use the switch branch button to the right in the same row. A dropdown window will then appear and you can select your branch from it.
+Sometimes a developer will have a test or dev branch of an extension. To switch to it you use the switch branch button to the right in the same row:
+<img width="136" height="86" alt="image" src="https://github.com/user-attachments/assets/53bba89a-4c3f-4dca-804d-e67048a26e79" />
+
+A dropdown window will then appear and you can select your branch from it. 
+
+Seen here, two branches for an extension, main and internationalization:
+<img width="595" height="185" alt="image" src="https://github.com/user-attachments/assets/f641dc1c-aecd-4a14-8ba1-e45b60477b3c" />
+
 
 > [!NOTE]
 > Historically I've had issues with this feature, so I'd recommend uninstalling and reinstalling but with the proper branch name in the install extension dialog if switching branches like this doesn't work.
