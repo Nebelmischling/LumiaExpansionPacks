@@ -2,9 +2,9 @@
 
 This is a guide for commonly asked Sillytavern Questions. It is:
 
-1. Not Preset-specific or Lucid Loom Specific (Check my Loom Guide for that)
-2. Not Terminology or Model Specific (Check my loom guide for basic model rundowns and terminology)
-3. Not Reasoning-Setup specific (This will be different for every preset, I have a detailed breakdown of reasoning options in sillytavern in my Loom Guide)
+1. Not Preset-specific or Lucid Loom Specific (Check my [Loom Guide](LoomGuide.md) for that)
+2. Not Terminology or Model Specific (Check my [Loom Guide](LoomGuide.md) for basic model rundowns and terminology)
+3. Not Reasoning-Setup specific (This will be different for every preset, I have a detailed breakdown of reasoning options in sillytavern in my [Loom Guide](LoomGuide.md))
 
 # Table of Contents
 
@@ -26,7 +26,9 @@ https://docs.sillytavern.app/installation/
 
 ## How do I enable Macros 2.0?
 
-First you need to at least be on Sillytavern 1.15 Live or Staging.
+You might be told by an extension developer to turn on Macros 2.0.
+
+To do this, first you need to at least be on Sillytavern 1.15 Live or Staging.
 
 Then you need to go to the user settings by clicking the profile icon with a cogwheel at the top center of the topmost bar in sillytavern.
 
@@ -50,7 +52,10 @@ Most presets on the AI presets discord including Lucid Loom, NemoNet/Nemo Engine
 
 Now that chat completion is selected, click the left most hamburger menu looking icon at the top (AI Response Configuration) to open the Chat Completion Presets Panel on the left of Sillytavern.
 
-Then use the import icon to import the preset json file. After importing, ensure your new preset is selected in the drop down to use it. Any changes you make to the preset below, whether they be to sampler sliders, reasoning settings, or toggle states or custom toggles will be lost unless you hit the save button under the dropdown at the top of this panel.
+Then use the import icon to import the preset json file. After importing, ensure your new preset is selected in the drop down to use it. 
+
+> [!WARNING]
+> Any changes you make to the preset below, whether they be to sampler sliders, reasoning settings, or toggle states or custom toggles **will be lost** unless you hit the save button under the dropdown at the top of this panel.
 
 ## How do I add a new/custom toggle
 
@@ -82,7 +87,8 @@ In the prompt box you enter your prompt, and you can save it in the lower right.
 
 ### After making the new toggle
 
-After you save and the prompt disappears, your prompt is not actually saved, it can still disappear if you refresh the window so I recommend scrolling up to the preset dropdown and hitting save. Then scroll back down.
+> [!NOTE]
+> After you save and the prompt disappears, your prompt is not actually saved, it can still disappear if you refresh the window so I recommend scrolling up to the preset dropdown and hitting save. Then scroll back down.
 
 Select your new prompt in the dropdown just above the prompt list.
 
@@ -98,7 +104,9 @@ Simply click the pencil icon to the right of your prompt (or eyeball icon if you
 
 ## How can I view my raw prompt sent to the LLM?
 
-To see what the AI received in any AI response, once the response is done generating or has been stopped. You can expand the options in the upper right of the response and click the 
+To see what the AI received and used to create the reply in any AI response, once the response is done generating or has been stopped: You can expand the options in the upper right of the response and click the little writing tablet icon to bring up the Prompt Itemizer.
+
+Once there you can click the two buttons at the upper right to either view your prompt in a pop window, or copy it to your clipboard for easier viewing in a text editor.
 
 # Identifying and Repairing Prompt Issues
 
@@ -112,13 +120,27 @@ First, please don't hesitate to:
 
 ## How can I diagnose issues with my prompt if the above fails?
 
-First, this depends on the capabilities of your model. Anything GLM 4.7 level or more complex will do fine (GLM, Gemini, Deepseek, Claude), small local models will probably not. This will work better if your preset has a dedicated OOC handling engine or toggle. Keep in mind this can be more art than science, so ask around in the discord channel or check the homepage of your preset for frequently asked questions, maybe someone has already found and fixed your issue.
+First, this depends on the capabilities of your model. Anything GLM 4.7 level or more complex will do fine (GLM, Gemini, Deepseek, Claude), small local models will probably not. This will work better if your preset has a dedicated OOC handling engine or toggle. Keep in mind this can be more art than science. 
+
+In general the workflow is
+1. Identify the problem you have with the LLM's output
+2. Decide how to describe it to the LLM
+3. Chat Branch out from the problematic reply into a chat branch to be used for diagnostics
+4. Put the LLM into a proper OOC state where it can see it's own rules and instructions and acknowledge them
+5. Ask the LLM why it did what it did, identifying trends, rules, and conflicts
+6. Ask the LLM to narrow down potential fixes or mitigations to solve the issue in prompts, not in context
+7. Chase with the LLM to get a workable prompt edit or addition
+8. Test it out in the original branch, if it doesn't fix it, try it in a new chat, revisit the diagnostic branch, or create a new one right then and there.
+
 
 ### Preliminary Steps
 
 Next time you see a problem occur in a reply, in the reply immediately after, go to Advanced Formatting and go to the reasoning Formatting section in the lower left and hit "Add to Prompts" and set it to 1.
 
-This will allow the LLM to see the Reasoning Block in the last reply it sent (usually empty). Remember to turn this back off when you go back to roleplaying if you usually have it off.
+This will allow the LLM to see the Reasoning Block in the last reply it sent (usually empty). 
+
+> [!TIP]
+> Remember to turn this back off when you go back to roleplaying if you usually have it off.
 
 Use sillytavern's branch feature to branch off your chat off the problematic reply. Now in the new branched chat, in whatever OOC engine or format your preset has (I'll use Prolix's Lucid Loom OOC formatting as an example); you will type something akin to the following:
 
@@ -148,7 +170,7 @@ OOC: X, pause the story/narrative/roleplay and keep it paused until I say otherw
 
 ### Commonalities
 
-Note how I first instructed the addressed the assistant by name. If your Preset has a name for the storyteller/assistant, like how Lucid Loom has Lumia, address them by their name. Now notice how I specified rules, mandates, system prompts, and instructions. Lucid Loom calls its prompt rules mandate of the gods, but I always make sure to give every common prompt name variation so I can hit.
+Note how I first instructed the addressed the assistant by name. If your Preset has a name for the storyteller/assistant, like how Lucid Loom has Lumia, address them by their name. Now notice how I specified rules, mandates, system prompts, and instructions. Lucid Loom calls its prompt rules mandate of the gods, but I always make sure to give every common prompt name variation including *system prompt* so I can be sure to get my point across.
 
 ### Things that can help:
 
@@ -167,13 +189,18 @@ Remember to use swipes or regens to get other angles and explanations!
 
 Once you have a potential fix, edit your toggles or add a new one (check the add a new prompt section up top), then switch from this diagnostic chat branch back to your problem one, and try seeing in the problem persists.
 
-It's also worth trying it in a new chat, as context in that chat history can "poison" your LLM with bad habits even if you implement a fix!
+> [!NOTE]
+> Remember to save your new or edited toggle in the preset so it won't disappear on refresh!
+
+> [!TIP]
+> It's also worth trying it in a new chat, as context in that chat history can "poison" your LLM with bad habits even if you implement a fix!
 
 # Extensions
 
 ## How do I install an extension
 
-Before you do this, ensure your api profile and preset are both saved (the below operations will refresh sillytavern and will cause you to lose unsaved changes).
+> [!WARNING]
+> Before you do this, ensure your api profile and preset are both saved (the below operations will refresh sillytavern and will cause you to lose unsaved changes).
 
 Simple Steps:
 1. Open the extensions tab
@@ -187,7 +214,7 @@ The rightmost button with a cloud symbol and a down arrow is "Install Extension.
 
 Once you click this a popup dialog will appear asking you to enter the git url of the extension. You can enter the plain github url here, and below add a tag or branch name if it's not the main branch (95% of the time it will be).
 
-Then you can install for all users or just me. If you install for all users it will be in the following folder:
+Then you can install for all users or just you. If you install for all users it will be in the following folder:
 
 ```
 .\public\scripts\extensions\third-party\Extension Name
@@ -195,14 +222,15 @@ Then you can install for all users or just me. If you install for all users it w
 
 If you install it for a specific user it will be in (default-user used as example):
 ```
-.\data\default-user\extensions
+.\data\default-user\extensions\Extension Name
 ```
-
-Users without administrative rights will not be able to uninstall global extensions.
+> [!NOTE]
+> Users without administrative rights will not be able to uninstall global extensions.
 
 ## How do I enable/disable, update, remove, or switch the branch of an extension
 
-Before you do this, ensure your api profile and preset are both saved (the below operations will refresh sillytavern and will cause you to lose unsaved changes).
+> [!WARNING]
+> Before you do this, ensure your api profile and preset are both saved (the below operations will refresh sillytavern and will cause you to lose unsaved changes).
 
 In the extensions panel, on the upper right, will be a manage extensions button (same 3 block pyramid icon).
 
@@ -232,4 +260,4 @@ Historically I've had issues with this feature, so I'd recommend uninstalling an
 
 ## What extensions do you recommend
 
-My recommended extensions are on my Loom Guide in the appendix.
+My recommended extensions are on my [Loom Guide](LoomGuide.md) in the appendix.
