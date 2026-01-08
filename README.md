@@ -40,6 +40,6 @@ Author Packs, Utility Packs, and Lumia packs can both be downloaded from there!
 - Author Pack 4 Underway (Contemporary Revival)
 - Author Pack 5 Planning (Shitpost Pack)
 
-### [Utility Packs]
+### Utility Packs
 - Loom Utility Pack 1 Testing
 - Loom NSFW Utility Pack 1 Testing
