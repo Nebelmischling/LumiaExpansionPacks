@@ -1,9 +1,11 @@
 # Lando's Lucid Loom Stuff 
 
-THE GUIDE:
+THE LOOM GUIDE:
 [The Loom Guide](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LoomGuide.md)
+LANDO'S Sillytavern M.U.G. (Mostly Useful Guide):
+[LANDO SMUG](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LandoSMUG.md)
 
-You can find Lucid Loom at Prolix's Site Here:
+You can find Prolix's excellent Lucid Loom preset at his site here:
 https://lucid.cards
 
 From now on, my Lumia personality, author, and utility packs will be using Prolix's new [Lumiverse Helper](https://github.com/prolix-oc/SillyTavern-LumiverseHelper) extension!
@@ -28,6 +30,7 @@ Author Packs, Utility Packs, and Lumia packs can both be downloaded from there!
 - Pack 3 Released
 - Pack 4 Released
 - Pack 5 Planning (Redundant Personalities)
+- NSFW Pack 1 Testing
 - At least 5 other packs on the way
 
 ### [Author Packs](AuthorPacks)
@@ -36,3 +39,7 @@ Author Packs, Utility Packs, and Lumia packs can both be downloaded from there!
 - Author Pack 3 Released (Non-Western Ancient classics)
 - Author Pack 4 Underway (Contemporary Revival)
 - Author Pack 5 Planning (Shitpost Pack)
+
+### [Utility Packs]
+- Loom Utility Pack 1 Testing
+- Loom NSFW Utility Pack 1 Testing
