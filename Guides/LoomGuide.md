@@ -1,6 +1,6 @@
 # Lando's Lengthy Loom Lecture
 
-So you want to use Prolix's wonderful Lucid Loom preset? There are a lot of toggles and options and a lot of models to use them with, and it might look daunting, but it's actually pretty easy with some guidance! 
+So you want to use **Prolix's** wonderful Lucid Loom preset? There are a lot of toggles and options and a lot of models to use them with, and it might look daunting, but it's actually pretty easy with some guidance! 
 
 > [!WARNING]
 > This is an **UNOFFICIAL** Guide to Lucid Loom by me, Landozo. **I am NOT Prolix**, the dev of Lucid Loom, I'm an end user like you! If you have feedback, feature requests, or ultra-specific questions about Lucid Loom instead of just this guide, he's the man to ask in Loom Chat! (Link [here](#where-to-go-for-help))
@@ -11,7 +11,8 @@ This Loom guide is current as of 3.2 release (December 30, 2025)!
 
 The latest release is 3.2 from https://lucid.cards/chat-presets
 
-Warning: 3.2 Last Call is a BETA release from BEFORE 3.2. Upgrade to 3.2 if you still use it! 
+> [!WARNING]
+> 3.2 Last Call is a BETA release from BEFORE 3.2. Upgrade to 3.2 if you still use it! 
 
 Best Settings for Each Model are [Here](#best-settings-for-each-model)
 
@@ -111,7 +112,7 @@ The third pro is COST. A lot of open weight models are smaller and easier to run
 Cons:
 Smaller parameters and no huge RAG infrastructure means the models are less "smart" than frontier models in general. However the biggest and most advanced open weight models (Deepseek, GLM) can punch well above their weight class. To the point where I have access to both unlimited Gemini and unlimited GLM and I prefer GLM and it seems *smarter* to me for roleplay. 
 
-Slower releases: Since the models aren't updated on the daily without warning like front
+Slower releases: Since the models aren't updated on the daily without warning like frontier models are, you will have to wait longer for small improvements.
 
 
 ## Frontier Model Recommendations
@@ -186,20 +187,32 @@ If you use Nano GPT with the subscription, you can access a subscription model o
 
 https://nano-gpt.com/api/subscription/v1
 
-This will give you only the subscription models so you run 0 risk of accidentally spending money!
+> [!NOTE]
+> This requires you to pick Custom (OpenAI Compatible) as your api endpoint in sillytavern instead of NanoGPT, more on that later.
 
-Other Providers include Openrouter (no subscription, pay as you go), Featherless, Infermatic, ArliAI, and Chutes (Don't... just don't, chutes is awful).
+**This will give you only the subscription models so you run 0 risk of accidentally spending money!**
+
+Other Providers include Openrouter (no subscription, pay as you go), Featherless, Infermatic, ArliAI, NIM, and Chutes (Don't... just don't, chutes is awful).
+
+> [!NOTE]
+> NIM is special and might require different arguments for enabling thinking that I don't know about since I don't have access to it, check the documentation!
 
 
 ## What else do I need to use Lucid Loom? Sillytavern
 
 Loom is built with one use case in mind. **Loading it in Sillytavern.**
 
+> [!WARNING]
+> Loom has a LOT of Sillytavern specific scripting and does NOT work properly in Janitor, Tavo, or any other non-Sillytavern related frontend!
+
 Sillytavern is a roleplay focused LLM frontend. It lets you import character cards from different sources, connect to an llm either on your pc or hosted remotely, and then chat with the LLM for roleplay, while sending information about the character, the lore, your user persona, and your chat history to said LLM.
 
 A preset determines HOW this happens and in what order. It's basically a collection of system prompts in toggles that you can switch on or off. At least Chat Completion presets are.
 
-You might have heard about Chat Completion and Text Completion. Text completion is a much older system for talking to an LLM and it's pretty static. Chat completion is a newer model and it relies on a series of toggles to build out a huge modular system prompt! **Lucid Loom is a chat completion preset, so it will only be usable in chat completion mode!**
+You might have heard about Chat Completion and Text Completion. Text completion is a much older system for talking to an LLM and it's pretty static. Chat completion is a newer model and it relies on a series of toggles to build out a huge modular system prompt!
+
+> [!WARNING]
+> Lucid Loom is a chat completion preset, so it will only be usable in chat completion mode!
 
 Thankfully Sillytavern has a pretty robust chat completion implementation, if a bit lacking in the UI front (we can fix that with an extension which I'll show to you later in this guide)!
 
@@ -220,11 +233,12 @@ https://docs.sillytavern.app/usage/remoteconnections/
 
 It's pretty easy to connect to it from the same wifi network with some simple config file tweaks listed above in the documentation.
 
-For remote connections, I use a program called Tailscale that lets you remote connect to your local network, but other IP tunneling solutions exist.
+> [!NOTE]
+> For remote connections, I use a program called Tailscale that lets you remote connect to your local network, but other IP tunneling solutions exist.
 
 ## Getting Lucid Loom
 
-Lucid Loom can be downloaded from Prolix's site, Lucid Cards:
+Lucid Loom can be downloaded from **Prolix's site**, Lucid Cards:
 
 https://lucid.cards
 
@@ -232,7 +246,7 @@ Specifically from this page:
 
 https://lucid.cards/chat-presets
 
-I recommend getting the base file. The "Prolix Preferred" is the same file, but comes with his preferred roleplay toggles already turned on. His setup has all the nsfw toggles turned on, so I recommend starting with the normal base purple colored one to get a lay of the land first.
+I recommend getting the base file. The "Prolix Preferred" is the same file, but comes with his preferred roleplay toggles already turned on. His setup has all the nsfw toggles turned on, so I recommend starting with the normal base purple colored one to get a lay of the land first. There are per model customization options on his site as well, if you download it, still double check it against the guide, and if anything looks off, let Prolix know!
 
 Once you download it, it'll be in a json format, you can import it into sillytavern via the import button. But first, you'll have to set up your sillytavern for chat completion mode and connect to your LLM!
 
@@ -254,11 +268,14 @@ I'll go over the best options for Loom later, but first, let's scroll down in th
 
 Lucid Loom, like most presets, relies on a category system to make things less cluttered. It might seem overwhelming at first but you'll get used to it pretty quickly.
 
-There is an extension to allow things to collapse into nice categories, I'll go over it later. First, the categories.
+There is an extension to allow things to collapse into nice categories, I'll go over it later. First, the categories:
+
+> [!WARNING]
+> These categories are up to date for Lucid Loom 3.2 Release version. Future betas WILL have different categories!
 
 ### Prompt Variables (EDIT ME PLEASE)
 
-This toggle allows you to edit some variables and choose how long the "Custom Response Length" toggle makes your reply, change the LLM's main output language, or change how often OOC happens (unless you use the extension, that one works better, more on that in the appendix).
+This toggle allows you to edit some variables and choose how long the "Custom Response Length" toggle makes your reply, change the LLM's main output language, or change how often OOC happens (unless you use the extension, that one works better, more on that in the appendix). This must always remain toggled on, every variable in Loom is initialized (cleaned between gens) here.
 
 ### Story Primers and Core Instructions
 
@@ -286,11 +303,14 @@ Then the rest of the toggles are all things that affect the generated story, lik
 
 ### Utilities and Trackers
 
-Utilities and Trackers are categories that have little useful utilities like OOC commentary, time lookups, summarization utilities, and the like. Trackers are various little trackers that help Lumia keep track of what has happened thus far in the story.
+Utilities and Trackers (Might be a single category in 3.2) are categories that have little useful utilities like OOC commentary, time lookups, summarization utilities, and the like. Trackers are various little trackers that help Lumia keep track of what has happened thus far in the story (This is also where compatibility with Prolix's extension, Silly Sim Tracker, is turned on).
 
 ### Story Details
 
-After that is Story Details, where the only important things are World History (Lorebooks) and the optional extension summarization toggle (I'll go over this later) which is off by default. **The reason this section is full of turned off toggles is because Loom does not use them. But if you delete them, Sillytavern breaks, so we leave them here and off.**
+After that is Story Details, where the only important things are World History (Lorebooks) and the optional Lumiverse extension summarization toggle (I'll go over this later) which is off by default. 
+
+> [!NOTE]
+> The reason this section is full of turned off toggles is because Loom does not use them. But if you delete them, Sillytavern breaks, so we leave them here and off.**
 
 <img width="397" height="486" alt="image" src="https://github.com/user-attachments/assets/95a48010-88ba-4822-809d-cd32aac611b4" />
 
@@ -302,7 +322,7 @@ This is where Chat History lives, it's the best place for it from experimentatio
 
 ### Planning Effort
 
-This helps tell your LLM how much work to put into the reasoning phase. Some models ignore this. I recommend keeping it on extreme.
+This helps tell your LLM how much work to put into the reasoning phase. Some models stubbornly ignore this (an alternate solution is on the way in 3.3). I recommend keeping it on extreme.
 
 <img width="377" height="150" alt="image" src="https://github.com/user-attachments/assets/aa70b5ec-8d4e-4b92-8c7c-eb1e03ff4c7a" />
 
@@ -318,7 +338,10 @@ Lucid Loom is built with reasoning in mind. It works a lot better if you are usi
 
 So what do we mean by reasoning. Well reasoning is using the first part of the response of an llm to "think through" or plan the response, and then it follows it with the final actual response.
 
-In Sillytavern, the reasoning block should be hidden in a dedicated dropdown box. If it isn't, your reasoning settings are wrong. I will be going over how to set up reasoning settings later in the guide.
+> [!WARNING]
+> In Sillytavern, the reasoning block should be contained in a dedicated dropdown box (see picture below). If it isn't, your reasoning settings are wrong. 
+
+I will be going over how to set up reasoning settings later in the guide.
 
 The important thing is that this reasoning block is NOT sent as part of chat history. So all the planning will not clutter up your context!
 
@@ -326,17 +349,18 @@ The important thing is that this reasoning block is NOT sent as part of chat his
 
 CoTs, or Chain of Thoughts, are a kind of checklist to guide the reasoning process of an llm. There are various kinds in Loom.
 
-**ONLY USE ONE COT AT A TIME. THIS IS IMPORTANT.**
+> [!WARNING]
+> **ONLY USE ONE COT AT A TIME. THIS IS IMPORTANT.**
 
 You'll see that the Loom CoT sections are split up into four sections.
-
-
 
 ### Cot Selections (Zipbomb) - The latest and greatest
 
 First up in the CoT sections are the Zipbombs. These are large, detailed checklists where Lumia thinks through her reasoning in character. This is where the lion's share of Loom's dev time for CoT goes to and the CoT type I will always recommend to people.
 
-You'll find two major types of Zipbomb. CoT Zipbomb and Reasoner Zipbomb. The former includes language for \<think\> tags in the beginning and ending. These are useful for "fake reasoning" models like Gemini where you have to start the reply with a \<think\>.
+You'll find two major types of Zipbomb. CoT Zipbomb and Reasoner Zipbomb. 
+
+The former includes language for `<think>` tags in the beginning and ending. These are useful for "fake reasoning" models like Gemini where you have to start the reply with a `<think>`.
 
 The reasoner zipbomb are for models smart enough to handle the thinking block start and stop on their own, like GLM 4.7.
 
@@ -345,7 +369,7 @@ The reasoner zipbomb are for models smart enough to handle the thinking block st
 
 ### CoT Selections (Lumiverse)
 
-If you use the Lumiverse Helper Extension (See Appendix) at all, you should pick your Zipbomb from here. This means if you use custom Lumias or the Extensions Summary or Sov Hand function you NEED to pick your zipbomb from here if you want it to work.
+If you use the Lumiverse Helper Extension (See Appendix) at all, you should pick your Zipbomb from here. This means if you use custom Lumias or the Extensions Summary or Sov Hand function from Lumiverse you NEED to pick your zipbomb from here if you want it to work.
 
 You will pick the same zipbomb you'd pick in the above section, just picking down here instead of the above.
 
@@ -354,7 +378,6 @@ You will pick the same zipbomb you'd pick in the above section, just picking dow
 ### CoT Selections (System) - The Old and Small
 
 Third is the CoT Selections (System) category. This one includes older and smaller checklists that aren't really the focus of Loom. They can be used if you desperately need to save on token usage.
-
 
 ### CoT Selections (Assistant) - Alternate sending roles and utilities
 
@@ -368,7 +391,7 @@ Now that you have a better idea of what Loom looks like. Let's get to installing
 
 ## Configuring Lucid Loom
 
-Okay, now that you've imported Loom and I've gone over the structure, we can configure it for proper reasoning!
+Okay, now that you've imported Loom and we've gone over the structure, we can configure it for proper reasoning!
 
 Thankfully there are only a few places we'll have to look to get reasoning up and running. I'll point out the locations and what they do first, and then we'll tackle how to set them up for each model afterwards. There are only three locations to set, prompt post processing, reasoning formatting, and chat completion settings. After that you just pick the right zipbomb, set your samplers to your flavor, and you are good to go!
 
@@ -427,9 +450,11 @@ Below that in miscellaneous is one box that we care about, **Start Reply With**
 
 Start Reply With is ALWAYS empty for native reasoning models like GLM and Deepseek, and usually filled with the same thing you have in the prefix for fake reasoning models like Gemini and Claude.
 
-This is important! If your reasoning doesn't work, Start Reply With is the first place you should check.
+> [!WARNING]
+> This is important! If your reasoning doesn't work, Start Reply With is the first place you should check.
 
-These reasoning models save with your API settings, so hit SAVE on the api page after editing them (yes, they save with the api profile, not with the preset settings).
+> [!NOTE] 
+> These reasoning models save with your API settings, so hit SAVE on the api page after editing them (yes, they save with the api profile, not with the preset settings).
 
 <img width="315" height="190" alt="image" src="https://github.com/user-attachments/assets/24d63f36-6f64-4d26-91fa-35f5bb39b996" />
 
@@ -516,13 +541,16 @@ To save these you also hit the preset save button up top.
 
 <img width="369" height="157" alt="image" src="https://github.com/user-attachments/assets/3158b8ca-68bf-4aa6-9fea-fcb90b98936f" />
 
-So which setting is best for each model? The following is collected from the common users of the Lucid Loom discord chat.
+So which setting is the recommended for each model?
 
 ## Best Settings for each model 
 
 These best settings are current as of Lucid Loom 3.2 (December 30, 2025).
 
+> [!NOTE]
+> The following is collected from the common regulars of the Lucid Loom discord chat.
 
+The way the below works is that you first set the common settings for your reasoning type and then move to your actual mode. So for Gemini, you'd follow the Fake Reasoning settings, and then go to the Gemini section and continue with those settings!
 
 ## Fake Reasoning Models (Gemini, Claude)
 
@@ -547,6 +575,9 @@ Model Reasoning Effort is PER MODEL.
 <img width="376" height="171" alt="image" src="https://github.com/user-attachments/assets/4526df98-e604-4f85-90b9-c0158278861b" />
 
 Hit save on the preset panel after setting the above.
+
+> [!NOTE]
+> Lucid Loom is NOT cache friendly, lots of things change from gen to gen. Prolix's recommendations are to try to shut off Chaos Modifier and SillySim Tracker in Utilities/Trackers.
 
 ### Google Gemini 3 Pro / Flash, 2.5 Pro / Flash
 
@@ -641,6 +672,9 @@ Hit save in the profile preset after setting these.
 
 If these don't work you can use the below settings as a fallback.
 
+> [!NOTE]
+> Once again, for NanoGPT users, remember to pick the GLM4.7:thinking model, not the plain one without thinking.
+
 ### ZAI GLM 4.6
 
 Prompt Post Processing: Single User
@@ -665,6 +699,10 @@ Top P: .93
 
 Hit save in the profile preset after setting these.
 
+> [!NOTE]
+> Once again, for NanoGPT users, remember to pick the GLM4.7:thinking model, not the plain one without thinking.
+
+
 ### Deepseek 3.2 Thinking
 
 Prompt Post Processing: Semi-Strict or Merge
@@ -687,9 +725,17 @@ Top P: .95
 
 Hit save in the profile preset after setting these.
 
+> [!NOTE]
+> As of January 11, 2026, Deepseek-Reasoner IS 3.2 Thinking.
+
 ### Settings for not using reasoning at all
 
-For people who don't want reasoning, be aware that Loom is designed for reasoning and it has no reminder handrails for non-reasoning use (I'll be coming up with some soon and pushing them at Prolix). The below are settings for 
+> [!WARNING]
+> Lucid Loom is designed for using Reasoning/CoT, to the point where without the CoT, some instructions are not even injected at all. If you are not using a CoT, and something isn't working, that is probably why!
+
+For people who don't want to use reasoning, be aware that Loom has no reminder handrails for non-reasoning use (I'll be coming up with some soon and reccing them to Prolix). 
+
+The below are settings for **how I use** non-reasoning when I randomly do:
 
 Reasoner Formatting Settings:
 
@@ -701,17 +747,23 @@ Hit save to lock these in.
 
 Chat Completion Settings:
 
-Request Model Reasoning should be UNCHECKED.
+**Request Model Reasoning should be UNCHECKED.**
 Model Reasoning Effort should be set to Auto for Claude and Minimum for Gemini.
 
-Global Think Trigger at the top of Loom: TOGGLED OFF
+Global Think Trigger at the top of Loom: **TOGGLED OFF**
 
 CoT Selection: 
-Ensure no CoT is selected at all, check all 4 sections in loom to ensure none are on.
+**Ensure no CoT is selected at all**, check all 4 sections in loom to ensure none are on.
 
-Think Trigger (GLM/Qwen) in Assistant section: TOGGLED OFF
+Think Trigger (GLM/Qwen) in Assistant section: **TOGGLED OFF**
 
 You should be good to go with no reasoning now.
+
+> [!NOTE]
+> For NanoGPT GLM users, pick the model without `:thinking` at the end if you don't want to use reasoning.
+
+> [!Warning]
+> Again, remember, Lucid Loom does not work well without reasoning/CoT on!
 
 # Where to Go for Help!
 
@@ -719,7 +771,7 @@ In the AI Presets discord:
 
 https://discord.gg/y6JPs948
 
-There is a Lucid Loom Channel in said discord:
+There is a Lucid Loom Thread in said discord:
 
 https://discordapp.com/channels/1357259252116488244/1414663352428396574
 
@@ -752,12 +804,22 @@ https://github.com/prolix-oc/SillyTavern-LumiverseHelper
 
 Features:
 
-- Import custom Lumias straight from the extension (I've pushed 40 Lumias there as of December 2025, and Prolix and Jun have pushed many of their own!)
+- Import custom Lumias straight from the extension (I've pushed 40 Lumias there as of December 2025, and Prolix and Jun have pushed a ton too!)
 - Import custom narrative styles (I've pushed nearly 20 allowing Lumia to write from famous authors throughout history)
 - Import custom utilities (I'm about to push a pack!)
 - Better Sovereign Hand (Sov Hand that allows inserting the user message, trimming old context, and lots of other stuff)
 - Chat History Cleaning Features (Trim old Loom specific tags or any html from old replies, replacing the need for Regex)
 - Summarization (A summarization engine that supports alternate LLMs other than your main)
+
+> [!NOTE]
+> You download/import the custom lumias and narrative styles from the pack browser in the extension itself, not from Prolix's site!
+
+To use Lumiverse features you have to enable the proper feature in Lumiverse first and then pick the right toggles in Lucid Loom: 
+
+- To use Lumiverse Summarization, turn on the Summarization toggle in the Story Details part of Lucid Loom
+- To use Custom Lumias, you have to ensure both the Lumia Definitions and Lumia Modifiers section have their (Custom) or (Lumiverse) toggles on (near the bottom of said section). You also have to make sure to use the (Lumiverse) version of the CoT (in 3.2, in 3.3 it'll be automatic).
+- To use Sov Hand, first ensure it's on in the extension, then pick the (Lumiverse) CoT in Lucid Loom (These are 3.2 instructions, in 3.3 once it releases it'll use the new directive mode toggle.)
+- For custom Utilities, Narrative Styles, and Human Retrofits, ensure the proper custom/lumiverse toggle is on in the respective Lucid Loom section!
 
 ## Nemo Preset Extension (Better organization for Prompts)
 
