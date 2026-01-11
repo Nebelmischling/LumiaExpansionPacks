@@ -30,16 +30,18 @@ Author Packs, Utility Packs, and Lumia packs can both be downloaded from there!
 - Pack 2 Released
 - Pack 3 Released
 - Pack 4 Released
-- Pack 5 Planning (Redundant Personalities)
 - NSFW Pack 1 Testing
+- Pack 5 Planning (Redundant Personalities)
 - At least 5 other packs on the way
 
 ### [Author Packs](AuthorPacks)
 - Author Pack 1 Released (It Starts)
 - Author Pack 2 Released (Western Classics)
 - Author Pack 3 Released (Non-Western Ancient classics)
-- Author Pack 4 Underway (Contemporary Revival)
-- Author Pack 5 Planning (Shitpost Pack)
+- Author Pack 4 Released (Contemporary Authors)
+- Author Pack 5 Planning (Scifi/Fantasy Pack)
+- Author Pack 6 Planning (Shitpost Pack)
+- More on the way!
 
 ### Utility Packs
 - Loom Utility Pack 1 Testing

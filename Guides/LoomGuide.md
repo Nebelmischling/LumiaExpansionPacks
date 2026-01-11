@@ -2,7 +2,10 @@
 
 So you want to use Prolix's wonderful Lucid Loom preset? There are a lot of toggles and options and a lot of models to use them with, and it might look daunting, but it's actually pretty easy with some guidance! 
 
-This is an UNOFFICIAL Guide to Lucid Loom by me, Landozo. I am NOT Prolix, the dev of Lucid Loom. If you have any feedback on this guide or questions, you can find me on the Lucid Loom Thread on the AI Presets discord (Link [here](#where-to-go-for-help)).
+> [!WARNING]
+> This is an **UNOFFICIAL** Guide to Lucid Loom by me, Landozo. **I am NOT Prolix**, the dev of Lucid Loom, I'm an end user like you! If you have feedback, feature requests, or ultra-specific questions about Lucid Loom instead of just this guide, he's the man to ask!
+
+If you have any feedback on this guide or questions about the guide, you can find me on the Lucid Loom Thread on the AI Presets discord (Link [here](#where-to-go-for-help)).
 
 This Loom guide is current as of 3.2 release (December 30, 2025)!
 
@@ -720,7 +723,7 @@ There is a Lucid Loom Channel in said discord:
 
 https://discordapp.com/channels/1357259252116488244/1414663352428396574
 
-I hang out there, as well as other regulars.
+Prolix, the creator of Lucid Loom, hangs out in here. I also hang out in there, as well as other helpful regulars. Feel free to ask in the channel for help!
 
 ---
 
