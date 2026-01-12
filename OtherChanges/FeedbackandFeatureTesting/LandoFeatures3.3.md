@@ -56,8 +56,7 @@ Next you'll have to add this to your zipbomb of choice to the end of the getvar 
 
 It'll look like this:
 
---Insert picture here--
-
+<img width="463" height="96" alt="image" src="https://github.com/user-attachments/assets/a0b533bc-3758-4222-ac5c-654b176e9a33" />
 
 The following is the solo toggle. You can see an example under each section {{// commented }} out, feel free to remove the examples.
 
