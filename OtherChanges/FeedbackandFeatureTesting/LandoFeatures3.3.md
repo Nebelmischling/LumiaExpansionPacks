@@ -159,7 +159,9 @@ Actual card attached here if you just want to import:
 
 ## Custom Editable Lumia OOC Commentary Utility
 
-This is just the lumiverse ooc instructions, but split out into editable sections, and it uses st staging's conditionals to switch between council and non-council ooc automatically:
+This is just the lumiverse ooc instructions, but split out into editable sections, and it uses st staging's conditionals to switch between council and non-council ooc automatically.
+
+You can use this to make changes to the instructions however you want, top section is council, bottom section is regular. For example, note how I changed the max 4 setences in the solo section below to be minimum 4 sentences:
 
 ````
 {{if {{lumiaCouncilInst}}}}{{trim}}
@@ -272,11 +274,6 @@ After we take stock of ourselves, we'll do our best to recall how each of us sho
 Then, I will go over the checklist.
 
 ```
-
-
-
-
-
 
 ---
 
